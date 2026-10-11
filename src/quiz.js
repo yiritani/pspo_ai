@@ -31,6 +31,17 @@ export function createSession(questions, counts = {}) {
     (counts[progressKey(a)] || 0) - (counts[progressKey(b)] || 0));
   return { questions: prioritized.slice(0, 40).map(q => ({ ...q, options: shuffle(q.options) })), answers: [], selected: [], index: 0 };
 }
+// 収録問題の不正解の選択肢を、ハードモード用の選択肢に差し替える。
+// 正解の選択肢は共通。差し替えがそろっていない問題はハードモードに含めない。
+export function hardQuestions(questions, overrides) {
+  const byId = new Map(overrides.map(h => [h.id, new Map(h.options.map(o => [o.id, o]))]));
+  return questions.flatMap(q => {
+    const replaced = byId.get(q.id);
+    const wrong = q.options.filter(o => !q.correctOptionIds.includes(o.id));
+    if (!replaced || wrong.some(o => !replaced.has(o.id))) return [];
+    return [{ ...q, options: q.options.map(o => q.correctOptionIds.includes(o.id) ? o : { ...o, ...replaced.get(o.id) }) }];
+  });
+}
 export function isCorrect(question, selected) {
   return question.correctOptionIds.length === selected.length && question.correctOptionIds.every(id => selected.includes(id));
 }

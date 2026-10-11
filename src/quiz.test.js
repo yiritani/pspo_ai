@@ -162,3 +162,32 @@ test('正解回数が少ない問題を優先し、40問の抽出にも反映す
   const mixed = createSession([...answered, ...unseen.slice(0, 2)], counts);
   assert.deepEqual(mixed.questions.map(q => counts[progressKey(q)] || 0), [0, 0, 1, 2, 3, 4, 5]);
 });
+
+import { hardQuestions } from './quiz.js';
+const hardOverrides = JSON.parse(readFileSync(new URL('../public/questions-hard.json', import.meta.url), 'utf8'));
+test('ハードモードは全問の不正解の選択肢を差し替え、正解は共通にする', () => {
+  const hard = validateQuestions(hardQuestions(bundled, hardOverrides));
+  assert.equal(hard.length, bundled.length);
+  for (const [i, q] of hard.entries()) {
+    const base = bundled[i];
+    assert.deepEqual(q.correctOptionIds, base.correctOptionIds);
+    assert.deepEqual(q.options.map(o => o.id), base.options.map(o => o.id));
+    for (const [j, o] of q.options.entries()) {
+      if (q.correctOptionIds.includes(o.id)) assert.deepEqual(o, base.options[j]);
+      else {
+        assert.notEqual(o.text, base.options[j].text);
+        assert.ok(o.explanation);
+        assert.match(o.text, /[぀-ヿ㐀-鿿]/);
+      }
+    }
+    assert.notEqual(progressKey(q), progressKey(base));
+  }
+});
+test('差し替えが欠けた問題はハードモードに含めない', () => {
+  const [first] = hardOverrides;
+  const partial = [{ ...first, options: first.options.slice(1) }];
+  assert.equal(hardQuestions(bundled.slice(0, 1), partial).length, 0);
+  assert.equal(hardQuestions(bundled.slice(0, 2), [first]).length, 1);
+  const counts = { [progressKey(bundled[0])]: 2 };
+  assert.equal(availableQuestions(hardQuestions(bundled.slice(0, 1), [first]), counts).length, 1);
+});
