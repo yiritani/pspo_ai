@@ -74,4 +74,4 @@ q105〜q124は独自に作成した日本語のシナリオ問題20問です。S
 
 GitHub Pagesに公開します。`main` にpushすると `.github/workflows/deploy.yml` がテストとビルドを行い、`https://<ユーザー名>.github.io/<リポジトリ名>/` に配信します。ビルド時の `BASE_PATH` にリポジトリ名を渡しているため、ローカルの `npm run dev` は従来どおり `/` で動きます。初回だけ、リポジトリの Settings → Pages → Source を「GitHub Actions」にしてください。
 
-公開URLは https://yiritani.github.io/pspo_ai/ です。`index.html` のcanonical・`og:url` と `public/sitemap.xml` にこのURLを記載しています。サブパス配下の `robots.txt` は検索エンジンに読まれないため、サイトマップはGoogle Search Consoleから送信します。URLを変えたら3か所とも更新してください。
+公開URLは https://yiritani.github.io/pspo_ai/ です。`index.html` のcanonical・`og:url` と `public/sitemap.xml` にこのURLを記載しています。サブパス配下の `robots.txt` は検索エンジンに読まれません。ドメイン直下の `robots.txt`・トップページ・favicon（Google検索に表示されるもの）は、別リポジトリ `yiritani/yiritani.github.io` で配信しています。URLを変えたら3か所とも更新してください。
