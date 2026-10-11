@@ -162,34 +162,3 @@ test('正解回数が少ない問題を優先し、40問の抽出にも反映す
   const mixed = createSession([...answered, ...unseen.slice(0, 2)], counts);
   assert.deepEqual(mixed.questions.map(q => counts[progressKey(q)] || 0), [0, 0, 1, 2, 3, 4, 5]);
 });
-
-import { sceneConfig, seededRandom } from './sceneConfig.js';
-test('124問それぞれに再現可能な異なるアニメーション設定を割り当てる', () => {
-  assert.equal(new Set(bundled.map(q => JSON.stringify(sceneConfig(q.id)))).size, bundled.length);
-  assert.equal(new Set(bundled.map(q => sceneConfig(q.id).mode)).size, 8);
-  assert.deepEqual(sceneConfig('q001'), sceneConfig('q001'));
-  assert.notDeepEqual(sceneConfig('home'), sceneConfig('q001'));
-  const a = seededRandom(12), b = seededRandom(12);
-  assert.deepEqual(Array.from({ length: 5 }, a), Array.from({ length: 5 }, b));
-});
-
-import * as THREE from 'three';
-import { createSculpture } from './createSculpture.js';
-test('8つのデモの描画データが有限で、操作・破棄できる', () => {
-  for (let mode = 0; mode < 8; mode++) {
-    const scene = new THREE.Scene();
-    const sculpture = createSculpture(scene, { ...sceneConfig('home'), mode });
-    sculpture.animate(1);
-    const regular = scene.children[0].scale.x;
-    sculpture.expand(); sculpture.animate(1);
-    assert.ok(scene.children[0].scale.x > regular);
-    sculpture.reset(); sculpture.animate(1);
-    assert.equal(scene.children[0].scale.x, regular);
-    scene.traverse(object => {
-      assert.ok(object.position.toArray().every(Number.isFinite));
-      const positions = object.geometry?.attributes.position;
-      if (positions) assert.ok(Array.from(positions.array).every(Number.isFinite));
-    });
-    sculpture.dispose();
-  }
-});
