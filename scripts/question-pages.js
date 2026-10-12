@@ -1,5 +1,4 @@
-// 収録問題と解説の一覧ページ（/questions/、/en/questions/ など）を言語ごとに静的HTMLで作る。
-// アプリはJavaScriptで問題を表示するため、検索エンジンが各言語の本文を読めるようにする。
+// 言語別の静的問題一覧と、共通アプリへの旧URL移行ページを生成する。
 import { readFileSync } from 'node:fs';
 import { LANGUAGES, messages } from '../src/messages.js';
 
@@ -10,7 +9,7 @@ const read = name => JSON.parse(readFileSync(new URL(`../public/${name}`, import
 const escape = text => String(text).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 // アプリと同じく、日本語の問題文では正解の数を伏せる。
 const questionText = text => text.replace(/[0-9０-９]+つ選んでください/g, '当てはまるものを選んでください');
-export const questionsPath = code => `${LANGUAGES.find(l => l.code === code).path}questions/`;
+export const questionsPath = code => `${code === 'ja' ? '' : code + '/'}questions/`;
 
 function localized(code) {
   const questions = read('questions.json');
@@ -49,7 +48,7 @@ export function renderQuestionsPage(code, base = '/') {
   // 分野のない問題は最後にまとめる。
   const ordered = [...groups].sort(([a], [b]) => (a === p.otherDomain) - (b === p.otherDomain));
   const url = c => SITE_URL + questionsPath(c);
-  const appUrl = base + LANGUAGES.find(l => l.code === code).path;
+  const appUrl = base;
   return `<!doctype html>
 <html lang="${HREFLANG[code]}">
 <head>
@@ -60,7 +59,7 @@ export function renderQuestionsPage(code, base = '/') {
 <meta name="description" content="${escape(p.description)}"/>
 <link rel="canonical" href="${url(code)}"/>
 ${LANGUAGES.map(l => `<link rel="alternate" hreflang="${HREFLANG[l.code]}" href="${url(l.code)}"/>`).join('\n')}
-<link rel="alternate" hreflang="x-default" href="${url('en')}"/>
+<link rel="alternate" hreflang="x-default" href="${url('ja')}"/>
 <link rel="icon" href="${base}favicon.ico" sizes="48x48"/>
 <link rel="icon" href="${base}favicon.svg" type="image/svg+xml"/>
 <meta property="og:type" content="article"/>
@@ -78,7 +77,7 @@ main,header,footer{max-width:820px;margin:auto;padding:0 16px}
 header{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;padding-top:24px;padding-bottom:16px;border-bottom:1px solid #dce2d8}
 header .brand{font-weight:700;color:inherit;text-decoration:none;margin-right:auto}
 nav a{color:#52675e;text-decoration:none;padding:4px 8px;border-radius:6px;font-size:14px}
-nav a[aria-current]{background:#e7efd9;color:#183d33;font-weight:600}
+nav a[aria-current=page]{background:#e7efd9;color:#183d33;font-weight:600}
 h1{font-size:clamp(26px,5vw,36px);line-height:1.4;margin:32px 0 12px}
 h2{font-size:21px;margin:48px 0 12px;padding-top:12px;border-top:1px solid #dce2d8}
 h3{font-size:17px;margin:0 0 12px;white-space:pre-wrap}
@@ -98,7 +97,7 @@ footer{margin-top:48px;padding-top:24px;padding-bottom:40px;border-top:1px solid
 </style>
 </head>
 <body>
-<header><a class="brand" href="${appUrl}">PSPO AI ${escape(t.brandSub)}</a><nav aria-label="${escape(t.languageLabel)}">${LANGUAGES.map(l => `<a href="${base}${questionsPath(l.code)}" hreflang="${HREFLANG[l.code]}" lang="${HREFLANG[l.code]}"${l.code === code ? ' aria-current="page"' : ''}>${escape(l.label)}</a>`).join('')}</nav></header>
+<header><a class="brand" href="${appUrl}">PSPO AI ${escape(t.brandSub)}</a><nav aria-label="${escape(t.languageLabel)}">${LANGUAGES.map(l => `<a href="${base + questionsPath(l.code)}" hreflang="${HREFLANG[l.code]}" lang="${HREFLANG[l.code]}"${l.code === code ? ' aria-current="page"' : ''}>${escape(l.label)}</a>`).join('')}</nav></header>
 <main>
 <h1 id="top">${escape(p.heading)}</h1>
 <p class="lead">${escape(p.intro(questions.length))}</p>
@@ -114,11 +113,19 @@ ${qs.map(q => renderQuestion(q, t)).join('\n')}
 <a class="cta" href="${appUrl}">${escape(p.practice)} →</a>
 </main>
 <footer>${escape(t.footer)}</footer>
+<script>try { localStorage.setItem('pspo-ai-language', '${code}'); } catch {}</script>
 </body>
 </html>
 `;
 }
 
 export function renderQuestionPages(base = '/') {
-  return LANGUAGES.map(l => ({ fileName: `${questionsPath(l.code)}index.html`, html: renderQuestionsPage(l.code, base) }));
+  const pages = LANGUAGES.map(({ code }) => ({ fileName: `${questionsPath(code)}index.html`, html: renderQuestionsPage(code, base) }));
+  for (const { code } of LANGUAGES.filter(l => l.code !== 'ja')) {
+    for (const suffix of ['']) {
+      const target = base + suffix;
+      pages.push({ fileName: `${code}/${suffix}index.html`, html: `<!doctype html><html><head><meta charset="UTF-8"><meta name="robots" content="noindex"><link rel="canonical" href="${SITE_URL + suffix}"><title>PSPO AI</title></head><body><a href="${target}">PSPO AI</a><script>try { localStorage.setItem('pspo-ai-language', '${code}'); } catch {} location.replace(${JSON.stringify(target)} + location.search + location.hash);</script></body></html>` });
+    }
+  }
+  return pages;
 }

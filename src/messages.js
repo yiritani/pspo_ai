@@ -1,10 +1,9 @@
-// 画面の文言。言語ごとのページ（/、/en/、/zh/、/es/）の <html lang> で初期表示を決め、以後はページ内で切り替える。
-// pageTitle・pageDescription は各 index.html の <title>・description と同じにする（テストで確認）。
+// 画面の文言。選択した言語はブラウザに保存し、URLは共通にする。
 export const LANGUAGES = [
-  { code: 'ja', label: '日本語', path: '' },
-  { code: 'en', label: 'English', path: 'en/' },
-  { code: 'zh', label: '简体中文', path: 'zh/' },
-  { code: 'es', label: 'Español', path: 'es/' },
+  { code: 'ja', label: '日本語' },
+  { code: 'en', label: 'English' },
+  { code: 'zh', label: '简体中文' },
+  { code: 'es', label: 'Español' },
 ];
 export function languageOf(htmlLang = '') {
   const code = htmlLang.toLowerCase().split('-')[0];

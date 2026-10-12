@@ -1,5 +1,4 @@
 import { defineConfig } from 'vite';
-import { resolve } from 'node:path';
 import { renderQuestionPages } from './scripts/question-pages.js';
 
 // 問題と解説の一覧ページを、ビルド時は静的HTMLとして出力し、開発サーバーではその場で返す。
@@ -24,15 +23,12 @@ function questionPages() {
 }
 
 // GitHub Pagesでは /リポジトリ名/ 配下で配信するため、デプロイ時だけBASE_PATHで指定する。
-// 言語ごとにページを分ける（/ は日本語、/en/・/zh/・/es/ は各言語）。
 export default defineConfig({
   base: process.env.BASE_PATH || '/',
   plugins: [questionPages()],
   build: {
     // 本体には日本語の収録問題（通常・ハード）を含むため、500kBを少し超える。
     chunkSizeWarningLimit: 600,
-    rollupOptions: {
-      input: Object.fromEntries(['', 'en/', 'zh/', 'es/'].map(dir => [dir.replace('/', '') || 'ja', resolve(import.meta.dirname, `${dir}index.html`)])),
-    },
+
   },
 });

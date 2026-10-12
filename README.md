@@ -74,7 +74,7 @@ TOPで「通常」と「ハード」を切り替えられます。ハードモ�
 
 ## 多言語対応
 
-日本語（`/`）、英語（`/en/`）、中国語・簡体字（`/zh/`）、スペイン語（`/es/`）のページがあります。言語ごとに `index.html`・`en/index.html`・`zh/index.html`・`es/index.html` を用意し、`<html lang>` で表示言語を決めます。ヘッダーの言語リンクで、ページを読み込み直さずに切り替えます（URL・`<html lang>`・タイトル・説明文・canonicalも更新し、ブラウザの戻る・進むにも対応）。各言語の `<title>` と説明文は `src/messages.js` の `pageTitle`・`pageDescription` と同じにしてください（テストで確認）。
+日本語・英語・中国語（簡体字）・スペイン語を共通URLで表示します。ヘッダーの言語ボタンで切り替え、選択はlocalStorageに保存します。再読み込みでも同じ言語を使います。問題一覧は選択中の言語のURLへ移動し、一覧から学習アプリへ戻るとその言語を引き継ぎます。言語切り替えはURLとブラウザ履歴を変更しません。
 
 - 画面の文言は `src/messages.js` にあります。全言語で同じ項目をそろえます（テストで確認）。
 - 収録問題の翻訳は `public/questions.<言語>.json`（問題文・解説・選択肢・ドメインなど）と `public/questions-hard.<言語>.json`（ハードモードの差し替え選択肢）です。表示する言語の分だけ読み込みます。
@@ -86,11 +86,9 @@ TOPで「通常」と「ハード」を切り替えられます。ハードモ�
 
 ### 問題と解説の一覧ページ
 
-検索エンジンが各言語の本文を読めるよう、全問の問題・正解・解説を言語ごとに静的HTMLで出力しています（`/questions/`・`/en/questions/`・`/zh/questions/`・`/es/questions/`）。`scripts/question-pages.js` が収録問題と翻訳ファイルから作り、`vite.config.js` のプラグインがビルド時に出力します（開発サーバーではその場で返します）。ハードモードの選択肢は載せていません。アプリのトップと各言語の `index.html` から一覧ページへリンクしています。
+全問の問題・正解・解説は、検索向けに言語別の静的HTMLで公開します（`/questions/`・`/en/questions/`・`/zh/questions/`・`/es/questions/`）。各URLは保存済みの言語に関係なく、その言語の本文を表示します。`scripts/question-pages.js` が生成し、canonicalとhreflangを設定します。サイトマップには共通アプリと各言語の問題一覧の5ページを載せています。旧アプリの言語別URL（`/en/`など）は、言語を保存して共通アプリへ移動します。
 
-各言語のタイトルは、その言語でよく使われる検索語に合わせています（英語は practice test、中国語は 题库、スペイン語は simulador de examen）。`public/sitemap.xml` には各言語のトップと一覧ページの8ページを、`hreflang` の相互参照付きで載せています。ドメイン直下の `robots.txt`（別リポジトリ）からこのサイトマップを参照しています。
-
-`index.html` にタイトル・説明文・OGP・構造化データ（WebApplication）と、JavaScript実行前に表示する概要を記載しています。`public/robots.txt` で全ページのクロールを許可し、`public/favicon.svg` をアイコンにしています。各言語ページは `hreflang` で相互に参照し、`x-default` は英語ページです。収録問題数を変えたら、4つの `index.html` の「124」も更新してください。
+`index.html` にタイトル・説明文・OGP・構造化データ（WebApplication）と、JavaScript実行前に表示する概要を記載しています。`public/robots.txt` で全ページのクロールを許可し、`public/favicon.svg` をアイコンにしています。収録問題数を変えたら、`index.html` の「124」も更新してください。
 
 GitHub Pagesに公開します。`main` にpushすると `.github/workflows/deploy.yml` がテストとビルドを行い、`https://<ユーザー名>.github.io/<リポジトリ名>/` に配信します。ビルド時の `BASE_PATH` にリポジトリ名を渡しているため、ローカルの `npm run dev` は従来どおり `/` で動きます。初回だけ、リポジトリの Settings → Pages → Source を「GitHub Actions」にしてください。
 

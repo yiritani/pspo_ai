@@ -60,27 +60,59 @@ test('画面の文言は全言語で同じ項目をそろえる', () => {
   assert.throws(() => validateQuestions([], messages.en.validation), /Provide an array/);
 });
 
-test('言語を切り替えたときのタイトルと説明文は、各言語ページの index.html と一致する', () => {
-  const decode = text => text.replace(/&amp;/g, '&');
-  for (const { code, path } of LANGUAGES) {
-    const html = readFileSync(new URL(`../${path}index.html`, import.meta.url), 'utf8');
-    assert.equal(messages[code].pageTitle, decode(html.match(/<title>(.*?)<\/title>/)[1]), code);
-    assert.equal(messages[code].pageDescription, decode(html.match(/<meta name="description" content="(.*?)"/)[1]), code);
+test('共通トップの初期タイトルと説明文は日本語の文言と一致する', () => {
+  const html = readFileSync(new URL('../index.html', import.meta.url), 'utf8');
+  assert.equal(messages.ja.pageTitle, html.match(/<title>(.*?)<\/title>/)[1]);
+  assert.equal(messages.ja.pageDescription, html.match(/<meta name="description" content="(.*?)"/)[1]);
+  assert.doesNotMatch(html, /hreflang=/);
+});
+
+import { renderQuestionPages, renderQuestionsPage, questionsPath } from '../scripts/question-pages.js';
+import vm from 'node:vm';
+test('問題一覧は言語別URLに全問・正解・hreflangを静的に載せる', () => {
+  const pages = renderQuestionPages('/pspo_ai/');
+  assert.deepEqual(pages.slice(0, 4).map(p => p.fileName), ['questions/index.html', 'en/questions/index.html', 'zh/questions/index.html', 'es/questions/index.html']);
+  for (const { code } of LANGUAGES) {
+    const html = renderQuestionsPage(code, '/pspo_ai/');
+    assert.equal(questionsPath(code), (code === 'ja' ? '' : code + '/') + 'questions/');
+    assert.equal((html.match(/<article class="question"/g) || []).length, bundled.length);
+    assert.ok(html.includes(`<link rel="canonical" href="https://yiritani.github.io/pspo_ai/${questionsPath(code)}"/>`));
+    assert.equal((html.match(/rel="alternate" hreflang=/g) || []).length, 5);
+    assert.match(html, /<nav aria-label=/);
+    assert.match(html, /href="\/pspo_ai\/en\/questions\/"/);
+    assert.match(html, /class="cta" href="\/pspo_ai\/"/);
+    assert.doesNotMatch(html, /location\.replace|DOMParser/);
+    const script = html.match(/<script>([\s\S]*?)<\/script>/)[1];
+    let stored;
+    vm.runInNewContext(script, { localStorage: { setItem: (key, value) => { stored = [key, value]; } } });
+    assert.deepEqual(stored, ['pspo-ai-language', code]);
+    if (code !== 'ja') assert.doesNotMatch(html, /[぀-ヿ]/);
+  }
+
+});
+
+test('旧URLは言語を保存し、クエリとハッシュを保って共通URLへ移動する', () => {
+  const pages = renderQuestionPages('/pspo_ai/').slice(4);
+  assert.equal(pages.length, 3);
+  for (const page of pages) {
+    const code = page.fileName.split('/')[0];
+    const target = '/pspo_ai/' + (page.fileName.includes('/questions/') ? 'questions/' : '');
+    let stored, redirected;
+    const script = page.html.match(/<script>([\s\S]*?)<\/script>/)[1];
+    vm.runInNewContext(script, {
+      localStorage: { setItem: (key, value) => { stored = [key, value]; } },
+      location: { search: '?test=1', hash: '#q1', replace: value => { redirected = value; } },
+    });
+    assert.deepEqual(stored, ['pspo-ai-language', code]);
+    assert.equal(redirected, target + '?test=1#q1');
   }
 });
 
-import { renderQuestionPages, questionsPath } from '../scripts/question-pages.js';
-test('言語ごとの問題一覧ページに全問・正解・相互リンクを載せる', () => {
-  const pages = renderQuestionPages('/pspo_ai/');
-  assert.deepEqual(pages.map(p => p.fileName), ['questions/index.html', 'en/questions/index.html', 'zh/questions/index.html', 'es/questions/index.html']);
-  for (const [i, { code }] of LANGUAGES.entries()) {
-    const html = pages[i].html;
-    assert.equal((html.match(/<article class="question"/g) || []).length, bundled.length, code);
-    assert.equal((html.match(/rel="alternate" hreflang=/g) || []).length, LANGUAGES.length + 1, code);
-    assert.match(html, new RegExp(`<link rel="canonical" href="https://yiritani.github.io/pspo_ai/${questionsPath(code)}"/>`));
-    assert.match(html, /<title>[^<]+<\/title>/);
-    if (code !== 'ja') assert.doesNotMatch(html.replace(/<nav[\s\S]*?<\/nav>/, ''), /[぀-ヿ]/, code);
+test('サイトマップは共通アプリと4言語の問題一覧を掲載する', () => {
+  const xml = readFileSync(new URL('../public/sitemap.xml', import.meta.url), 'utf8');
+  assert.equal((xml.match(/<loc>/g) || []).length, 5);
+  for (const { code } of LANGUAGES) {
+    assert.ok(xml.includes(`<loc>https://yiritani.github.io/pspo_ai/${questionsPath(code)}</loc>`));
   }
-  // 問題文や選択肢に含まれる記号はエスケープする。
-  assert.doesNotMatch(pages[1].html, /<li class="[^"]*">[^<]*"[^<]*<\/li>/);
+  assert.doesNotMatch(xml, /<loc>[^<]*\/(en|zh|es)\/<\/loc>/);
 });
