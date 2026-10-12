@@ -46,7 +46,7 @@ npm test
 npm run build
 ```
 
-問題文・選択肢・解説・ドメインはすべて日本語です。
+問題文・選択肢・解説・ドメインの元データは日本語です。英語・中国語（簡体字）・スペイン語の翻訳は「多言語対応」を参照してください。
 
 収録済みの40問を使っているブラウザには、新しい15問を自動で追加します。進行中のセッションと回答履歴は維持します。全55問から、次のセッションで40問をランダムに抽出します。
 
@@ -72,10 +72,26 @@ q105〜q124は独自に作成した日本語のシナリオ問題20問です。S
 
 TOPで「通常」と「ハード」を切り替えられます。ハードモードは収録124問と同じ問題文・正解で、不正解の選択肢だけを、正解と長さや言葉づかいが近いまぎらわしいものに差し替えています。差し替えた選択肢と解説は `public/questions-hard.json` にあり、正解の選択肢は `public/questions.json` と共通です。選択肢が異なるため、正解回数と習得済みの判定はモードごとに別に記録します。自分で読み込んだ問題はハードモードの対象外です。
 
+## 多言語対応
+
+日本語（`/`）、英語（`/en/`）、中国語・簡体字（`/zh/`）、スペイン語（`/es/`）のページがあります。言語ごとに `index.html`・`en/index.html`・`zh/index.html`・`es/index.html` を用意し、`<html lang>` で表示言語を決めます。ヘッダーの言語リンクで、ページを読み込み直さずに切り替えます（URL・`<html lang>`・タイトル・説明文・canonicalも更新し、ブラウザの戻る・進むにも対応）。各言語の `<title>` と説明文は `src/messages.js` の `pageTitle`・`pageDescription` と同じにしてください（テストで確認）。
+
+- 画面の文言は `src/messages.js` にあります。全言語で同じ項目をそろえます（テストで確認）。
+- 収録問題の翻訳は `public/questions.<言語>.json`（問題文・解説・選択肢・ドメインなど）と `public/questions-hard.<言語>.json`（ハードモードの差し替え選択肢）です。表示する言語の分だけ読み込みます。
+- 翻訳は表示時に重ねるだけで、保存データ・正解回数は日本語の収録データのまま扱います。そのため言語を切り替えても、進行中のセッションと習得状況は共通です（同じブラウザ・同じドメインの場合）。
+- 自分で読み込んだ問題や、内容を編集した収録問題は翻訳せず、そのまま表示します。
+- 収録問題を追加・変更したら、全言語の翻訳ファイルも更新してください。問題・選択肢のidや項目がそろっていないと `npm test` が失敗します。
+
 ## 公開・SEO
 
-`index.html` にタイトル・説明文・OGP・構造化データ（WebApplication）と、JavaScript実行前に表示する概要を記載しています。`public/robots.txt` で全ページのクロールを許可し、`public/favicon.svg` をアイコンにしています。収録問題数を変えたら、`index.html` の「124問」も更新してください。
+### 問題と解説の一覧ページ
+
+検索エンジンが各言語の本文を読めるよう、全問の問題・正解・解説を言語ごとに静的HTMLで出力しています（`/questions/`・`/en/questions/`・`/zh/questions/`・`/es/questions/`）。`scripts/question-pages.js` が収録問題と翻訳ファイルから作り、`vite.config.js` のプラグインがビルド時に出力します（開発サーバーではその場で返します）。ハードモードの選択肢は載せていません。アプリのトップと各言語の `index.html` から一覧ページへリンクしています。
+
+各言語のタイトルは、その言語でよく使われる検索語に合わせています（英語は practice test、中国語は 题库、スペイン語は simulador de examen）。`public/sitemap.xml` には各言語のトップと一覧ページの8ページを、`hreflang` の相互参照付きで載せています。ドメイン直下の `robots.txt`（別リポジトリ）からこのサイトマップを参照しています。
+
+`index.html` にタイトル・説明文・OGP・構造化データ（WebApplication）と、JavaScript実行前に表示する概要を記載しています。`public/robots.txt` で全ページのクロールを許可し、`public/favicon.svg` をアイコンにしています。各言語ページは `hreflang` で相互に参照し、`x-default` は英語ページです。収録問題数を変えたら、4つの `index.html` の「124」も更新してください。
 
 GitHub Pagesに公開します。`main` にpushすると `.github/workflows/deploy.yml` がテストとビルドを行い、`https://<ユーザー名>.github.io/<リポジトリ名>/` に配信します。ビルド時の `BASE_PATH` にリポジトリ名を渡しているため、ローカルの `npm run dev` は従来どおり `/` で動きます。初回だけ、リポジトリの Settings → Pages → Source を「GitHub Actions」にしてください。
 
-公開URLは https://yiritani.github.io/pspo_ai/ です。`index.html` のcanonical・`og:url` と `public/sitemap.xml` にこのURLを記載しています。サブパス配下の `robots.txt` は検索エンジンに読まれません。ドメイン直下の `robots.txt`・トップページ・favicon（Google検索に表示されるもの）は、別リポジトリ `yiritani/yiritani.github.io` で配信しています。URLを変えたら3か所とも更新してください。
+公開URLは https://yiritani.github.io/pspo_ai/ です。4つの `index.html` のcanonical・`og:url`・`hreflang` と `public/sitemap.xml` にこのURL（と `en/`・`zh/`・`es/`）を記載しています。サブパス配下の `robots.txt` は検索エンジンに読まれません。ドメイン直下の `robots.txt`・トップページ・favicon（Google検索に表示されるもの）は、別リポジトリ `yiritani/yiritani.github.io` で配信しています。URLを変えたら3か所とも更新してください。

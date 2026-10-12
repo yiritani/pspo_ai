@@ -1,3 +1,4 @@
+import { messages } from './messages.js';
 export function shuffle(items) {
   const result = [...items];
   for (let i = result.length - 1; i > 0; i--) {
@@ -6,23 +7,23 @@ export function shuffle(items) {
   }
   return result;
 }
-export function validateQuestions(value) {
+export function validateQuestions(value, m = messages.ja.validation) {
   const questions = Array.isArray(value) ? value : value?.questions;
-  if (!Array.isArray(questions) || !questions.length) throw new Error('問題の配列、または { "questions": [...] } を指定してください。');
+  if (!Array.isArray(questions) || !questions.length) throw new Error(m.notArray);
   const ids = new Set();
   for (const [index, q] of questions.entries()) {
-    const label = `${index + 1}問目`;
-    if (!q || typeof q.id !== 'string' || !q.id.trim() || ids.has(q.id)) throw new Error(`${label}: idは重複のない文字列にしてください。`);
+    const label = m.label(index + 1);
+    if (!q || typeof q.id !== 'string' || !q.id.trim() || ids.has(q.id)) throw new Error(`${label}: ${m.id}`);
     ids.add(q.id);
-    if (typeof q.question !== 'string' || !q.question.trim()) throw new Error(`${label}: questionが必要です。`);
-    if (!Array.isArray(q.options) || q.options.length < 2) throw new Error(`${label}: 選択肢は2つ以上必要です。`);
+    if (typeof q.question !== 'string' || !q.question.trim()) throw new Error(`${label}: ${m.question}`);
+    if (!Array.isArray(q.options) || q.options.length < 2) throw new Error(`${label}: ${m.options}`);
     const optionIds = new Set();
     for (const o of q.options) {
-      if (!o || typeof o.id !== 'string' || !o.id.trim() || optionIds.has(o.id) || typeof o.text !== 'string' || !o.text.trim()) throw new Error(`${label}: optionsには重複のないidとtextが必要です。`);
+      if (!o || typeof o.id !== 'string' || !o.id.trim() || optionIds.has(o.id) || typeof o.text !== 'string' || !o.text.trim()) throw new Error(`${label}: ${m.optionIds}`);
       optionIds.add(o.id);
     }
-    if (!Array.isArray(q.correctOptionIds) || !q.correctOptionIds.length || new Set(q.correctOptionIds).size !== q.correctOptionIds.length || q.correctOptionIds.some(id => !optionIds.has(id))) throw new Error(`${label}: correctOptionIdsに正解の選択肢idを指定してください。`);
-    if (q.explanation !== undefined && typeof q.explanation !== 'string') throw new Error(`${label}: explanationは文字列にしてください。`);
+    if (!Array.isArray(q.correctOptionIds) || !q.correctOptionIds.length || new Set(q.correctOptionIds).size !== q.correctOptionIds.length || q.correctOptionIds.some(id => !optionIds.has(id))) throw new Error(`${label}: ${m.correct}`);
+    if (q.explanation !== undefined && typeof q.explanation !== 'string') throw new Error(`${label}: ${m.explanation}`);
   }
   return questions;
 }

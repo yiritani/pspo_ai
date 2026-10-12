@@ -1,0 +1,2907 @@
+[
+  {
+    "id": "q001",
+    "options": [
+      {
+        "id": "a",
+        "text": "Regularly review the AI model accuracy metrics presented by the development team and approve target values",
+        "explanation": "Checking accuracy is useful, but the main responsibility is alignment with value, ethics, and user needs, not technical metrics."
+      },
+      {
+        "id": "c",
+        "text": "Expand the scope of AI features and raise the automation rate across the product",
+        "explanation": "A higher automation rate is not value in itself. Judge by whether it leads to value and meets user needs."
+      },
+      {
+        "id": "d",
+        "text": "Work out the purpose of AI use and data handling with the legal team, and make regulatory compliance the center of adoption decisions",
+        "explanation": "Legal compliance is necessary, but the main responsibility also includes alignment with user needs and product value."
+      },
+      {
+        "id": "e",
+        "text": "Agree with stakeholders on the scope of AI features to deliver, and manage delivery of the agreed features as the outcome",
+        "explanation": "Agreeing on scope is useful, but delivering features is not the same as delivering value."
+      }
+    ]
+  },
+  {
+    "id": "q002",
+    "options": [
+      {
+        "id": "a",
+        "text": "Have the team review AI-generated personas and adopt the ones they agree on as assumptions",
+        "explanation": "Agreement within the team is no substitute for validation with real users."
+      },
+      {
+        "id": "c",
+        "text": "Use AI to analyze growth areas in the market and detail specifications starting with the areas of highest expected revenue",
+        "explanation": "Market estimates are input for exploration. Moving to specifications while real users' problems remain unvalidated is insufficient."
+      },
+      {
+        "id": "d",
+        "text": "Sort AI-extracted requests by frequency and start building prototypes from the top requests",
+        "explanation": "Frequency within the output does not show the strength of real needs. A step to validate key hypotheses with users is needed."
+      },
+      {
+        "id": "e",
+        "text": "Compare hypotheses across several AIs and adopt the problems they have in common as user needs",
+        "explanation": "Agreement between AIs is not evidence from real users. These still need to be validated as hypotheses."
+      }
+    ]
+  },
+  {
+    "id": "q003",
+    "options": [
+      {
+        "id": "c",
+        "text": "Concentrate accountability for ethical judgments in the specialist team that implements the decision criteria",
+        "explanation": "A specialist team can help, but the product's ethical accountability cannot be transferred to it."
+      },
+      {
+        "id": "e",
+        "text": "Make improvements in processing speed and usage costs the success criteria for responsible AI use",
+        "explanation": "Efficiency metrics are useful, but they do not assess bias, privacy, or how limitations are communicated."
+      }
+    ]
+  },
+  {
+    "id": "q004",
+    "options": [
+      {
+        "id": "a",
+        "text": "When improvements in the error rate have plateaued and updating the model requires additional investment",
+        "explanation": "Improvement costs are a factor to compare, but in deciding not to use AI, what matters is the impact of errors and whether they are acceptable."
+      },
+      {
+        "id": "c",
+        "text": "When it is difficult to explain the AI's reasoning down to the model's internal processing",
+        "explanation": "Difficulty explaining is a risk factor, but the decision should also consider how critical the use is and what alternatives exist."
+      },
+      {
+        "id": "d",
+        "text": "When there is a large amount of data for the decision and processing it manually takes time",
+        "explanation": "Situations with large amounts of data are, if anything, where AI tends to help."
+      },
+      {
+        "id": "e",
+        "text": "When some stakeholders express concerns about using AI",
+        "explanation": "Address concerns with transparent explanation and dialogue. Concerns alone are not a criterion for deciding not to use AI."
+      }
+    ]
+  },
+  {
+    "id": "q005",
+    "options": [
+      {
+        "id": "a",
+        "text": "Agentic AI executes human-defined procedures faster and more accurately",
+        "explanation": "Executing defined procedures is a characteristic of traditional automation."
+      },
+      {
+        "id": "c",
+        "text": "It links multiple processes with predefined branches and switches the procedure to run depending on the situation",
+        "explanation": "Switching through predefined branches is possible with traditional automation too. The distinguishing point is the autonomy to choose actions toward a goal."
+      },
+      {
+        "id": "d",
+        "text": "Agentic AI predicts future outcomes from historical data",
+        "explanation": "This describes predictive analytics, not a feature that distinguishes agentic AI."
+      },
+      {
+        "id": "e",
+        "text": "It generates text in response to requests and suggests the user's next action",
+        "explanation": "Generating text or suggested actions alone does not distinguish it from an agent that acts autonomously toward a goal."
+      }
+    ]
+  },
+  {
+    "id": "q006",
+    "options": [
+      {
+        "id": "a",
+        "text": "Predictive AI (predicts which ideas are likely to succeed based on historical data)",
+        "explanation": "Predictive AI helps evaluate existing ideas, but it is not suited to creating a variety of new ones."
+      },
+      {
+        "id": "c",
+        "text": "Classification models (sort collected ideas into categories)",
+        "explanation": "Classification helps with organizing, but it is not a capability for quickly creating new ideas."
+      },
+      {
+        "id": "d",
+        "text": "Recommendation engines (suggest features from similar products)",
+        "explanation": "They only present existing similar examples and are not suited to broad exploration."
+      },
+      {
+        "id": "e",
+        "text": "Rule-based automation (extracts ideas based on fixed conditions)",
+        "explanation": "It works only within predefined conditions, so it is not suited to exploring new ideas."
+      }
+    ]
+  },
+  {
+    "id": "q007",
+    "options": [
+      {
+        "id": "a",
+        "text": "Having so many personas that it becomes impossible to narrow down which customer segment to prioritize",
+        "explanation": "The number of personas is an adjustable problem. The main risk is treating unvalidated assumptions as facts."
+      },
+      {
+        "id": "c",
+        "text": "Generated personas resemble existing customers, making it hard to assess the level of anonymization",
+        "explanation": "Care for personal data is needed, but no use of real data is indicated. The central risk is treating unvalidated personas as facts."
+      },
+      {
+        "id": "d",
+        "text": "Stronger empathy for specific personas leads to prioritizing the demands of the loudest stakeholders",
+        "explanation": "There may be an effect on consensus-building, but the direct risk of using them without validation is reinforcing false assumptions."
+      },
+      {
+        "id": "e",
+        "text": "AI usage fees pile up and squeeze the discovery budget",
+        "explanation": "Cost is not the main risk. The problem is building the product on false assumptions."
+      }
+    ]
+  },
+  {
+    "id": "q008",
+    "options": [
+      {
+        "id": "a",
+        "text": "AI handles routine decisions, and the Product Owner narrows their accountability to strategic decisions",
+        "explanation": "Delegating work is not the same as reducing accountability for decisions. AI augments human judgment."
+      },
+      {
+        "id": "c",
+        "text": "AI decides the order of the backlog, and the Product Owner is accountable for adjusting exceptions",
+        "explanation": "Even with AI supporting the ordering work, the Product Owner holds the overall judgment and accountability."
+      },
+      {
+        "id": "d",
+        "text": "The more accurate AI becomes, the more the Product Owner's role shifts from judgment to monitoring operations",
+        "explanation": "Even as accuracy improves, human judgment about value and direction remains a core part of the role."
+      },
+      {
+        "id": "e",
+        "text": "AI defines value from customer data, and the Product Owner's role is to communicate it",
+        "explanation": "Defining value is a core responsibility of the Product Owner. AI provides input for that judgment."
+      }
+    ]
+  },
+  {
+    "id": "q009",
+    "options": [
+      {
+        "id": "a",
+        "text": "Order the backlog by AI-calculated scores and have a person adjust only the exceptions",
+        "explanation": "Making the AI ranking the default effectively lets AI decide the priorities."
+      },
+      {
+        "id": "c",
+        "text": "Agree with stakeholders on how the AI scores are calculated and use the score order as the basis for priorities",
+        "explanation": "Agreeing on the method increases transparency, but it does not replace judgment that considers goals and context."
+      },
+      {
+        "id": "d",
+        "text": "Decide what goes into the next Sprint based on the likelihood of completion estimated by AI from past velocity",
+        "explanation": "Estimated likelihood of completion is reference information. The Developers select the work for the Sprint."
+      },
+      {
+        "id": "e",
+        "text": "When the AI's suggestion and your own judgment differ, prioritize the data-based AI suggestion",
+        "explanation": "AI suggestions are one input. Use a difference as a prompt to check the context, and make the final decision yourself."
+      }
+    ]
+  },
+  {
+    "id": "q010",
+    "options": [
+      {
+        "id": "a",
+        "text": "Referring to contract terms that differ by customer and sending notices after a person has checked them",
+        "explanation": "Contract information needs care, but drafting notices on the premise of human review is a candidate for AI use."
+      },
+      {
+        "id": "c",
+        "text": "Extracting minority opinions from anonymized free-text responses and cross-checking them against the original answers",
+        "explanation": "Evaluation must not drop minority opinions, but analysis support that can be checked against the original text is a candidate for AI use."
+      },
+      {
+        "id": "d",
+        "text": "Building a comparison table from frequently updated competitor information, with a person checking the reference dates and sources",
+        "explanation": "Organizing information with freshness checks is a candidate for AI use. It differs from high-risk final decisions."
+      },
+      {
+        "id": "e",
+        "text": "Creating demo scenarios for unreleased features in an approved internal environment",
+        "explanation": "Unreleased information needs to be managed, but drafting in an approved environment is a candidate for AI use."
+      }
+    ]
+  },
+  {
+    "id": "q011",
+    "options": [
+      {
+        "id": "b",
+        "text": "Machine learning can process larger volumes of the conditional branches written by developers",
+        "explanation": "Writing conditional branches is traditional programming. Machine learning learns patterns from data."
+      },
+      {
+        "id": "c",
+        "text": "Machine learning updates the weights of a model in production through its responses to new inputs",
+        "explanation": "Inference on new inputs is different from training. Inputs in production do not necessarily update the weights directly."
+      },
+      {
+        "id": "d",
+        "text": "Machine learning stores experts' decision rules in a knowledge base and reasons by combining the rules",
+        "explanation": "This is a rule-based system. Machine learning learns patterns from data."
+      },
+      {
+        "id": "e",
+        "text": "Machine learning creates specifications for conditional branches from input-output examples, which developers then code",
+        "explanation": "Having people implement rules based on examples is different from a model learning patterns from data."
+      }
+    ]
+  },
+  {
+    "id": "q012",
+    "options": [
+      {
+        "id": "a",
+        "text": "Deciding whether to run the next experiment based on the success rate of past experiments",
+        "explanation": "Past analysis can be input, but people decide whether to run an experiment based on current goals and uncertainty."
+      },
+      {
+        "id": "c",
+        "text": "Simulating user reactions and using the results to judge the experiment's effect",
+        "explanation": "Simulation can be used to explore hypotheses, but it must be distinguished from evidence of the effect on real users."
+      },
+      {
+        "id": "d",
+        "text": "Extracting the metrics that showed large differences in the results and adopting them as success criteria",
+        "explanation": "Exploring metrics is possible, but choosing success criteria after seeing the results leads to a convenient evaluation."
+      },
+      {
+        "id": "e",
+        "text": "Comparing the results of several options and choosing the one with a statistical difference as the next delivery policy",
+        "explanation": "AI can support statistical comparison, but the delivery policy requires human judgment that includes value and risk."
+      }
+    ]
+  },
+  {
+    "id": "q013",
+    "options": [
+      {
+        "id": "a",
+        "text": "Given the latest information, it detects conflicts with older knowledge before answering and holds back its answer",
+        "explanation": "Even with new information, it cannot always properly detect contradictions and hold back."
+      },
+      {
+        "id": "c",
+        "text": "Variation in answers to the same input serves as a measure of the content's accuracy",
+        "explanation": "Variation in answers is different from accuracy. An answer can be consistently wrong."
+      },
+      {
+        "id": "d",
+        "text": "Asking for sources allows the claims in the answer to be verified",
+        "explanation": "Generating sources is different from actually checking them. It can even generate references that do not exist."
+      },
+      {
+        "id": "e",
+        "text": "It refers to the information in the input only for the parts it quotes in the answer",
+        "explanation": "Generative AI uses the context of the input beyond the quoted parts. This does not describe a common limitation."
+      }
+    ]
+  },
+  {
+    "id": "q014",
+    "options": [
+      {
+        "id": "a",
+        "text": "Applying the same approval procedure regardless of how the output is used, to reduce variation in operations",
+        "explanation": "A uniform procedure has advantages, but it is better to design oversight according to the size of the impact."
+      },
+      {
+        "id": "c",
+        "text": "Checking the scope of the vendor's quality assurance and defining that scope as your own scope of responsibility",
+        "explanation": "The vendor's scope of assurance and the product's accountability are separate."
+      },
+      {
+        "id": "d",
+        "text": "Documenting AI use in internal operating documents and explaining the overall service quality to users",
+        "explanation": "Internal documents alone cannot ensure transparency for users. Users also need explanations that help them understand limitations and controls."
+      },
+      {
+        "id": "e",
+        "text": "Lowering the review rate according to the average accuracy, and catching exceptional errors through inquiries",
+        "explanation": "Averages alone cannot catch serious errors. Review and monitoring of important outputs are needed."
+      }
+    ]
+  },
+  {
+    "id": "q015",
+    "options": [
+      {
+        "id": "b",
+        "text": "Specifying in detail the procedure for each task the agent performs",
+        "explanation": "Specifying every procedure is traditional automation. The Product Owner defines goals and constraints."
+      },
+      {
+        "id": "c",
+        "text": "Concentrating accountability for the results of the agent's actions in the developers who manage the execution platform",
+        "explanation": "Handling technical management is different from being accountable for the product's results."
+      },
+      {
+        "id": "d",
+        "text": "Delegating changes to the goals to be achieved to the agent, depending on its learning progress",
+        "explanation": "The agent can be left to choose actions, but the responsibility for defining goals and constraints stays with people."
+      },
+      {
+        "id": "e",
+        "text": "Selecting training data to improve the agent's accuracy",
+        "explanation": "Selecting training data is mainly technical work and not a central part of the Product Owner's role."
+      }
+    ]
+  },
+  {
+    "id": "q016",
+    "options": [
+      {
+        "id": "a",
+        "text": "Because it can reproduce the information from customer research before the research is done",
+        "explanation": "It can help prepare research, but generated content is different from evidence gathered from real customers."
+      },
+      {
+        "id": "c",
+        "text": "Because it can decide which ideas move on to validation based on similarity to past successes",
+        "explanation": "Similarity is input, but validation with current customers and context is needed."
+      },
+      {
+        "id": "d",
+        "text": "Because it can estimate user reactions to each hypothesis and complete hypothesis validation",
+        "explanation": "Estimating reactions helps exploration, but it does not complete validation with real users."
+      },
+      {
+        "id": "e",
+        "text": "Because it can quantify market uncertainty and decide which ideas to pursue",
+        "explanation": "Estimates are input for judgment. The responsibility to choose ideas in light of uncertainty stays with people."
+      }
+    ]
+  },
+  {
+    "id": "q017",
+    "options": [
+      {
+        "id": "a",
+        "text": "System operating costs rising more than expected",
+        "explanation": "Cost is a manageable problem. The most important risk is the loss of human judgment."
+      },
+      {
+        "id": "c",
+        "text": "Handling of exceptions in automated processes becoming concentrated on specific staff",
+        "explanation": "This is an operational challenge, but the central risk of excessive automation is losing context-sensitive human judgment and intervention."
+      },
+      {
+        "id": "d",
+        "text": "Not having enough data for automation",
+        "explanation": "Lack of data is an adoption challenge, not a risk specific to excessive automation."
+      },
+      {
+        "id": "e",
+        "text": "Higher costs for evaluating model performance as processing volume grows",
+        "explanation": "Evaluation costs should be managed, but they are distinct from the risk of losing human judgment."
+      }
+    ]
+  },
+  {
+    "id": "q018",
+    "options": [
+      {
+        "id": "a",
+        "text": "Generative AI",
+        "explanation": "Generative AI creates content, but that alone does not mean it acts autonomously toward goals."
+      },
+      {
+        "id": "c",
+        "text": "Predictive AI",
+        "explanation": "Predictive AI forecasts outcomes; it does not act toward goals."
+      },
+      {
+        "id": "d",
+        "text": "Rule-based expert systems",
+        "explanation": "They execute expert knowledge as rules and do not act autonomously."
+      },
+      {
+        "id": "e",
+        "text": "Large language models (LLMs)",
+        "explanation": "LLMs are models that handle language. The mechanism that acts toward goals is agentic AI."
+      }
+    ]
+  },
+  {
+    "id": "q019",
+    "options": [
+      {
+        "id": "a",
+        "text": "Concentrate accountability for bias in the data scientists who design the evaluation methods",
+        "explanation": "Expert evaluation is important, but the Product Owner also remains responsible for understanding and mitigating the risk."
+      },
+      {
+        "id": "c",
+        "text": "Manage differences in harm between users by improving overall accuracy",
+        "explanation": "Overall accuracy and bias between groups must be checked separately."
+      },
+      {
+        "id": "d",
+        "text": "Make equal error rates across attributes the completion criterion for addressing bias",
+        "explanation": "Matching a single number cannot assess context or harm. Mitigation suited to the use and ongoing checks are needed."
+      },
+      {
+        "id": "e",
+        "text": "Manage bias countermeasures internally and focus explanations to users on average accuracy",
+        "explanation": "Explaining only average accuracy does not provide enough transparency about bias and limitations."
+      }
+    ]
+  },
+  {
+    "id": "q020",
+    "options": [
+      {
+        "id": "a",
+        "text": "Analyzing trends in user feedback",
+        "explanation": "Trend analysis is an activity where AI helps a lot."
+      },
+      {
+        "id": "c",
+        "text": "Drafting release notes and documents",
+        "explanation": "Drafting is easy to delegate to AI, with human review."
+      },
+      {
+        "id": "d",
+        "text": "Gathering and organizing information for competitive research",
+        "explanation": "Gathering and organizing information is easy for AI to support."
+      },
+      {
+        "id": "e",
+        "text": "Building prototypes to test hypotheses",
+        "explanation": "Building prototypes is easy to speed up with AI."
+      }
+    ]
+  },
+  {
+    "id": "q021",
+    "options": [
+      {
+        "id": "a",
+        "text": "So that Product Owners can lead the selection and procurement of AI models",
+        "explanation": "Model selection is mainly a technical decision. The purpose of AI literacy is to make well-informed decisions."
+      },
+      {
+        "id": "c",
+        "text": "So that Product Owners can define the technical specifications needed to implement AI on their own",
+        "explanation": "The goal is not to define technical specifications alone, but to make decisions with an understanding of capabilities and limitations."
+      },
+      {
+        "id": "d",
+        "text": "So that Product Owners can automate their own work with AI tools",
+        "explanation": "Automation is not the goal. Improving the quality of decisions is."
+      },
+      {
+        "id": "e",
+        "text": "So that Product Owners can evaluate model performance in place of experts",
+        "explanation": "Understanding evaluation is important, but the aim is not to replace experts."
+      }
+    ]
+  },
+  {
+    "id": "q022",
+    "options": [
+      {
+        "id": "a",
+        "text": "Generating backlog item descriptions in a consistent format",
+        "explanation": "It helps with efficiency, but it does not directly support a focus on value."
+      },
+      {
+        "id": "c",
+        "text": "Tallying stakeholder requests and sorting them by count",
+        "explanation": "The number of requests is not the same as value."
+      },
+      {
+        "id": "d",
+        "text": "Estimating Sprint workload and increasing velocity",
+        "explanation": "More work done is an output metric, not a measure of value."
+      },
+      {
+        "id": "e",
+        "text": "Locking in the roadmap early to increase feature usage",
+        "explanation": "Locking in the roadmap removes the flexibility to pursue value as you learn."
+      }
+    ]
+  },
+  {
+    "id": "q023",
+    "options": [
+      {
+        "id": "a",
+        "text": "To adjust the wording of outputs for users",
+        "explanation": "Adjusting wording has nothing to do with where the data comes from."
+      },
+      {
+        "id": "c",
+        "text": "To compare the license costs of the tools used",
+        "explanation": "Comparing costs is not the main reason to know the source."
+      },
+      {
+        "id": "d",
+        "text": "To estimate the computing resources needed for processing",
+        "explanation": "Estimating computing resources is not the main reason to know the source."
+      },
+      {
+        "id": "e",
+        "text": "Because the reliability of the source can be the criterion for judging the accuracy of generated insights",
+        "explanation": "Even with a reliable source, representativeness, context, and errors in the output must be checked separately."
+      }
+    ]
+  },
+  {
+    "id": "q024",
+    "options": [
+      {
+        "id": "a",
+        "text": "Generating a market research report every quarter",
+        "explanation": "Periodic reports are useful, but the interval is too long to serve as a mechanism for continuous learning."
+      },
+      {
+        "id": "c",
+        "text": "Continuing to classify the importance of new feedback based on the initial personas",
+        "explanation": "Fixing the initial personas can prevent assumptions from being updated with new evidence."
+      },
+      {
+        "id": "d",
+        "text": "Comprehensively identifying all future features at the requirements definition stage",
+        "explanation": "Fixing requirements up front is the opposite of continuous discovery."
+      },
+      {
+        "id": "e",
+        "text": "Predicting user reactions to reduce the number of experiments",
+        "explanation": "Predictions do not replace experiments."
+      }
+    ]
+  },
+  {
+    "id": "q025",
+    "options": [
+      {
+        "id": "a",
+        "text": "Having so many insights that they cannot be prioritized",
+        "explanation": "Volume problems can be solved by organizing. The main risk is making decisions without context."
+      },
+      {
+        "id": "c",
+        "text": "AI tool usage fees exceeding the budget",
+        "explanation": "Cost is not the main risk."
+      },
+      {
+        "id": "d",
+        "text": "Insights becoming harder to share within the team",
+        "explanation": "The problem is less about sharing and more about deciding based on insights that lack context."
+      },
+      {
+        "id": "e",
+        "text": "Analysis results becoming a common standard, making it take longer to reconcile differing opinions",
+        "explanation": "The central problem is not having a common standard but people no longer grasping the context behind the insights."
+      }
+    ]
+  },
+  {
+    "id": "q026",
+    "options": [
+      {
+        "id": "a",
+        "text": "Making the final choice of which option to adopt among several",
+        "explanation": "The final choice is made by the person who is accountable."
+      },
+      {
+        "id": "c",
+        "text": "Approving changes to contract terms for each customer",
+        "explanation": "Approving contracts involves accountability and legal impact, so people decide."
+      },
+      {
+        "id": "d",
+        "text": "Finalizing the priority of Product Goals",
+        "explanation": "Deciding the Product Goal is the Product Owner's responsibility."
+      },
+      {
+        "id": "e",
+        "text": "Deciding whether to adopt a feature with ethical concerns",
+        "explanation": "Ethical judgments are made by people who take responsibility for them."
+      }
+    ]
+  },
+  {
+    "id": "q027",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ask several AI tools the same question and check whether the results match",
+        "explanation": "Agreement does not mean it is correct. Validate it against the context and evidence."
+      },
+      {
+        "id": "c",
+        "text": "Check the confidence the AI shows and set a threshold for which recommendations to adopt",
+        "explanation": "Confidence does not necessarily match accuracy. Validation against the actual context and evidence is needed."
+      },
+      {
+        "id": "d",
+        "text": "Share it with the team and act on it if no one objects",
+        "explanation": "No objections does not mean it has been validated."
+      },
+      {
+        "id": "e",
+        "text": "Check that it follows the usage recommended by the AI vendor",
+        "explanation": "Checking usage is different from validating the content of the recommendation."
+      }
+    ]
+  },
+  {
+    "id": "q028",
+    "options": [
+      {
+        "id": "a",
+        "text": "Designing so that users can be told why they received a particular recommendation",
+        "explanation": "Appropriate explanations increase transparency. The direction of risk is different from using sensitive personal information."
+      },
+      {
+        "id": "c",
+        "text": "Operating so that people review and can correct important outputs",
+        "explanation": "Real mechanisms for review and correction help reduce risk."
+      },
+      {
+        "id": "d",
+        "text": "Aggregating results for multiple customer segments at a level where individuals cannot be identified",
+        "explanation": "Proper anonymization and aggregation help reduce the risk to personal information."
+      },
+      {
+        "id": "e",
+        "text": "Explaining the purpose of using data and the controls users can choose",
+        "explanation": "Explaining purpose and controls increases transparency."
+      }
+    ]
+  },
+  {
+    "id": "q029",
+    "options": [
+      {
+        "id": "a",
+        "text": "Predicting results and excluding experiments that seem unlikely to work in advance",
+        "explanation": "Reducing experiments based on predictions loses the chance to test your assumptions."
+      },
+      {
+        "id": "c",
+        "text": "Combining changes for several hypotheses into one experiment and measuring their effect together",
+        "explanation": "Combining many changes makes it hard to tell which hypothesis contributed to the result."
+      },
+      {
+        "id": "d",
+        "text": "Deciding when to move to the next experiment based on improvement trends observed over a short period",
+        "explanation": "An insufficient observation period or criteria can lead to wrong conclusions. This is different from speeding up by generating options."
+      },
+      {
+        "id": "e",
+        "text": "Running the analysis of results and the choice of the next course of action as a single AI process",
+        "explanation": "AI can support analysis, but people decide the next course of action based on goals and context."
+      }
+    ]
+  },
+  {
+    "id": "q030",
+    "options": [
+      {
+        "id": "a",
+        "text": "Governance is designed after adoption, based on problems observed in operation",
+        "explanation": "Improving from operation is necessary, but scope, accountability, and conditions for intervention must also be defined before use."
+      },
+      {
+        "id": "b",
+        "text": "Governance is run with independent policies for each team, based on their usage efficiency",
+        "explanation": "Adjusting to the use is necessary, but policies must be consistent with organizational accountability and data handling."
+      },
+      {
+        "id": "d",
+        "text": "Governance is achieved by combining the vendor's quality assurance and legal compliance checks",
+        "explanation": "Those are only part of it. Oversight on the product side and accountability for outcomes are also needed."
+      },
+      {
+        "id": "e",
+        "text": "Governance is a mechanism that increases the value of use by adding approval steps",
+        "explanation": "Adding procedures does not necessarily increase value. Governance supports responsible use according to risk."
+      }
+    ]
+  },
+  {
+    "id": "q031",
+    "options": [
+      {
+        "id": "a",
+        "text": "The time it takes before AI output is adopted",
+        "explanation": "The amount of time is not the criterion that distinguishes assisting from leading."
+      },
+      {
+        "id": "c",
+        "text": "How accurate the AI model used for the decision is",
+        "explanation": "Even with high accuracy, if AI leads the judgment, it is an AI-led decision."
+      },
+      {
+        "id": "d",
+        "text": "The amount and freshness of the data used for the decision",
+        "explanation": "The amount or freshness of data has nothing to do with who is at the center of the judgment."
+      },
+      {
+        "id": "e",
+        "text": "The percentage of AI suggestions that were adopted",
+        "explanation": "The distinction is whether a human is at the center of the judgment, not the adoption rate."
+      }
+    ]
+  },
+  {
+    "id": "q032",
+    "options": [
+      {
+        "id": "a",
+        "text": "Drafting presentation materials for the Sprint Review",
+        "explanation": "Drafting materials is easy to delegate to AI, with human review."
+      },
+      {
+        "id": "c",
+        "text": "Organizing the key points of user interviews",
+        "explanation": "Organizing key points is easy for AI to support. People check them against the original records."
+      },
+      {
+        "id": "d",
+        "text": "Creating screen ideas for prototypes used in validation",
+        "explanation": "Creating screen ideas is easy to speed up with AI."
+      },
+      {
+        "id": "e",
+        "text": "Suggesting ways to split backlog items",
+        "explanation": "Suggesting splits is appropriate AI support. The team decides whether to adopt them."
+      }
+    ]
+  },
+  {
+    "id": "q033",
+    "options": [
+      {
+        "id": "a",
+        "text": "Presenting the average accuracy from past evaluations and making that number the basis for users' judgment",
+        "explanation": "Evaluation results are useful reference, but understanding limitations and having mechanisms for control also matter."
+      },
+      {
+        "id": "c",
+        "text": "Notifying users after the AI applies a recommendation, to reduce variation in decisions",
+        "explanation": "Notification after the fact alone does not ensure users can understand the outcome and control it when needed."
+      },
+      {
+        "id": "d",
+        "text": "Showing third-party benchmark results and having users expect equivalent performance",
+        "explanation": "Performance on benchmarks differs from performance in actual use."
+      },
+      {
+        "id": "e",
+        "text": "Showing the vendor's warranty and explaining the handling of errors in line with the scope of the warranty",
+        "explanation": "The vendor's warranty alone cannot explain the product's response or how users can control it."
+      }
+    ]
+  },
+  {
+    "id": "q034",
+    "options": [
+      {
+        "id": "a",
+        "text": "Giving final approval to the price of a new pricing plan",
+        "explanation": "Final approval of pricing is a human judgment that carries accountability."
+      },
+      {
+        "id": "c",
+        "text": "Confirming whether a new feature complies with the law",
+        "explanation": "Confirming legal compliance is done by experts and accountable people."
+      },
+      {
+        "id": "d",
+        "text": "Deciding whether to release a feature with ethical concerns",
+        "explanation": "Ethical judgments are made by people who take responsibility for them."
+      },
+      {
+        "id": "e",
+        "text": "Confirming the real intent behind requests heard from a small number of customers",
+        "explanation": "The real intent behind a few voices is best confirmed through direct conversation."
+      }
+    ]
+  },
+  {
+    "id": "q035",
+    "options": [
+      {
+        "id": "a",
+        "text": "Treat the model error as a technical failure and make root-cause analysis the center of the response",
+        "explanation": "Root-cause analysis is needed, but the Product Owner is also accountable for addressing the impact on users."
+      },
+      {
+        "id": "c",
+        "text": "Prioritize preventing recurrence and stop all features that use the same model",
+        "explanation": "Stopping may sometimes be necessary, but it is important to choose a response that fits the impact."
+      },
+      {
+        "id": "d",
+        "text": "Check the vendor's fix plan and schedule the response to users around that plan",
+        "explanation": "Rather than just waiting for the vendor's fix, decide on actions on the product side to limit the impact."
+      },
+      {
+        "id": "e",
+        "text": "Set response priority by the number of people affected, and handle a small number of cases in a regular review",
+        "explanation": "Assess the severity of harm, not just the number of people. Even a few cases may need a quick response."
+      }
+    ]
+  },
+  {
+    "id": "q036",
+    "options": [
+      {
+        "id": "a",
+        "text": "It can repeat defined procedures faster and more accurately",
+        "explanation": "Repeating procedures is a characteristic of basic automation."
+      },
+      {
+        "id": "c",
+        "text": "It increases the branching conditions for each expected situation, expanding the procedures it can handle",
+        "explanation": "Adding branches in advance is also possible with traditional automation."
+      },
+      {
+        "id": "d",
+        "text": "Fixing the procedures it executes makes clear in advance what needs to be overseen",
+        "explanation": "Control through fixed procedures is a characteristic of traditional automation. The benefit of an agent is autonomous action toward goals."
+      },
+      {
+        "id": "e",
+        "text": "It can change the priority of the goals to be achieved on its own as the situation changes",
+        "explanation": "Choosing actions within goals set by people is different from changing the goals themselves."
+      }
+    ]
+  },
+  {
+    "id": "q037",
+    "options": [
+      {
+        "id": "a",
+        "text": "So that human judgment can keep up with the speed of AI output",
+        "explanation": "Adjusting speed is not the purpose. The purpose is to find and fix errors and ensure accountability."
+      },
+      {
+        "id": "c",
+        "text": "To gradually reduce the proportion of automation",
+        "explanation": "Reducing automation is not the purpose."
+      },
+      {
+        "id": "d",
+        "text": "To concentrate accountability for AI results in the person who approved them",
+        "explanation": "Defining a reviewer's role does not transfer the product's accountability to that person."
+      },
+      {
+        "id": "e",
+        "text": "To improve prediction accuracy in operation by feeding review records back into the model",
+        "explanation": "Records are not necessarily used for training automatically. The main purpose of review and intervention is oversight and correction."
+      }
+    ]
+  },
+  {
+    "id": "q038",
+    "options": [
+      {
+        "id": "c",
+        "text": "Less time spent on validation and retrospectives",
+        "explanation": "Cutting the validation and reflection needed for learning is not a sign of success."
+      },
+      {
+        "id": "d",
+        "text": "A higher rate of agreement between expert judgment and AI suggestions",
+        "explanation": "The agreement rate is useful reference, but whether the agreed decisions were appropriate and led to value must be evaluated separately."
+      },
+      {
+        "id": "f",
+        "text": "Shorter waiting time for the Product Owner's approval",
+        "explanation": "Shorter waiting time is an efficiency metric. It does not directly show the quality of decisions or contribution to goals."
+      }
+    ]
+  },
+  {
+    "id": "q039",
+    "options": [
+      {
+        "id": "a",
+        "text": "The AI features that competitors have introduced",
+        "explanation": "Competitors' moves are useful reference, but they are not a basis for experiments."
+      },
+      {
+        "id": "c",
+        "text": "The roadmap published by the AI vendor",
+        "explanation": "Proceed based on your own product goals and hypotheses, not the vendor's plans."
+      },
+      {
+        "id": "d",
+        "text": "The computing resources and budget available to the team",
+        "explanation": "Resources are one constraint, but not the criterion for deciding what to experiment with."
+      },
+      {
+        "id": "e",
+        "text": "The AI technologies that stakeholders are interested in",
+        "explanation": "Experiment based on goals and hypotheses, not on the level of interest."
+      }
+    ]
+  },
+  {
+    "id": "q040",
+    "options": [
+      {
+        "id": "a",
+        "text": "Make a large-scale adoption plan up front and roll it out as planned",
+        "explanation": "Using AI involves high uncertainty, so you need to adjust as you learn."
+      },
+      {
+        "id": "c",
+        "text": "Advance through the stages in order according to an industry-standard maturity model",
+        "explanation": "Rather than just fitting an external model, adjust based on your own learning."
+      },
+      {
+        "id": "d",
+        "text": "Lock in the tools whose effects have been confirmed and stabilize operations",
+        "explanation": "Locking in prevents keeping up with change. Continuous learning and adjustment are needed."
+      },
+      {
+        "id": "e",
+        "text": "Leave the promotion of AI use to a dedicated team and review the results regularly",
+        "explanation": "Do not leave it entirely to others; keep learning and stay involved yourself."
+      }
+    ]
+  },
+  {
+    "id": "q041",
+    "options": [
+      {
+        "id": "a",
+        "text": "Background information obtained in conversations with customers can be filled in from the summary",
+        "explanation": "A summary organizes recorded information, but it cannot supply, as evidence, background that was never gathered in conversations."
+      },
+      {
+        "id": "c",
+        "text": "The importance of each issue can be determined from how often opinions appear",
+        "explanation": "Frequency and importance are different. Even a minority may raise a serious issue."
+      },
+      {
+        "id": "d",
+        "text": "Bias across customer segments can be eliminated by consolidating common opinions",
+        "explanation": "Consolidation does not necessarily eliminate bias. Minority opinions may be hidden."
+      },
+      {
+        "id": "e",
+        "text": "Mapping requests to features lets it decide which feature to build next",
+        "explanation": "Mapping is input for judgment, but people decide what to build based on goals and context."
+      }
+    ]
+  },
+  {
+    "id": "q042",
+    "options": [
+      {
+        "id": "a",
+        "text": "Decide which Sprint each item goes into based on estimates and past performance",
+        "explanation": "AI can support estimation, but the Developers select the items for the Sprint."
+      },
+      {
+        "id": "c",
+        "text": "Infer requirements from related items and lock that inference in as the basis for implementation decisions",
+        "explanation": "Inferences can be used as drafts, but the team must confirm the expected behavior."
+      },
+      {
+        "id": "d",
+        "text": "Calculate effort from the actuals of similar items and register it as the team's official estimate",
+        "explanation": "Actuals are useful reference, but estimates require the judgment of the Developers who do the work."
+      },
+      {
+        "id": "e",
+        "text": "Adopt the AI-assessed ratio of value to effort as the final order of the backlog",
+        "explanation": "Calculated results are input; the Product Owner makes the ordering decision."
+      }
+    ]
+  },
+  {
+    "id": "q043",
+    "options": [
+      {
+        "id": "a",
+        "text": "Because metrics suggested by AI use more estimates than measured values",
+        "explanation": "Whether a metric is based on estimates depends on its design. The central check is alignment with goals."
+      },
+      {
+        "id": "c",
+        "text": "Because too many metrics increase the team's workload",
+        "explanation": "The issue is alignment with goals, not quantity."
+      },
+      {
+        "id": "d",
+        "text": "Because metrics with the same name may be calculated differently depending on the vendor",
+        "explanation": "Checking calculation conditions is needed, but even a correctly calculated metric may not fit the goals."
+      },
+      {
+        "id": "e",
+        "text": "Because quantifying metrics lets qualitative judgment be replaced by quantitative judgment",
+        "explanation": "Quantifying does not replace human judgment. Evaluate what the metric actually measures."
+      }
+    ]
+  },
+  {
+    "id": "q044",
+    "options": [
+      {
+        "id": "a",
+        "text": "Replacing regular meetings with stakeholders by distributing AI summaries",
+        "explanation": "Distributing summaries is no substitute for direct conversation."
+      },
+      {
+        "id": "c",
+        "text": "Comparing each stakeholder's requests and deciding which ones to adopt",
+        "explanation": "The Product Owner decides which requests to adopt."
+      },
+      {
+        "id": "d",
+        "text": "Adjusting how much risk is explained so that stakeholders have fewer concerns",
+        "explanation": "Adjusting for clarity is fine, but watering down risks needed for decisions to reduce concerns is inappropriate."
+      },
+      {
+        "id": "e",
+        "text": "Deciding the compromise between requests with conflicting interests",
+        "explanation": "Balancing interests is done by people who take responsibility."
+      }
+    ]
+  },
+  {
+    "id": "q045",
+    "options": [
+      {
+        "id": "a",
+        "text": "The output text is natural and logically well structured",
+        "explanation": "Even plausible text can be wrong."
+      },
+      {
+        "id": "c",
+        "text": "The same question always returns the same answer",
+        "explanation": "Even if consistent, it cannot be trusted if the underlying data is wrong."
+      },
+      {
+        "id": "d",
+        "text": "It has a track record of use at many companies",
+        "explanation": "A track record of use does not guarantee that individual outputs are correct."
+      },
+      {
+        "id": "e",
+        "text": "It uses the latest large model",
+        "explanation": "Even with a new model, data quality and context determine reliability."
+      }
+    ]
+  },
+  {
+    "id": "q046",
+    "options": [
+      {
+        "id": "a",
+        "text": "Automatically formatting meeting notes into a set template",
+        "explanation": "A fixed conversion is handled well enough by traditional automation or generative AI."
+      },
+      {
+        "id": "c",
+        "text": "Generating a usage report with the same items every week",
+        "explanation": "Creating routine reports does not require autonomous judgment."
+      },
+      {
+        "id": "d",
+        "text": "Creating screen mockup ideas from user requests",
+        "explanation": "Creating mockup ideas is a use for generative AI."
+      },
+      {
+        "id": "e",
+        "text": "Predicting next month's churn rate from historical data",
+        "explanation": "Predicting churn is a use for predictive AI."
+      }
+    ]
+  },
+  {
+    "id": "q047",
+    "options": [
+      {
+        "id": "a",
+        "text": "Responses take a long time and delay the work",
+        "explanation": "Speed has nothing to do with hallucinations."
+      },
+      {
+        "id": "c",
+        "text": "The answer changes every time, even for the same question",
+        "explanation": "Variation in answers is not hallucination itself."
+      },
+      {
+        "id": "d",
+        "text": "Refusing to answer questions it cannot answer",
+        "explanation": "Refusing to answer is the opposite of hallucinating."
+      },
+      {
+        "id": "e",
+        "text": "Bias in the training data showing up in the output",
+        "explanation": "This describes bias. Hallucination is plausibly making up content that is not factual."
+      }
+    ]
+  },
+  {
+    "id": "q048",
+    "options": [
+      {
+        "id": "a",
+        "text": "Choosing ideas that succeeded in similar past cases as validated hypotheses",
+        "explanation": "Past success is not evidence that a hypothesis is correct in the current context."
+      },
+      {
+        "id": "c",
+        "text": "Making the final choice of which idea to implement among several hypotheses",
+        "explanation": "People decide which hypotheses to try."
+      },
+      {
+        "id": "d",
+        "text": "Predicting user reactions and treating those predictions as the results of hypothesis validation",
+        "explanation": "Predictions are input for exploration. Distinguish them from validation results based on actual measurement."
+      },
+      {
+        "id": "e",
+        "text": "Treating the revenue estimate, if the hypothesis holds, as the confirmed outcome after development",
+        "explanation": "Revenue estimates depend on assumptions. They do not confirm future outcomes."
+      }
+    ]
+  },
+  {
+    "id": "q049",
+    "options": [
+      {
+        "id": "a",
+        "text": "Prioritize the AI's recommendation, since it is based on a large amount of data",
+        "explanation": "A large amount of data does not mean it captures the users' context."
+      },
+      {
+        "id": "b",
+        "text": "Prioritize the feedback, since it is the voice of real users, and do not adopt the AI's recommendation",
+        "explanation": "Some feedback does not necessarily represent the whole. Evaluate both."
+      },
+      {
+        "id": "d",
+        "text": "Stop using AI until the conflict is resolved",
+        "explanation": "A conflict is a learning opportunity. There is no need to stop using AI."
+      },
+      {
+        "id": "e",
+        "text": "Decide which to adopt by a majority vote of stakeholders",
+        "explanation": "Rather than a majority vote, the Product Owner evaluates the evidence and decides."
+      }
+    ]
+  },
+  {
+    "id": "q050",
+    "options": [
+      {
+        "id": "a",
+        "text": "The vendor that provided the AI system is accountable for the outcomes",
+        "explanation": "Accountability cannot be shifted to the vendor."
+      },
+      {
+        "id": "b",
+        "text": "The Developers who implemented the AI bear the ethical accountability",
+        "explanation": "Not just the Developers, but people including the Product Owner are accountable."
+      },
+      {
+        "id": "d",
+        "text": "For outputs that meet ethical standards, the system that implements the criteria is accountable",
+        "explanation": "Even when criteria are implemented, human accountability for outcomes remains."
+      },
+      {
+        "id": "e",
+        "text": "Users who agreed to the terms of use are accountable for the outcomes",
+        "explanation": "Accountability cannot be shifted to users because they agreed."
+      }
+    ]
+  },
+  {
+    "id": "q051",
+    "options": [
+      {
+        "id": "b",
+        "text": "Evaluate AI-generated visions by estimated market size and make the highest one the official vision",
+        "explanation": "Selecting by estimates alone cannot determine the vision. The Product Owner's judgment is needed."
+      },
+      {
+        "id": "d",
+        "text": "Compare refinement issues with AI and record the most consistent conclusion as the team's decision",
+        "explanation": "AI can help compare consistency, but a conclusion the team has not discussed is not a team decision."
+      },
+      {
+        "id": "f",
+        "text": "Score backlog value and effort with AI and use the total score as the final order",
+        "explanation": "Scores are input; ordering requires judgment that considers the context."
+      }
+    ]
+  },
+  {
+    "id": "q052",
+    "options": [
+      {
+        "id": "a",
+        "text": "Whether adoption is spreading among competitors in the industry",
+        "explanation": "Wide adoption does not mean it fits your product."
+      },
+      {
+        "id": "c",
+        "text": "The accuracy and performance figures presented by the vendor",
+        "explanation": "Vendor figures are useful reference, but the basis for the decision is alignment with product goals."
+      },
+      {
+        "id": "d",
+        "text": "Whether it can be tried for free for a short time",
+        "explanation": "Ease of trying has nothing to do with alignment with goals."
+      },
+      {
+        "id": "e",
+        "text": "Whether team members want to try it",
+        "explanation": "Interest matters, but adoption decisions are based on product goals."
+      }
+    ]
+  },
+  {
+    "id": "q053",
+    "options": [
+      {
+        "id": "a",
+        "text": "Rolling it out to all users at once after sufficient testing",
+        "explanation": "Testing is necessary, but monitoring and feedback remain essential after rollout."
+      },
+      {
+        "id": "c",
+        "text": "Preparing recovery measures and relying on user reports to discover failures",
+        "explanation": "Recovery measures help, but continuous monitoring is needed to catch errors that go unreported."
+      },
+      {
+        "id": "d",
+        "text": "Applying AI recommendations by default and turning them off when users object",
+        "explanation": "Objections after the fact alone cannot sufficiently mitigate or detect harm before it happens."
+      },
+      {
+        "id": "e",
+        "text": "Monitoring average usage after rollout and investigating uses where it drops",
+        "explanation": "Serious errors can occur even if usage does not drop. Monitoring of quality and harm is also needed."
+      }
+    ]
+  },
+  {
+    "id": "q054",
+    "options": [
+      {
+        "id": "a",
+        "text": "So that users can reproduce the model's internal calculations from input to output",
+        "explanation": "The purpose of explainability is to understand outcomes. It does not ask users to reproduce internal calculations."
+      },
+      {
+        "id": "c",
+        "text": "To improve the accuracy of the original prediction by generating explanations",
+        "explanation": "Generating explanations does not necessarily improve prediction accuracy."
+      },
+      {
+        "id": "d",
+        "text": "To adjust differences in error rates between users by showing the reasons",
+        "explanation": "Showing reasons is different from mitigating bias."
+      },
+      {
+        "id": "e",
+        "text": "So that users who accept the explanation take on accountability for the outcomes",
+        "explanation": "Even after explaining and obtaining consent, the product's accountability remains."
+      }
+    ]
+  },
+  {
+    "id": "q055",
+    "options": [
+      {
+        "id": "a",
+        "text": "Treat AI suggestions as the default decision and require reasons when a person changes them",
+        "explanation": "Making AI suggestions the default can lead to rubber-stamping rather than examining assumptions. People decide with the context in mind."
+      },
+      {
+        "id": "c",
+        "text": "Move as much work as possible to AI, starting with tasks that can be automated",
+        "explanation": "Making automation itself the goal is not appropriate."
+      },
+      {
+        "id": "d",
+        "text": "Follow the AI's output for decisions where there is enough data",
+        "explanation": "Even with data, people hold the judgment and accountability."
+      },
+      {
+        "id": "e",
+        "text": "Determine cost-effectiveness in advance and set the scope of use according to the result",
+        "explanation": "Because of uncertainty, you also need to experiment small and learn. Do not rely only on effects fixed in advance."
+      }
+    ]
+  },
+  {
+    "id": "q056",
+    "options": [
+      {
+        "id": "a",
+        "text": "The Scrum Master chooses the Product Goal from several options created by AI",
+        "explanation": "The Product Owner is accountable for the Product Goal."
+      },
+      {
+        "id": "b",
+        "text": "Stakeholders vote on the AI's options, and the winner becomes the Product Goal",
+        "explanation": "Deciding by vote blurs the Product Owner's accountability."
+      },
+      {
+        "id": "c",
+        "text": "Lock in the goal expressed with AI as a common standard and reflect new insights in the next goal",
+        "explanation": "A shared direction is important, but there must also be room to inspect and adapt the current goal based on new insights."
+      }
+    ]
+  },
+  {
+    "id": "q057",
+    "options": [
+      {
+        "id": "a",
+        "text": "Have AI extract common themes in order of frequency and reflect that ranking in the backlog priorities",
+        "explanation": "Organizing by frequency is useful, but you must check importance and context to decide the order."
+      },
+      {
+        "id": "b",
+        "text": "Have AI compare the consistency of statements in the transcripts and share consistent numbers as facts",
+        "explanation": "Being consistent within the transcripts is not the same as the numbers being factual. Checking against primary sources is needed."
+      },
+      {
+        "id": "d",
+        "text": "Have AI turn each theme into Sprint work and register the proposals as the scope of the next Sprint",
+        "explanation": "AI can generate work ideas, but the Developers select the work for the Sprint."
+      }
+    ]
+  },
+  {
+    "id": "q058",
+    "options": [
+      {
+        "id": "a",
+        "text": "It converts the question into search terms and retrieves relevant facts from a trained index of information",
+        "explanation": "Some systems combine search, but the basic operation of the LLM itself is predicting token sequences."
+      },
+      {
+        "id": "c",
+        "text": "It converts what it learned into rules and applies the rule that fits the question",
+        "explanation": "An LLM does not apply rules; it predicts sequences of tokens."
+      },
+      {
+        "id": "d",
+        "text": "It finds and returns the passage from its training documents closest to the question",
+        "explanation": "An LLM does not retrieve documents as they are; it generates new text."
+      }
+    ]
+  },
+  {
+    "id": "q059",
+    "options": [
+      {
+        "id": "a",
+        "text": "Agentic AI, because it sets continued use as a goal and calculates the probability of achieving it for each user",
+        "explanation": "Just calculating figures related to a goal does not make it an agent that acts autonomously."
+      },
+      {
+        "id": "b",
+        "text": "Generative AI, because it takes users' behavior history as input and outputs the probability of continued use as new information",
+        "explanation": "Classify by the purpose of estimating future outcomes from past patterns, not by the fact that it outputs a new number."
+      },
+      {
+        "id": "c",
+        "text": "Rule-based AI, because it makes judgments based on usage conditions",
+        "explanation": "It learns from historical data to make estimates, so it is not rule-based."
+      }
+    ]
+  },
+  {
+    "id": "q060",
+    "options": [
+      {
+        "id": "a",
+        "text": "Have the Scrum Master check the message before sending it, to keep the judgment neutral",
+        "explanation": "Asking for a check does not fix the problem that the unresolved conflict is not reflected."
+      },
+      {
+        "id": "c",
+        "text": "Split the message for each group and send it with less description of the other side's requests",
+        "explanation": "Reducing the other side's requests does not properly explain the unresolved trade-offs."
+      },
+      {
+        "id": "d",
+        "text": "Add a plan to deliver both groups' requests in phases and send that plan as a proposed agreement",
+        "explanation": "Phased delivery is one option, but the problem of presenting an agreement you do not actually have remains."
+      }
+    ]
+  },
+  {
+    "id": "q061",
+    "options": [
+      {
+        "id": "a",
+        "text": "The question was ambiguous, so it answered about a different policy",
+        "explanation": "An ambiguous question could be a cause, but the typical reason old rules come back is the training data cutoff."
+      },
+      {
+        "id": "b",
+        "text": "Because there is more text about the old policy, it treats it as more authoritative than the new one",
+        "explanation": "It does not necessarily judge authority by volume of text. The first likely explanation is that the new information is not in its training data or input."
+      },
+      {
+        "id": "d",
+        "text": "It is designed to answer about settled information like policies through an external search function",
+        "explanation": "Nothing indicates whether external search is used. The LLM does not necessarily know about the new change."
+      }
+    ]
+  },
+  {
+    "id": "q062",
+    "options": [
+      {
+        "id": "b",
+        "text": "A model with general-purpose input and output formats, run with common evaluation without changing settings for each task",
+        "explanation": "Broad pre-training and adaptation to downstream tasks are its characteristics. Evaluation and adaptation for each use are still needed."
+      },
+      {
+        "id": "c",
+        "text": "A model trained only on data from a specific industry and specialized for that industry's work",
+        "explanation": "A model specialized for a specific field is an adaptation of a foundation model."
+      },
+      {
+        "id": "d",
+        "text": "Information summarizing company policies and rules that the AI uses as the premise for its answers",
+        "explanation": "That is system configuration or reference information, not a foundation model."
+      }
+    ]
+  },
+  {
+    "id": "q063",
+    "options": [
+      {
+        "id": "b",
+        "text": "It shows that the AI correctly adjusted the overall customer priorities by weighing the severity of content over how often things were said",
+        "explanation": "Emphasis alone does not show the adjustment is correct. The output must be checked for bias."
+      },
+      {
+        "id": "c",
+        "text": "It shows that consolidating statements with the same meaning reduced the bias in the original records",
+        "explanation": "Consolidation does not guarantee reduced bias. Output that strongly emphasizes a specific segment may indicate amplified bias."
+      },
+      {
+        "id": "d",
+        "text": "It is the result of information being trimmed evenly due to the summary's length limit",
+        "explanation": "If information were trimmed evenly, one specific customer segment would not be emphasized."
+      }
+    ]
+  },
+  {
+    "id": "q064",
+    "options": [
+      {
+        "id": "a",
+        "text": "Use AI to estimate the effect of each experiment and adopt the ranking of expected effects as the order of execution",
+        "explanation": "Estimated effects are input, but people must check the hypotheses, risks, and conditions before choosing."
+      },
+      {
+        "id": "b",
+        "text": "Run all the suggested experiments together at the same time to save time",
+        "explanation": "Running them together without deciding what to test makes it impossible to tell which change worked."
+      },
+      {
+        "id": "c",
+        "text": "Have AI prioritize the suggestions and start with the top-ranked experiment",
+        "explanation": "Do not leave the order to AI; people consider the hypotheses and validation methods and choose."
+      }
+    ]
+  },
+  {
+    "id": "q065",
+    "options": [
+      {
+        "id": "a",
+        "text": "Because it can resolve contradictions in information and settle on a single explanation of the situation",
+        "explanation": "It can help organize contradictions, but it does not settle the explanation of an uncertain situation."
+      },
+      {
+        "id": "c",
+        "text": "Because it can extract relationships between elements and complete the verification of causality",
+        "explanation": "Extracting relationships is different from verifying causality. People need to grasp the context and evaluate it."
+      },
+      {
+        "id": "d",
+        "text": "Because it can fill in the unrecorded intentions of those involved from trends in the data",
+        "explanation": "It can form hypotheses about intentions, but it cannot fill in unrecorded intentions as facts."
+      },
+      {
+        "id": "e",
+        "text": "Because it can decide the strategy to execute by picking the most consistent option in the organized information",
+        "explanation": "Comparing consistency is input, but people make strategic judgments that include value and risk."
+      }
+    ]
+  },
+  {
+    "id": "q066",
+    "options": [
+      {
+        "id": "a",
+        "text": "Roll it out to the whole company at once, starting from departments where the effect has been confirmed",
+        "explanation": "Expand gradually while getting feedback, not all at once."
+      },
+      {
+        "id": "c",
+        "text": "Simplify output reviews once usage has taken hold",
+        "explanation": "The more usage spreads, the more important review and feedback mechanisms become."
+      },
+      {
+        "id": "d",
+        "text": "Use success stories as the common criteria for rollout and treat failures as operational improvements for each use",
+        "explanation": "Lessons from failures must also inform rollout decisions. Success stories alone cannot determine whether scaling is safe."
+      },
+      {
+        "id": "e",
+        "text": "Leave scaling of AI use to a dedicated team and let each team focus on using it",
+        "explanation": "Do not leave it all to the dedicated team; each team that uses AI also bears responsibility."
+      }
+    ]
+  },
+  {
+    "id": "q067",
+    "options": [
+      {
+        "id": "a",
+        "text": "Settle on the idea most likely to succeed as the vision, based on estimates of market size and competition",
+        "explanation": "Estimates are input for judgment; settling the vision requires human judgment."
+      },
+      {
+        "id": "c",
+        "text": "Polish the wording of the vision so that it keeps the same meaning even if the assumptions change",
+        "explanation": "AI can improve wording, but that is different from helping examine the assumptions themselves."
+      },
+      {
+        "id": "d",
+        "text": "Consolidate what leaders have said and summarize the common elements as a formal agreement",
+        "explanation": "What statements have in common is different from actual agreement. Reaching agreement requires dialogue."
+      },
+      {
+        "id": "e",
+        "text": "Estimate the probability of achieving it and use that number as evidence that the vision is valid",
+        "explanation": "Estimates depend on assumptions. Presenting a probability alone cannot validate the vision."
+      }
+    ]
+  },
+  {
+    "id": "q068",
+    "options": [
+      {
+        "id": "a",
+        "text": "Rule-based workflows (classify by fixed keywords)",
+        "explanation": "Fixed keywords alone struggle to capture the nuance and context of text."
+      },
+      {
+        "id": "c",
+        "text": "Agent orchestration (assign work to multiple AIs)",
+        "explanation": "This is a mechanism for assigning work, not a capability for understanding sentiment."
+      },
+      {
+        "id": "d",
+        "text": "Data visualization (chart rating scores)",
+        "explanation": "Visualization helps display results, but it does not read sentiment from text."
+      },
+      {
+        "id": "e",
+        "text": "Predictive analytics (predict the next rating from past ratings)",
+        "explanation": "Predicting ratings is different from understanding sentiment in text."
+      }
+    ]
+  },
+  {
+    "id": "q069",
+    "options": [
+      {
+        "id": "a",
+        "text": "AI processing becomes complex and responses slow down",
+        "explanation": "Speed is not the main reason."
+      },
+      {
+        "id": "c",
+        "text": "The computing resources needed for autonomous judgment increase",
+        "explanation": "Cost is not the main reason."
+      },
+      {
+        "id": "d",
+        "text": "The more autonomy, the more training data is needed",
+        "explanation": "The amount of data is not the main reason."
+      },
+      {
+        "id": "e",
+        "text": "It becomes harder to explain to users how the AI makes judgments",
+        "explanation": "Difficulty explaining is also a challenge, but the biggest reason is the loss of accountability."
+      }
+    ]
+  },
+  {
+    "id": "q070",
+    "options": [
+      {
+        "id": "a",
+        "text": "Writing backlog item descriptions yourself",
+        "explanation": "Drafting descriptions can be left to AI. What does not change is the accountability for value."
+      },
+      {
+        "id": "c",
+        "text": "Collecting and summarizing user feedback yourself",
+        "explanation": "AI can support summarizing."
+      },
+      {
+        "id": "d",
+        "text": "Creating screen mockups yourself",
+        "explanation": "AI can support creating mockups."
+      },
+      {
+        "id": "e",
+        "text": "Analyzing market trends yourself",
+        "explanation": "AI can support analysis. What does not change is the accountability for delivering value."
+      }
+    ]
+  },
+  {
+    "id": "q071",
+    "options": [
+      {
+        "id": "a",
+        "text": "Summarizing what the team said into common themes and adopting that summary as the improvement plan",
+        "explanation": "A summary is input for discussion. Deciding on improvements requires the team's consideration."
+      },
+      {
+        "id": "c",
+        "text": "Deciding the next improvement to carry out based on the success rate of past improvements",
+        "explanation": "Success rates are input, but the team must judge based on the current situation."
+      },
+      {
+        "id": "d",
+        "text": "Managing speaking order and time allocation, replacing the facilitator's judgment",
+        "explanation": "It can support running the session, but it does not replace dialogue or human judgment that responds to the situation."
+      },
+      {
+        "id": "e",
+        "text": "Extracting what members' statements have in common and treating it as the team's agreement",
+        "explanation": "Extracting common points is different from reaching agreement."
+      }
+    ]
+  },
+  {
+    "id": "q072",
+    "options": [
+      {
+        "id": "a",
+        "text": "Using data that includes the target customer segments and has been checked for performance per segment",
+        "explanation": "Including the target and checking performance helps reduce bias. This is different from historical data that reflects inequality."
+      },
+      {
+        "id": "c",
+        "text": "Adding human review to important decisions to check for harm to each group",
+        "explanation": "Review that checks for harm helps reduce risk."
+      },
+      {
+        "id": "d",
+        "text": "Explaining the basis of outputs so that biased judgments can be checked",
+        "explanation": "Explanations that allow checking are a mitigation. Explanation alone does not remove bias."
+      },
+      {
+        "id": "e",
+        "text": "Documenting the source and collection conditions of training data in a form usable for evaluation",
+        "explanation": "Documenting sources and conditions helps identify bias."
+      }
+    ]
+  },
+  {
+    "id": "q073",
+    "options": [
+      {
+        "id": "a",
+        "text": "Calculating the probability of success for each opportunity and deciding whether to proceed",
+        "explanation": "People make the decision to proceed."
+      },
+      {
+        "id": "c",
+        "text": "Finalizing the basis of the business case from market size estimates",
+        "explanation": "Early-stage estimates are uncertain and cannot settle the basis."
+      },
+      {
+        "id": "d",
+        "text": "Quantifying uncertain factors and using the estimates as the basis for a finalized plan",
+        "explanation": "Uncertainty remains even when quantified. Distinguish this from the stage of comparing signals and learning."
+      },
+      {
+        "id": "e",
+        "text": "Fixing the ranking of opportunities from the assessment and allocating investment according to that ranking",
+        "explanation": "Opportunity assessment is input for judgment. Human judgment that considers current goals and constraints is needed."
+      }
+    ]
+  },
+  {
+    "id": "q074",
+    "options": [
+      {
+        "id": "a",
+        "text": "Using only AI tools with a strong track record of accuracy",
+        "explanation": "Even with high accuracy, trusting outputs as they are does not prevent overreliance."
+      },
+      {
+        "id": "c",
+        "text": "Treating AI suggestions as the default decision and having people record why they changed them",
+        "explanation": "Making AI suggestions the default can lead people to stop examining the assumptions."
+      },
+      {
+        "id": "d",
+        "text": "Focusing review on outputs with reported errors and evaluating normal outputs by their track record",
+        "explanation": "This misses unreported errors and changing assumptions. Normal outputs also need appropriate evaluation."
+      },
+      {
+        "id": "e",
+        "text": "Leaving most of the work to AI and having people focus on exceptions",
+        "explanation": "The more you delegate, the higher the risk of dependence."
+      }
+    ]
+  },
+  {
+    "id": "q075",
+    "options": [
+      {
+        "id": "a",
+        "text": "Validating thoroughly before release and then moving to normal operation",
+        "explanation": "Validation is necessary, but monitoring must continue during the experiment."
+      },
+      {
+        "id": "c",
+        "text": "Widening participation to gather diverse cases and adjusting the terms of use after aggregation",
+        "explanation": "Diversity matters, but safety constraints and monitoring are needed before any adjustment after aggregation."
+      },
+      {
+        "id": "d",
+        "text": "Testing only expected cases and dealing with edge cases later",
+        "explanation": "Edge cases are often exactly where serious risks lie."
+      },
+      {
+        "id": "e",
+        "text": "Restricting output corrections or stopping during the experiment to keep comparison conditions constant",
+        "explanation": "The design must allow intervention against serious harm to take priority over comparison conditions."
+      }
+    ]
+  },
+  {
+    "id": "q076",
+    "options": [
+      {
+        "id": "a",
+        "text": "Fewer meetings, because AI summaries are enough",
+        "explanation": "Fewer meetings are not evidence of deeper collaboration."
+      },
+      {
+        "id": "c",
+        "text": "Faster decisions, because AI provides suggestions",
+        "explanation": "The measure of collaboration is shared understanding, not speed."
+      },
+      {
+        "id": "d",
+        "text": "Each person can use AI to move their work forward individually",
+        "explanation": "Individual work progressing is not evidence of collaboration."
+      },
+      {
+        "id": "e",
+        "text": "Fewer objections to AI summaries, with no conflicting opinions raised in meetings",
+        "explanation": "Fewer objections alone do not show that understanding is shared. Differing opinions may simply have become invisible."
+      }
+    ]
+  },
+  {
+    "id": "q077",
+    "options": [
+      {
+        "id": "a",
+        "text": "So that the same decision can be made faster next time",
+        "explanation": "It is not for speed. It is for understanding how outcomes were produced."
+      },
+      {
+        "id": "c",
+        "text": "To estimate the storage cost of the data used for decisions",
+        "explanation": "Estimating costs is not the purpose."
+      },
+      {
+        "id": "d",
+        "text": "Because accumulating decision records reduces bias in outputs",
+        "explanation": "Records themselves do not reduce bias. They are used to trace the background of outcomes for investigation and correction."
+      },
+      {
+        "id": "e",
+        "text": "Because agreement with past records can replace human audit judgments",
+        "explanation": "Agreement with the past does not mean it is appropriate. Records are input for audits, not a replacement."
+      }
+    ]
+  },
+  {
+    "id": "q078",
+    "options": [
+      {
+        "id": "a",
+        "text": "Deciding the direction the product aims for several years from now",
+        "explanation": "People decide the direction based on value."
+      },
+      {
+        "id": "c",
+        "text": "Judging the ethical impact a new feature will have on society",
+        "explanation": "People make ethical judgments."
+      },
+      {
+        "id": "d",
+        "text": "Judging whether it complies with new regulations",
+        "explanation": "Experts and accountable people judge legal compliance."
+      },
+      {
+        "id": "e",
+        "text": "Gauging customer reactions in an unprecedented new market",
+        "explanation": "Without historical data, predictions are unreliable."
+      }
+    ]
+  },
+  {
+    "id": "q079",
+    "options": [
+      {
+        "id": "a",
+        "text": "Run the analysis several times under the same conditions and adopt the most frequent result as the official insight",
+        "explanation": "Agreement among many outputs does not establish validity. Investigate changes in the data and assumptions."
+      },
+      {
+        "id": "c",
+        "text": "Switch to a model that produces consistent outputs and use the insights after the switch",
+        "explanation": "Consistency of output alone cannot reveal the cause of the change or confirm validity."
+      },
+      {
+        "id": "d",
+        "text": "Smooth out the variation in outputs and share the trend with stakeholders",
+        "explanation": "Smoothing can hide important changes. First investigate changes in assumptions and context."
+      },
+      {
+        "id": "e",
+        "text": "Trust the most recent output, since it reflects the latest data",
+        "explanation": "A new output is not necessarily correct."
+      }
+    ]
+  },
+  {
+    "id": "q080",
+    "options": [
+      {
+        "id": "a",
+        "text": "The number of model parameters",
+        "explanation": "Even a large model cannot be trusted if the data does not fit."
+      },
+      {
+        "id": "c",
+        "text": "The vendor's track record and reputation",
+        "explanation": "Reputation does not guarantee reliability in a specific product."
+      },
+      {
+        "id": "d",
+        "text": "The number of companies using the same model",
+        "explanation": "The number of companies using it is not evidence of reliability."
+      },
+      {
+        "id": "e",
+        "text": "Response speed and stability",
+        "explanation": "Speed and stability are separate from whether the output is correct."
+      }
+    ]
+  },
+  {
+    "id": "q081",
+    "options": [
+      {
+        "id": "a",
+        "text": "To respond to stakeholders' interest in how the AI works",
+        "explanation": "Enabling decisions matters more than satisfying interest."
+      },
+      {
+        "id": "c",
+        "text": "Because adding explanations to the evaluation makes it possible to verify the accuracy of recommendations",
+        "explanation": "A well-written explanation does not mean the recommendation is correct. Explanations matter for understanding the input to decisions."
+      },
+      {
+        "id": "d",
+        "text": "Because sharing the reasoning reduces bias in the recommendations",
+        "explanation": "Sharing helps check for bias, but sharing alone does not reduce it."
+      },
+      {
+        "id": "e",
+        "text": "Because obtaining agreement to the explanation shifts accountability for the adopted results to those involved",
+        "explanation": "Agreement does not shift the Product Owner's accountability."
+      }
+    ]
+  },
+  {
+    "id": "q082",
+    "options": [
+      {
+        "id": "c",
+        "text": "Shifting accountability for decisions to the AI management department based on the AI's track record",
+        "explanation": "Even if operations are delegated to a management department, the product side's accountability remains."
+      },
+      {
+        "id": "e",
+        "text": "Treating past prediction errors as the acceptable range and judging new uses by the same standard",
+        "explanation": "When the use changes, the impact of errors changes too. Past standards alone cannot judge new uses."
+      }
+    ]
+  },
+  {
+    "id": "q083",
+    "options": [
+      {
+        "id": "a",
+        "text": "New AI technologies have appeared and the feature now looks inferior",
+        "explanation": "Judge by value and risk, not by whether it looks inferior."
+      },
+      {
+        "id": "c",
+        "text": "The vendor changed its plans for model updates",
+        "explanation": "A change in the vendor's plans alone is not a criterion for retiring a feature."
+      },
+      {
+        "id": "d",
+        "text": "A certain amount of time has passed since adoption",
+        "explanation": "Judge by value and risk, not by elapsed time."
+      },
+      {
+        "id": "e",
+        "text": "The number of users of the feature did not reach the original target",
+        "explanation": "The number of users is one clue, but the criteria are declining value or increasing risk."
+      }
+    ]
+  },
+  {
+    "id": "q084",
+    "options": [
+      {
+        "id": "a",
+        "text": "The share of work that can be automated with AI keeps increasing",
+        "explanation": "The share of automation is not a measure of maturity."
+      },
+      {
+        "id": "c",
+        "text": "Choosing the best tool for each use and changing work to fit the tools",
+        "explanation": "Thinking tool-first is not what maturity looks like."
+      },
+      {
+        "id": "d",
+        "text": "Rollout of a company-wide AI platform has been completed",
+        "explanation": "Completing a rollout is not evidence of maturity."
+      },
+      {
+        "id": "e",
+        "text": "Decisions about using AI are concentrated in a specialist department",
+        "explanation": "Leaving decisions entirely to a specialist department is not what maturity looks like."
+      }
+    ]
+  },
+  {
+    "id": "q085",
+    "options": [
+      {
+        "id": "a",
+        "text": "Because treating it as an experiment allows governance procedures to be simplified",
+        "explanation": "Governance is necessary even for experiments."
+      },
+      {
+        "id": "c",
+        "text": "Because repeated experiments maximize delivery speed",
+        "explanation": "The goal is learning, not speed."
+      },
+      {
+        "id": "d",
+        "text": "To use experiment results as a common basis that replaces consensus-building with stakeholders",
+        "explanation": "Results are input for dialogue, but they do not replace building agreement that involves trade-offs."
+      },
+      {
+        "id": "e",
+        "text": "To treat failures as experiment results and manage them separately from impact after delivery",
+        "explanation": "Even during experiments, you remain accountable for the impact on users and the outcomes."
+      }
+    ]
+  },
+  {
+    "id": "q086",
+    "options": [
+      {
+        "id": "a",
+        "text": "Backing up experienced members' intuition with AI output",
+        "explanation": "Using AI only to back up intuition leads to confirmation bias."
+      },
+      {
+        "id": "c",
+        "text": "Replacing analysts' work with AI analysis",
+        "explanation": "Replacing analysts is not the essence of evidence-based decision-making."
+      },
+      {
+        "id": "d",
+        "text": "Deciding whether to adopt analysis results by a threshold on the confidence the model shows",
+        "explanation": "Confidence alone cannot confirm real evidence or validity in context."
+      },
+      {
+        "id": "e",
+        "text": "Organizing around quantitatively measurable results and excluding hard-to-measure background information from decisions",
+        "explanation": "Qualitative background can also be important evidence. Excluding it just because it is hard to measure loses context."
+      }
+    ]
+  },
+  {
+    "id": "q087",
+    "options": [
+      {
+        "id": "a",
+        "text": "The accuracy of predictions can be estimated from the size of the trained model",
+        "explanation": "Size alone does not reveal prediction performance in actual use."
+      },
+      {
+        "id": "c",
+        "text": "Predictions are limited to outcomes expressed as numbers, such as revenue or probabilities",
+        "explanation": "It can also predict categories or whether events occur."
+      },
+      {
+        "id": "d",
+        "text": "Reproducibility of outputs for the same input can be treated as accuracy of future results",
+        "explanation": "Reproducibility and future accuracy are different."
+      },
+      {
+        "id": "e",
+        "text": "Reducing prediction error also reduces differences in harm between users",
+        "explanation": "Overall error and bias between groups must be evaluated separately."
+      }
+    ]
+  },
+  {
+    "id": "q088",
+    "options": [
+      {
+        "id": "a",
+        "text": "Share cases whose cause has been identified and set aside unresolved cases from learning",
+        "explanation": "Unresolved cases also contain important signals. Share and inspect them while separating facts from hypotheses."
+      },
+      {
+        "id": "c",
+        "text": "Treat it as an AI model problem and ask the vendor to improve it",
+        "explanation": "Leaving it to the vendor loses the chance to review how you use it."
+      },
+      {
+        "id": "d",
+        "text": "Stop using AI for that use to prevent the same failure",
+        "explanation": "Just stopping teaches you nothing. Investigate the cause and adjust."
+      },
+      {
+        "id": "e",
+        "text": "Sort failures by size of impact and analyze only serious cases for improvement",
+        "explanation": "You can prioritize, but even small failures may contain common causes or signals."
+      }
+    ]
+  },
+  {
+    "id": "q089",
+    "options": [
+      {
+        "id": "a",
+        "text": "Because a design that allows changes saves computing resources",
+        "explanation": "It has nothing to do with computing resources."
+      },
+      {
+        "id": "c",
+        "text": "Because a design that allows changes makes it easier to increase automation",
+        "explanation": "It is not for increasing automation, but for responding to changing circumstances."
+      },
+      {
+        "id": "d",
+        "text": "Because decisions that can be changed later allow you to focus on fixing things afterward rather than checking beforehand",
+        "explanation": "Even if a decision can be reversed, the harm caused may not be recoverable. Checking beforehand is still needed."
+      },
+      {
+        "id": "e",
+        "text": "Because a design that allows decisions to be changed replaces defining the scope of use and who is accountable",
+        "explanation": "Being able to change decisions and clarifying scope and accountability are separate requirements."
+      }
+    ]
+  },
+  {
+    "id": "q090",
+    "options": [
+      {
+        "id": "a",
+        "text": "The number of tasks automated with AI increases",
+        "explanation": "The amount of automation is not a measure of value."
+      },
+      {
+        "id": "c",
+        "text": "The same results can be achieved with fewer people",
+        "explanation": "Efficiency is one effect, but the measure of value is outcomes for users."
+      },
+      {
+        "id": "d",
+        "text": "The team's working hours become shorter",
+        "explanation": "Shorter working hours are not the same as value for users."
+      },
+      {
+        "id": "e",
+        "text": "The types of data and analysis available increase",
+        "explanation": "More analysis does not increase value unless users' outcomes improve."
+      }
+    ]
+  },
+  {
+    "id": "q091",
+    "options": [
+      {
+        "id": "a",
+        "text": "As an objective, data-based conclusion that takes precedence over other opinions",
+        "explanation": "AI insights also contain assumptions and bias. They should not dominate the decision."
+      },
+      {
+        "id": "c",
+        "text": "Excluding low-confidence insights from the inputs",
+        "explanation": "Even low-confidence insights can be useful depending on the context."
+      },
+      {
+        "id": "d",
+        "text": "As the criterion for whether the strategy should be reconsidered",
+        "explanation": "The Product Owner makes strategic judgments."
+      },
+      {
+        "id": "e",
+        "text": "Using the AI analysis as a common basis that settles agreement on priorities",
+        "explanation": "Analysis results are input for agreement, but reaching agreement requires human judgment and dialogue."
+      }
+    ]
+  },
+  {
+    "id": "q092",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ending the experiment as soon as a small improvement is observed and moving on to the next trial",
+        "explanation": "Deciding when to stop based on the results can lead to wrong conclusions. Define success and failure criteria in advance."
+      },
+      {
+        "id": "c",
+        "text": "Allowing AI to adjust the content of experiments autonomously",
+        "explanation": "Increasing autonomy makes it harder to manage experiments responsibly."
+      },
+      {
+        "id": "d",
+        "text": "Narrowing the observed items to a few and increasing the number of trials",
+        "explanation": "The number of trials alone does not make clear what counts as success or a reason to stop."
+      },
+      {
+        "id": "e",
+        "text": "Following the vendor's recommended approach to experiments",
+        "explanation": "Do not just follow recommendations; make your own criteria clear."
+      }
+    ]
+  },
+  {
+    "id": "q093",
+    "options": [
+      {
+        "id": "a",
+        "text": "Because processing the same data with the same procedure removes bias from human interpretation",
+        "explanation": "A uniform procedure alone cannot remove bias in the data or model."
+      },
+      {
+        "id": "c",
+        "text": "Because analyzing according to the amount of information settles the importance of the trends detected",
+        "explanation": "Detecting trends is different from judging their importance in context."
+      },
+      {
+        "id": "d",
+        "text": "Because a single model can complete everything from analysis to choosing what to do",
+        "explanation": "AI can support analysis, but it does not complete the judgment about what to do."
+      },
+      {
+        "id": "e",
+        "text": "Because it can identify causes from detected correlations even without hypotheses",
+        "explanation": "Detecting correlation is different from identifying causation."
+      }
+    ]
+  },
+  {
+    "id": "q094",
+    "options": [
+      {
+        "id": "a",
+        "text": "Creating reports for stakeholders",
+        "explanation": "AI can support creating reports, with human review."
+      },
+      {
+        "id": "c",
+        "text": "Identifying candidate Product Backlog items",
+        "explanation": "AI can support identifying candidates. The Product Owner decides whether to adopt them."
+      },
+      {
+        "id": "d",
+        "text": "Detecting anomalies in usage data",
+        "explanation": "Detecting anomalies is something AI does well."
+      },
+      {
+        "id": "e",
+        "text": "Giving first responses to user inquiries",
+        "explanation": "First responses can sometimes be left to AI. Accountability for the outcomes rests with people."
+      }
+    ]
+  },
+  {
+    "id": "q095",
+    "options": [
+      {
+        "id": "a",
+        "text": "The answer text is natural and logically well structured",
+        "explanation": "Even plausible text can be wrong."
+      },
+      {
+        "id": "c",
+        "text": "It uses the latest high-performance model",
+        "explanation": "Even with a high-performance model, you cannot be confident without validation."
+      },
+      {
+        "id": "d",
+        "text": "The AI shows a high confidence level in its answer",
+        "explanation": "The confidence the AI shows does not guarantee correctness."
+      },
+      {
+        "id": "e",
+        "text": "Many companies use the same tool",
+        "explanation": "Widespread use does not guarantee that individual outputs are correct."
+      }
+    ]
+  },
+  {
+    "id": "q096",
+    "options": [
+      {
+        "id": "a",
+        "text": "To keep AI usage fees within the goal",
+        "explanation": "Cost control is not the purpose."
+      },
+      {
+        "id": "c",
+        "text": "To align contract terms with the AI vendor to the goals",
+        "explanation": "Contracts with vendors are not the main reason alignment matters."
+      },
+      {
+        "id": "d",
+        "text": "Because sharing the goals as decision criteria can replace building agreement with those involved",
+        "explanation": "Common goals support dialogue, but they do not replace building agreement itself."
+      },
+      {
+        "id": "e",
+        "text": "Because quantifying contribution to goals settles trade-off decisions",
+        "explanation": "Differences in the assumptions behind estimates and in risks remain, so human judgment is needed."
+      }
+    ]
+  },
+  {
+    "id": "q097",
+    "options": [
+      {
+        "id": "a",
+        "text": "The writing style of the agent's responses does not match the brand guidelines",
+        "explanation": "Writing style is not a main governance concern."
+      },
+      {
+        "id": "c",
+        "text": "Storage and search costs for processing history rise as the number of executions grows",
+        "explanation": "Managing history costs is a challenge, but the main governance concern is autonomous action beyond acceptable limits."
+      },
+      {
+        "id": "d",
+        "text": "The agent proposes unexpected creative solutions",
+        "explanation": "People can evaluate proposals. The concern is acting without control."
+      },
+      {
+        "id": "e",
+        "text": "There is less documentation of the agent's work procedures",
+        "explanation": "Documentation matters, but the main concern is uncontrolled action."
+      }
+    ]
+  },
+  {
+    "id": "q098",
+    "options": [
+      {
+        "id": "a",
+        "text": "Deciding the next improvement to carry out based on the success rate of past improvements",
+        "explanation": "Success rates are input, but people choose improvements based on the current situation."
+      },
+      {
+        "id": "c",
+        "text": "Sharing the AI's analysis report as the team's conclusion from the retrospective",
+        "explanation": "An analysis report is input for discussion. It is different from a conclusion reached through the team's consideration."
+      },
+      {
+        "id": "d",
+        "text": "Narrowing improvement ideas by AI-assessed effectiveness and deciding what to do in that order",
+        "explanation": "Beyond assessed effectiveness, the team's judgment including constraints and current issues is needed."
+      },
+      {
+        "id": "e",
+        "text": "Standardizing improvements that worked and handling new situations with the same procedure",
+        "explanation": "Standardizing is useful, but when the situation changes, assumptions need to be inspected and adjusted."
+      }
+    ]
+  },
+  {
+    "id": "q099",
+    "options": [
+      {
+        "id": "a",
+        "text": "Because validation takes time and delays delivery",
+        "explanation": "Overconfidence actually leads people to skip validation. The problem is that errors become harder to see."
+      },
+      {
+        "id": "c",
+        "text": "Because human intervention increases and automation does not progress",
+        "explanation": "With overconfidence, human intervention actually decreases."
+      },
+      {
+        "id": "d",
+        "text": "Because governance procedures increase",
+        "explanation": "More governance is not the danger of overconfidence."
+      },
+      {
+        "id": "e",
+        "text": "Because justifying things with recommendations makes it harder to reach agreement among those involved",
+        "explanation": "Rather than the effect on agreement, the central risk is no longer questioning the assumptions behind recommendations, so errors become harder to see."
+      }
+    ]
+  },
+  {
+    "id": "q100",
+    "options": [
+      {
+        "id": "a",
+        "text": "Fewer customer surveys and lower research costs",
+        "explanation": "This is an efficiency metric, but it does not necessarily mean better-quality information to support hypotheses."
+      },
+      {
+        "id": "c",
+        "text": "A shorter discovery period",
+        "explanation": "Hypothesis quality and learning matter more than a shorter period."
+      },
+      {
+        "id": "d",
+        "text": "The hypothesis's predicted results match the AI's evaluation",
+        "explanation": "Agreement between results based on the same assumptions is different from evidence obtained from real users."
+      },
+      {
+        "id": "e",
+        "text": "Converting hypotheses into implementation items and shortening the time to start",
+        "explanation": "Starting faster alone does not mean hypothesis quality or support has improved."
+      }
+    ]
+  },
+  {
+    "id": "q101",
+    "options": [
+      {
+        "id": "a",
+        "text": "Aligning usage rules with industry standards and reviewing them when the standards are updated",
+        "explanation": "Standards are useful reference, but you need to keep learning from your own results and changes."
+      },
+      {
+        "id": "c",
+        "text": "Continuing to use a specific tool with a proven track record",
+        "explanation": "Sticking to a specific tool prevents adapting to change."
+      },
+      {
+        "id": "d",
+        "text": "Pushing adoption of new features and updating the tools you use more often",
+        "explanation": "Update frequency is different from the quality of adaptation. Reflecting on value and risk is needed."
+      },
+      {
+        "id": "e",
+        "text": "Leaving it to a specialist department to keep up with AI trends",
+        "explanation": "Do not leave it entirely to others; keep learning yourself."
+      }
+    ]
+  },
+  {
+    "id": "q102",
+    "options": [
+      {
+        "id": "c",
+        "text": "Concentrating accountability for AI results in the specialist department that implemented the ethical standards",
+        "explanation": "Even with support from a specialist department, the accountability of those using AI remains."
+      },
+      {
+        "id": "e",
+        "text": "Using the trial's success criteria as the rollout criteria and expanding the same use company-wide",
+        "explanation": "Risk changes with scale and users. Re-evaluate whether the same criteria as the trial are adequate."
+      }
+    ]
+  },
+  {
+    "id": "q103",
+    "options": [
+      {
+        "id": "a",
+        "text": "When more companies adopt it and the standard technology used in the industry changes",
+        "explanation": "Technology trends are useful reference, but re-evaluation in the product is based on changes in actual impact and risk."
+      },
+      {
+        "id": "c",
+        "text": "When the model's ranking changes in the vendor's public benchmarks",
+        "explanation": "Benchmark rankings do not directly show impact or risk in your use."
+      },
+      {
+        "id": "d",
+        "text": "When the period of use set in the original adoption plan ends",
+        "explanation": "Regular checks are useful, but you need to catch changes in impact and risk without waiting for a deadline."
+      },
+      {
+        "id": "e",
+        "text": "When the team rates another tool's usability more highly",
+        "explanation": "Usability is a point of comparison, but re-evaluation centers on impact and risk in the product."
+      }
+    ]
+  },
+  {
+    "id": "q104",
+    "options": [
+      {
+        "id": "a",
+        "text": "AI takes on routine decisions, and the Product Owner focuses on strategy",
+        "explanation": "It is seen as augmenting human judgment, not moving part of the judgment to AI."
+      },
+      {
+        "id": "c",
+        "text": "AI identifies the best option from analysis results, and humans support carrying it out",
+        "explanation": "AI helps compare options, but people judge what is best, considering goals, value, and risk."
+      },
+      {
+        "id": "d",
+        "text": "Designing AI according to ethical standards ensures the ethical validity of its results",
+        "explanation": "Even with standards implemented, human evaluation and accountability for each specific context are needed."
+      },
+      {
+        "id": "e",
+        "text": "AI decides strategic priorities from data, and humans adjust the conditions for execution",
+        "explanation": "AI analysis is input for judgment. Responsibility for setting strategic priorities lies with people."
+      }
+    ]
+  },
+  {
+    "id": "q105",
+    "options": [
+      {
+        "id": "a",
+        "text": "Whether the same return deadline is given when the question is rephrased and repeated",
+        "explanation": "Stability under rephrasing can be evaluated, but it may consistently return a wrong deadline. This is separate from checking against the current policy."
+      },
+      {
+        "id": "b",
+        "text": "Whether the explanation makes sense when the answer includes the policy source and an explanation of the relevant section",
+        "explanation": "A coherent explanation is not factual support. The source or explanation itself may be wrong, so actually check against the current policy."
+      },
+      {
+        "id": "d",
+        "text": "Whether users accepted the answer and completed their inquiry in conversations where wrong guidance occurred",
+        "explanation": "Acceptance and completion are experience metrics. Users may accept fluent wrong answers, so these are not measures of factual accuracy."
+      }
+    ]
+  },
+  {
+    "id": "q106",
+    "options": [
+      {
+        "id": "b",
+        "text": "Compare the distribution of input data before and after the pricing change and judge the impact on prediction accuracy from the size of the change",
+        "explanation": "Comparing distributions helps investigate causes, but actual prediction performance must be evaluated directly."
+      },
+      {
+        "id": "c",
+        "text": "Add the pricing plan to the inputs, retrain, and switch to the model with the smallest error on the training data",
+        "explanation": "Retraining is an option, but error on the training data alone cannot show performance for current users."
+      },
+      {
+        "id": "d",
+        "text": "Evaluate existing users common to both periods and use that performance to decide on use for new users",
+        "explanation": "Comparing existing users alone cannot evaluate performance for new users whose behavior has changed."
+      }
+    ]
+  },
+  {
+    "id": "q107",
+    "options": [
+      {
+        "id": "a",
+        "text": "Including the policies in the prompt updates the model's trained parameters with every answer",
+        "explanation": "Providing context through input is different from updating trained parameters."
+      },
+      {
+        "id": "b",
+        "text": "Additional training is a mechanism that searches for and refers to the original text of the revised policies at answer time",
+        "explanation": "Additional training is a way of adjusting the model's parameters. It is different from a mechanism that searches for and refers to the original text."
+      },
+      {
+        "id": "c",
+        "text": "Both are ways of storing the policies as the model's internal knowledge, and the difference is how long they are stored",
+        "explanation": "The prompt provides context at answer time, while additional training adjusts parameters. The difference is not just storage duration."
+      }
+    ]
+  },
+  {
+    "id": "q108",
+    "options": [
+      {
+        "id": "a",
+        "text": "Weight the development evaluation examples by inquiry frequency and judge production performance from that accuracy",
+        "explanation": "Even with weighting, the problem of measuring fit to examples used for tuning remains. Evaluate with independent examples."
+      },
+      {
+        "id": "c",
+        "text": "Collect the same number of examples for each category and decide pass or fail by the simple average of accuracy per category",
+        "explanation": "Evaluation with balanced examples is useful reference, but evaluation that reflects the actual distribution and the impact of errors per category is also needed."
+      },
+      {
+        "id": "e",
+        "text": "Have people evaluate whether the classification reason is consistent with the original inquiry and judge the validity of the classification",
+        "explanation": "An explanation consistent with the inquiry does not mean the classification is correct. Comparison with correct labels is needed."
+      }
+    ]
+  },
+  {
+    "id": "q109",
+    "options": [
+      {
+        "id": "a",
+        "text": "Measure the percentage of users who understood their churn risk and use that to evaluate the quality of both prediction and explanation",
+        "explanation": "Understanding is an experience metric. Evaluate prediction performance and whether the explanation is faithful to the actual reasons separately."
+      },
+      {
+        "id": "c",
+        "text": "Check whether the factors cited in the explanation are common among past churners and judge the validity of the prediction's reasoning",
+        "explanation": "Correlation with past churners alone does not show whether an individual prediction was based on those factors."
+      },
+      {
+        "id": "d",
+        "text": "Use the same input data for prediction and explanation, and treat prediction accuracy as the measure of the explanation's reliability",
+        "explanation": "Even with the same inputs, the explanation is not necessarily faithful to the actual reasons for the prediction. Validate the explanation separately too."
+      }
+    ]
+  },
+  {
+    "id": "q110",
+    "options": [
+      {
+        "id": "a",
+        "text": "Replace customer names with ID numbers, have staff manage the mapping table internally, and then run the trial",
+        "explanation": "Replacing names with IDs alone may still leave sensitive information such as free-text descriptions. You need to check what is sent and the handling terms."
+      },
+      {
+        "id": "b",
+        "text": "Choose the setting that disables use of the data for training and make that setting the criterion for whether to send it",
+        "explanation": "The training-use setting alone does not cover conditions such as retention period, access, and organizational approval."
+      },
+      {
+        "id": "c",
+        "text": "Check the vendor's security certifications and treat them as approval to use sensitive data",
+        "explanation": "Certifications are different from approval to send data for your organization's use. Check the specific conditions."
+      }
+    ]
+  },
+  {
+    "id": "q111",
+    "options": [
+      {
+        "id": "b",
+        "text": "Weight accuracy by the number of users per language and roll out where the overall benefit outweighs the harm",
+        "explanation": "Weighting by number of users hides the harm to minority languages. Evaluate and mitigate the impact on specific groups individually."
+      },
+      {
+        "id": "c",
+        "text": "Ask users of that language about their satisfaction and proceed with rollout if satisfaction holds",
+        "explanation": "Even with high satisfaction, harm from wrong guidance can remain. Accuracy and impact must be evaluated."
+      },
+      {
+        "id": "d",
+        "text": "Set different pass criteria for each language and track improvement using the current accuracy as the baseline",
+        "explanation": "Just adjusting the criteria to the current state does not establish that the current harm is acceptable. Mitigation according to impact is needed."
+      }
+    ]
+  },
+  {
+    "id": "q112",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ask the customer whether the instruction in the document was intended, and carry out the action if they agree",
+        "explanation": "Customer consent alone cannot justify the permission to act. Boundaries on treating documents as instructions and permission controls are needed."
+      },
+      {
+        "id": "b",
+        "text": "Check whether the destination is a regular business partner and automatically execute sends that match",
+        "explanation": "Even for regular partners, the content and permissions sent are not necessarily appropriate. Restrict actions driven by instructions from documents."
+      },
+      {
+        "id": "d",
+        "text": "Detect and remove command-like expressions in the document and use the processed document to decide on actions",
+        "explanation": "Detecting expressions alone can be bypassed. Separate untrusted documents from action instructions and restrict permissions."
+      }
+    ]
+  },
+  {
+    "id": "q113",
+    "options": [
+      {
+        "id": "b",
+        "text": "Rank findings by the AI's confidence and prioritize high-confidence findings when revising the contract",
+        "explanation": "The AI's confidence does not guarantee accuracy. Findings with serious impact must be checked by experts."
+      },
+      {
+        "id": "e",
+        "text": "Check findings against past contracts and present users with revisions that match existing wording",
+        "explanation": "Matching past contracts alone cannot show whether it suits the current contract. Experts check it in its specific context."
+      }
+    ]
+  },
+  {
+    "id": "q114",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tally reviewers' check rates from approval records and judge high check rates as effective oversight",
+        "explanation": "Check rates show that the procedure was carried out, but whether errors were found and corrected is a separate matter."
+      },
+      {
+        "id": "c",
+        "text": "Measure the rate of re-checks after approval and judge initial review quality as high if re-checks are few",
+        "explanation": "Few re-checks might be because things were missed. Evaluate the actual detection of errors."
+      },
+      {
+        "id": "d",
+        "text": "Set a cap on items per person and judge processing within that cap as oversight working",
+        "explanation": "A cap is a possible improvement, but you need to assess information, time, authority, error detection rates, and so on."
+      }
+    ]
+  },
+  {
+    "id": "q115",
+    "options": [
+      {
+        "id": "a",
+        "text": "Compare the continuation rate of users who signed up and proceed with the rollout if it went up",
+        "explanation": "The continuation rate of sign-ups alone misses the impact of drop-off before sign-up on overall continued use."
+      },
+      {
+        "id": "b",
+        "text": "Compare inquiry handling costs and acquisition cost per sign-up, and proceed if costs went down",
+        "explanation": "Evaluating costs alone cannot show the contribution to continued use, which is the Product Goal."
+      },
+      {
+        "id": "c",
+        "text": "Fix the areas with many wrong answers and decide on rollout based on the improved version's inquiry reduction rate",
+        "explanation": "The inquiry reduction rate alone cannot show the impact on drop-off or continued use. Examine outcomes and harms together."
+      }
+    ]
+  },
+  {
+    "id": "q116",
+    "options": [
+      {
+        "id": "a",
+        "text": "Weight each customer's comments equally, and make X the top priority if it stays near the top",
+        "explanation": "Correcting for comment counts alone cannot confirm small customers' problems or alignment with the current goal."
+      },
+      {
+        "id": "c",
+        "text": "Reanalyze using only small customers' data and make the most frequently requested feature the top priority",
+        "explanation": "Narrowing the audience is useful, but frequency alone cannot show the effect on retention."
+      },
+      {
+        "id": "d",
+        "text": "Compare X with features that small customers use heavily and prioritize X if they are similar",
+        "explanation": "Similarity to existing features alone does not show the contribution to retention. Validate the problems and evidence."
+      }
+    ]
+  },
+  {
+    "id": "q117",
+    "options": [
+      {
+        "id": "b",
+        "text": "Check for agreement with past personas and adopt matching requests as the basis for specifications",
+        "explanation": "Agreement with past personas does not support the needs of current real customers."
+      },
+      {
+        "id": "c",
+        "text": "Extract the requests that several AIs have in common and make them the subject of finalized specifications",
+        "explanation": "Agreement between AIs is not necessarily independent customer evidence. It may contain shared bias."
+      },
+      {
+        "id": "d",
+        "text": "Have AI simulate customer reactions and reflect the most-supported requests in the specifications",
+        "explanation": "Simulation is input for exploration, but it is no substitute for validation with real customers."
+      }
+    ]
+  },
+  {
+    "id": "q118",
+    "options": [
+      {
+        "id": "a",
+        "text": "Compare participants' satisfaction with all users' past satisfaction and treat the difference as the effect of the AI guidance",
+        "explanation": "This cannot rule out differences such as self-selection, so treating the difference as the AI's effect is premature."
+      },
+      {
+        "id": "b",
+        "text": "Since there is no comparison group, discard the satisfaction results and use only usage rate as the outcome metric next time",
+        "explanation": "Satisfaction also offers lessons. Changing the metric does not solve the comparison or self-selection problems."
+      },
+      {
+        "id": "d",
+        "text": "Increase participants using the same recruitment method and accept the effect once the estimation error of satisfaction becomes small",
+        "explanation": "Even with a smaller estimation error, self-selection bias and other factors remain."
+      }
+    ]
+  },
+  {
+    "id": "q119",
+    "options": [
+      {
+        "id": "a",
+        "text": "Check with stakeholders for missing requests and share the agreed content as a delivery commitment",
+        "explanation": "Checking requests is different from checking feasibility. Constraints need to be considered with the team."
+      },
+      {
+        "id": "b",
+        "text": "Add past velocity to the AI and share the calculated schedule as a feasible plan",
+        "explanation": "Past performance alone cannot validate dependencies or new constraints. Discussion with the team is needed."
+      },
+      {
+        "id": "c",
+        "text": "Prioritize the requests, move low-priority ones later, and share that plan as final",
+        "explanation": "Adjusting priorities alone cannot confirm that deadline, quality, and cost can be met."
+      }
+    ]
+  },
+  {
+    "id": "q120",
+    "options": [
+      {
+        "id": "a",
+        "text": "Add input-error cases as implementation tasks and decide the expected behavior during implementation",
+        "explanation": "Beyond adding tasks, clarify the expected behavior for error cases during refinement."
+      },
+      {
+        "id": "c",
+        "text": "Have AI add criteria for typical input errors and judge the draft complete by the number of items covered",
+        "explanation": "The number of items alone does not show whether real usage and needed behavior have been captured."
+      },
+      {
+        "id": "d",
+        "text": "Agree on the happy-path criteria first and treat handling of input errors as an improvement after the experiment",
+        "explanation": "Since input errors are known to be common, expectations for error cases need to be considered before implementation."
+      }
+    ]
+  },
+  {
+    "id": "q121",
+    "options": [
+      {
+        "id": "b",
+        "text": "Competitors' usage rates and what features with growing usage have in common",
+        "explanation": "External examples are input for exploration, but they are not conditions for judging value or safety in your own experiment."
+      },
+      {
+        "id": "d",
+        "text": "The number of features needed for a full rollout and the metrics showing their implementation is complete",
+        "explanation": "Implementation completion is an output metric. In an experiment, set value, harms, and a mechanism that feeds into the next decision."
+      }
+    ]
+  },
+  {
+    "id": "q122",
+    "options": [
+      {
+        "id": "a",
+        "text": "Compare average handling time and accuracy before and after the update, and keep operating if they improved overall",
+        "explanation": "An improvement in averages does not necessarily offset missed urgent inquiries. Investigate serious impacts individually."
+      },
+      {
+        "id": "b",
+        "text": "Check whether missed urgent inquiries are statistically significant and revisit operations once significance appears",
+        "explanation": "Serious harm can occur while waiting for significance. Measures to limit the impact and an investigation need to proceed."
+      },
+      {
+        "id": "d",
+        "text": "Retest with the evaluation examples used before the update and return to normal operation if it passes",
+        "explanation": "An evaluation representing the misses happening now, and a response to the impact on users, are needed."
+      }
+    ]
+  },
+  {
+    "id": "q123",
+    "options": [
+      {
+        "id": "b",
+        "text": "Set a cap on each refund amount and validate cost-effectiveness by increasing the number processed",
+        "explanation": "A per-refund cap alone cannot control cumulative impact or out-of-scope refunds. Conditions such as targets, approvals, and stopping are also needed."
+      },
+      {
+        "id": "c",
+        "text": "Limit the target customers and budget, and decide whether to continue the trial based on how much budget is used",
+        "explanation": "Budget control alone does not ensure tracking of individual errors or quick intervention."
+      },
+      {
+        "id": "d",
+        "text": "Check decision accuracy on past refund cases and automatically process cases expected to have the same accuracy",
+        "explanation": "Past accuracy alone cannot control permissions or intervention at execution time. Logs, approvals, stop conditions, and so on are needed."
+      }
+    ]
+  },
+  {
+    "id": "q124",
+    "options": [
+      {
+        "id": "a",
+        "text": "Set a usage-rate target for each feature and evaluate the five features exceeding their targets as success",
+        "explanation": "Usage rates are useful reference, but the problems to solve and contribution to user outcomes need to come first."
+      },
+      {
+        "id": "b",
+        "text": "Narrow down to features with low development effort and easy quality assurance, and adjust the plan around implementation certainty",
+        "explanation": "Center the discussion on which problems to solve and which outcomes to achieve, not just implementation certainty."
+      },
+      {
+        "id": "c",
+        "text": "List the uses that existing AI tools can handle and choose the five that seem most frequently used",
+        "explanation": "Choosing by feasibility or frequency alone cannot determine value. Validate opportunities based on problems and outcomes."
+      }
+    ]
+  }
+]

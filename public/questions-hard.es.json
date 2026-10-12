@@ -1,0 +1,2907 @@
+[
+  {
+    "id": "q001",
+    "options": [
+      {
+        "id": "a",
+        "text": "Revisar periódicamente las métricas de precisión del modelo de IA que presenta el equipo de desarrollo y aprobar los valores objetivo",
+        "explanation": "Revisar la precisión es útil, pero la responsabilidad principal es la alineación con el valor, la ética y las necesidades de los usuarios, no las métricas técnicas."
+      },
+      {
+        "id": "c",
+        "text": "Ampliar el alcance de las funcionalidades de IA y aumentar la tasa de automatización de todo el producto",
+        "explanation": "Una mayor tasa de automatización no es valor en sí misma. Hay que juzgar si aporta valor y responde a las necesidades de los usuarios."
+      },
+      {
+        "id": "d",
+        "text": "Definir con el equipo legal el propósito del uso de la IA y el tratamiento de los datos, y situar el cumplimiento normativo en el centro de la decisión de adopción",
+        "explanation": "El cumplimiento legal es necesario, pero la responsabilidad principal también incluye la alineación con las necesidades de los usuarios y el valor del producto."
+      },
+      {
+        "id": "e",
+        "text": "Acordar con los interesados el alcance de las funcionalidades de IA que se entregarán y gestionar la entrega de lo acordado como el resultado",
+        "explanation": "Acordar el alcance es útil, pero entregar funcionalidades no es lo mismo que entregar valor."
+      }
+    ]
+  },
+  {
+    "id": "q002",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hacer que el equipo revise las personas generadas por IA y adoptar como supuestos las que cuenten con consenso",
+        "explanation": "El consenso dentro del equipo no sustituye la validación con usuarios reales."
+      },
+      {
+        "id": "c",
+        "text": "Usar IA para analizar las áreas de crecimiento del mercado y concretar especificaciones empezando por las de mayor ingreso esperado",
+        "explanation": "Las estimaciones de mercado son material de exploración. Pasar a especificaciones sin validar los problemas de los usuarios reales es insuficiente."
+      },
+      {
+        "id": "d",
+        "text": "Ordenar por frecuencia las peticiones extraídas por la IA y empezar a construir prototipos con las más frecuentes",
+        "explanation": "La frecuencia dentro del resultado no indica la fuerza de las necesidades reales. Hace falta una etapa para validar las hipótesis clave con usuarios."
+      },
+      {
+        "id": "e",
+        "text": "Comparar hipótesis entre varias IA y adoptar como necesidades de los usuarios los problemas que todas mencionan",
+        "explanation": "La coincidencia entre IA no es evidencia de usuarios reales. Siguen siendo hipótesis que hay que validar."
+      }
+    ]
+  },
+  {
+    "id": "q003",
+    "options": [
+      {
+        "id": "c",
+        "text": "Concentrar la responsabilidad de los juicios éticos en el equipo especializado que implementa los criterios de decisión",
+        "explanation": "Un equipo especializado puede ayudar, pero no se le puede transferir la responsabilidad ética del producto."
+      },
+      {
+        "id": "e",
+        "text": "Establecer las mejoras en velocidad de procesamiento y coste de uso como criterios de éxito del uso responsable de la IA",
+        "explanation": "Las métricas de eficiencia son útiles, pero no sirven para evaluar el sesgo, la privacidad ni la comunicación de las limitaciones."
+      }
+    ]
+  },
+  {
+    "id": "q004",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cuando la mejora de la tasa de error se ha estancado y actualizar el modelo requiere una inversión adicional",
+        "explanation": "El coste de mejora es un factor de comparación, pero al decidir no usar IA lo importante es el impacto de los errores y si son aceptables."
+      },
+      {
+        "id": "c",
+        "text": "Cuando es difícil explicar el razonamiento de la IA hasta el nivel del procesamiento interno del modelo",
+        "explanation": "La dificultad de explicar es un factor de riesgo, pero hay que valorar también la importancia del uso y las alternativas."
+      },
+      {
+        "id": "d",
+        "text": "Cuando hay muchos datos disponibles para decidir y procesarlos manualmente lleva tiempo",
+        "explanation": "Las situaciones con grandes volúmenes de datos son, más bien, donde la IA suele ser útil."
+      },
+      {
+        "id": "e",
+        "text": "Cuando algunos interesados expresan preocupación por el uso de la IA",
+        "explanation": "Las preocupaciones se abordan con explicaciones transparentes y diálogo. Que existan no es, por sí mismo, un criterio para no usar IA."
+      }
+    ]
+  },
+  {
+    "id": "q005",
+    "options": [
+      {
+        "id": "a",
+        "text": "La IA agéntica ejecuta los procedimientos definidos por personas de forma más rápida y precisa",
+        "explanation": "Ejecutar procedimientos definidos es una característica de la automatización tradicional."
+      },
+      {
+        "id": "c",
+        "text": "Conecta varios procesos mediante bifurcaciones predefinidas y cambia el procedimiento que ejecuta según la situación",
+        "explanation": "Cambiar mediante bifurcaciones predefinidas también es posible con la automatización tradicional. La diferencia es la autonomía para elegir acciones hacia un objetivo."
+      },
+      {
+        "id": "d",
+        "text": "La IA agéntica predice resultados futuros a partir de datos históricos",
+        "explanation": "Esto describe el análisis predictivo, no una característica que distinga a la IA agéntica."
+      },
+      {
+        "id": "e",
+        "text": "Genera texto según las peticiones recibidas y sugiere al usuario la siguiente acción",
+        "explanation": "Generar texto o sugerencias de acciones no basta para distinguirla de un agente que actúa de forma autónoma hacia un objetivo."
+      }
+    ]
+  },
+  {
+    "id": "q006",
+    "options": [
+      {
+        "id": "a",
+        "text": "IA predictiva (predice qué ideas tienen probabilidad de éxito a partir de datos históricos)",
+        "explanation": "La IA predictiva ayuda a evaluar ideas existentes, pero no es adecuada para crear muchas ideas nuevas."
+      },
+      {
+        "id": "c",
+        "text": "Modelos de clasificación (distribuyen las ideas recopiladas en categorías)",
+        "explanation": "La clasificación ayuda a organizar, pero no es una capacidad para crear ideas nuevas rápidamente."
+      },
+      {
+        "id": "d",
+        "text": "Motores de recomendación (sugieren funcionalidades de productos similares)",
+        "explanation": "Se limitan a mostrar ejemplos similares existentes y no son adecuados para una exploración amplia."
+      },
+      {
+        "id": "e",
+        "text": "Automatización basada en reglas (extrae ideas según condiciones fijas)",
+        "explanation": "Solo funciona dentro de condiciones predefinidas, por lo que no es adecuada para explorar ideas nuevas."
+      }
+    ]
+  },
+  {
+    "id": "q007",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tener tantas personas que ya no se pueda acotar el segmento de clientes prioritario",
+        "explanation": "La cantidad es un problema ajustable. El riesgo principal es tratar supuestos no validados como hechos."
+      },
+      {
+        "id": "c",
+        "text": "Que las personas generadas se parezcan a clientes existentes y sea difícil evaluar el nivel de anonimización",
+        "explanation": "Hay que cuidar los datos personales, pero no se indica que se usen datos reales. El riesgo central es tratar como hechos personas no validadas."
+      },
+      {
+        "id": "d",
+        "text": "Que una mayor empatía con personas concretas haga que se prioricen las demandas de los interesados con más voz",
+        "explanation": "Puede afectar a la construcción de consensos, pero el riesgo directo de usarlas sin validar es reforzar supuestos erróneos."
+      },
+      {
+        "id": "e",
+        "text": "Que los costes de uso de la IA se disparen y presionen el presupuesto de descubrimiento",
+        "explanation": "El coste no es el riesgo principal. El problema es construir el producto sobre supuestos erróneos."
+      }
+    ]
+  },
+  {
+    "id": "q008",
+    "options": [
+      {
+        "id": "a",
+        "text": "La IA se encarga de las decisiones rutinarias y el Product Owner limita su responsabilidad a las decisiones estratégicas",
+        "explanation": "Delegar trabajo no es lo mismo que reducir la responsabilidad sobre las decisiones. La IA refuerza el criterio humano."
+      },
+      {
+        "id": "c",
+        "text": "La IA decide el orden del backlog y el Product Owner es responsable de ajustar las excepciones",
+        "explanation": "Aunque la IA apoye el trabajo de ordenación, el Product Owner mantiene el juicio general y la responsabilidad."
+      },
+      {
+        "id": "d",
+        "text": "Cuanto más precisa sea la IA, más pasará el rol del Product Owner de decidir a supervisar la operación",
+        "explanation": "Aunque mejore la precisión, el juicio humano sobre el valor y la dirección sigue siendo el núcleo del rol."
+      },
+      {
+        "id": "e",
+        "text": "La IA define el valor a partir de los datos de clientes y el Product Owner se encarga de comunicarlo",
+        "explanation": "Definir el valor es una responsabilidad central del Product Owner. La IA aporta información para esa decisión."
+      }
+    ]
+  },
+  {
+    "id": "q009",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ordenar el backlog según la puntuación calculada por la IA y que una persona ajuste solo las excepciones",
+        "explanation": "Si la clasificación de la IA es el orden por defecto, en la práctica la IA decide las prioridades."
+      },
+      {
+        "id": "c",
+        "text": "Acordar con los interesados cómo calcula la IA la puntuación y usar ese orden como criterio de prioridad",
+        "explanation": "Acordar el método aumenta la transparencia, pero no sustituye un juicio que tenga en cuenta los objetivos y el contexto."
+      },
+      {
+        "id": "d",
+        "text": "Decidir el contenido del próximo Sprint según la probabilidad de finalización estimada por la IA a partir de la velocidad histórica",
+        "explanation": "La probabilidad estimada es información de referencia. Los Developers seleccionan el trabajo del Sprint."
+      },
+      {
+        "id": "e",
+        "text": "Cuando la sugerencia de la IA y tu propio criterio no coinciden, dar prioridad a la sugerencia de la IA basada en datos",
+        "explanation": "La sugerencia de la IA es un criterio más. Usa la discrepancia para revisar el contexto y toma tú la decisión final."
+      }
+    ]
+  },
+  {
+    "id": "q010",
+    "options": [
+      {
+        "id": "a",
+        "text": "Consultar condiciones contractuales distintas para cada cliente y enviar comunicaciones después de que una persona las revise",
+        "explanation": "La información contractual requiere cuidado, pero redactar comunicaciones con revisión humana es un caso candidato para usar IA."
+      },
+      {
+        "id": "c",
+        "text": "Extraer opiniones minoritarias de respuestas abiertas anonimizadas y contrastarlas con las respuestas originales",
+        "explanation": "La evaluación no debe perder las opiniones minoritarias, pero un apoyo al análisis que se puede contrastar con el texto original es un caso candidato."
+      },
+      {
+        "id": "d",
+        "text": "Elaborar una tabla comparativa con información de la competencia que se actualiza a menudo, con una persona que revisa las fechas y las fuentes",
+        "explanation": "Organizar información comprobando su actualidad es un caso candidato. Es distinto de una decisión final de alto riesgo."
+      },
+      {
+        "id": "e",
+        "text": "Crear guiones de demostración de funcionalidades no publicadas en un entorno interno aprobado",
+        "explanation": "La información no publicada debe gestionarse, pero redactar borradores en un entorno aprobado es un caso candidato."
+      }
+    ]
+  },
+  {
+    "id": "q011",
+    "options": [
+      {
+        "id": "b",
+        "text": "El aprendizaje automático puede procesar un volumen mayor de las bifurcaciones condicionales escritas por los desarrolladores",
+        "explanation": "Escribir bifurcaciones condicionales es programación tradicional. El aprendizaje automático aprende patrones a partir de datos."
+      },
+      {
+        "id": "c",
+        "text": "El aprendizaje automático actualiza los pesos del modelo en producción a través de sus respuestas a nuevas entradas",
+        "explanation": "Inferir sobre nuevas entradas no es lo mismo que entrenar. Las entradas en producción no actualizan necesariamente los pesos."
+      },
+      {
+        "id": "d",
+        "text": "El aprendizaje automático almacena las reglas de decisión de los expertos en una base de conocimiento y razona combinándolas",
+        "explanation": "Esto es un sistema basado en reglas. El aprendizaje automático aprende patrones a partir de datos."
+      },
+      {
+        "id": "e",
+        "text": "El aprendizaje automático crea especificaciones de bifurcaciones condicionales a partir de ejemplos de entrada y salida, que luego codifican los desarrolladores",
+        "explanation": "Que las personas implementen reglas a partir de ejemplos es distinto de que un modelo aprenda patrones a partir de datos."
+      }
+    ]
+  },
+  {
+    "id": "q012",
+    "options": [
+      {
+        "id": "a",
+        "text": "Decidir si se hace el siguiente experimento según la tasa de éxito de los experimentos anteriores",
+        "explanation": "El análisis previo puede servir de material, pero son las personas quienes deciden según los objetivos y la incertidumbre actuales."
+      },
+      {
+        "id": "c",
+        "text": "Simular las reacciones de los usuarios y juzgar el efecto del experimento con esos resultados",
+        "explanation": "La simulación sirve para explorar hipótesis, pero hay que distinguirla de la evidencia del efecto en usuarios reales."
+      },
+      {
+        "id": "d",
+        "text": "Extraer las métricas que mostraron grandes diferencias en los resultados y adoptarlas como criterios de éxito",
+        "explanation": "Se pueden explorar métricas, pero elegir los criterios de éxito después de ver los resultados lleva a una evaluación interesada."
+      },
+      {
+        "id": "e",
+        "text": "Comparar los resultados de varias opciones y elegir la que tenga una diferencia estadística como la próxima política de entrega",
+        "explanation": "La IA puede apoyar la comparación estadística, pero la política de entrega requiere un juicio humano que incluya el valor y el riesgo."
+      }
+    ]
+  },
+  {
+    "id": "q013",
+    "options": [
+      {
+        "id": "a",
+        "text": "Si se le da información actualizada, detecta las contradicciones con su conocimiento antiguo antes de responder y se abstiene",
+        "explanation": "Aunque reciba información nueva, no siempre detecta bien las contradicciones ni se abstiene."
+      },
+      {
+        "id": "c",
+        "text": "La variación de las respuestas ante una misma entrada sirve para medir la exactitud del contenido",
+        "explanation": "La variación de las respuestas no es lo mismo que la exactitud. Puede dar sistemáticamente la misma respuesta errónea."
+      },
+      {
+        "id": "d",
+        "text": "Pedirle las fuentes permite verificar las afirmaciones de la respuesta",
+        "explanation": "Generar fuentes no es lo mismo que comprobarlas. Incluso puede generar referencias que no existen."
+      },
+      {
+        "id": "e",
+        "text": "Solo consulta la información de la entrada en las partes que cita en la respuesta",
+        "explanation": "La IA generativa usa el contexto de la entrada más allá de las partes citadas. Esto no describe una limitación habitual."
+      }
+    ]
+  },
+  {
+    "id": "q014",
+    "options": [
+      {
+        "id": "a",
+        "text": "Aplicar el mismo procedimiento de aprobación sin importar el uso del resultado, para reducir la variación en la operación",
+        "explanation": "Unificar el procedimiento tiene ventajas, pero es más adecuado diseñar la supervisión según la magnitud del impacto."
+      },
+      {
+        "id": "c",
+        "text": "Comprobar el alcance de la garantía de calidad del proveedor y definirlo como el alcance de la responsabilidad propia",
+        "explanation": "El alcance de la garantía del proveedor y la responsabilidad del producto son cosas distintas."
+      },
+      {
+        "id": "d",
+        "text": "Documentar el uso de la IA en documentos internos de operación y explicar a los usuarios la calidad general del servicio",
+        "explanation": "Los documentos internos no bastan para garantizar la transparencia hacia los usuarios. También hacen falta explicaciones que les permitan entender las limitaciones y los controles."
+      },
+      {
+        "id": "e",
+        "text": "Reducir la tasa de revisión según la tasa media de aciertos y detectar los errores excepcionales a través de las consultas",
+        "explanation": "Los promedios no permiten detectar errores graves. Se necesita revisión y monitorización de los resultados importantes."
+      }
+    ]
+  },
+  {
+    "id": "q015",
+    "options": [
+      {
+        "id": "b",
+        "text": "Especificar con detalle el procedimiento de cada tarea que ejecuta el agente",
+        "explanation": "Especificar todos los procedimientos es automatización tradicional. El Product Owner define objetivos y restricciones."
+      },
+      {
+        "id": "c",
+        "text": "Concentrar la responsabilidad por los resultados de las acciones del agente en los desarrolladores que gestionan la plataforma de ejecución",
+        "explanation": "Encargarse de la gestión técnica es distinto de responder por los resultados del producto."
+      },
+      {
+        "id": "d",
+        "text": "Dejar en manos del agente los cambios en los objetivos que debe alcanzar, según su progreso de aprendizaje",
+        "explanation": "Se le puede dejar elegir las acciones, pero la responsabilidad de definir objetivos y restricciones sigue siendo de las personas."
+      },
+      {
+        "id": "e",
+        "text": "Seleccionar los datos de entrenamiento para mejorar la precisión del agente",
+        "explanation": "Seleccionar datos de entrenamiento es sobre todo trabajo técnico y no es central en el rol del Product Owner."
+      }
+    ]
+  },
+  {
+    "id": "q016",
+    "options": [
+      {
+        "id": "a",
+        "text": "Porque puede reproducir antes de la investigación la información que se obtendría de ella con clientes",
+        "explanation": "Puede ayudar a prepararla, pero el contenido generado es distinto de la evidencia obtenida de clientes reales."
+      },
+      {
+        "id": "c",
+        "text": "Porque puede decidir qué ideas pasan a validación según su similitud con éxitos anteriores",
+        "explanation": "La similitud es un dato más, pero hace falta validar con los clientes y el contexto actuales."
+      },
+      {
+        "id": "d",
+        "text": "Porque puede estimar la reacción de los usuarios a cada hipótesis y completar su validación",
+        "explanation": "Estimar reacciones ayuda a explorar, pero no completa la validación con usuarios reales."
+      },
+      {
+        "id": "e",
+        "text": "Porque puede cuantificar la incertidumbre del mercado y decidir qué ideas ejecutar",
+        "explanation": "Las estimaciones son material para decidir. La responsabilidad de elegir ideas teniendo en cuenta la incertidumbre sigue siendo de las personas."
+      }
+    ]
+  },
+  {
+    "id": "q017",
+    "options": [
+      {
+        "id": "a",
+        "text": "Que los costes de operación del sistema aumenten más de lo previsto",
+        "explanation": "El coste es un problema gestionable. El riesgo más importante es la pérdida del criterio humano."
+      },
+      {
+        "id": "c",
+        "text": "Que la gestión de excepciones de los procesos automatizados se concentre en personas concretas",
+        "explanation": "Es un problema operativo, pero el riesgo central del exceso de automatización es perder el criterio y la intervención humanos según el contexto."
+      },
+      {
+        "id": "d",
+        "text": "Que falten datos para la automatización",
+        "explanation": "La falta de datos es un problema de adopción, no un riesgo propio del exceso de automatización."
+      },
+      {
+        "id": "e",
+        "text": "Que aumente el coste de evaluar el rendimiento del modelo al crecer el volumen procesado",
+        "explanation": "El coste de evaluación debe gestionarse, pero es distinto del riesgo de perder el criterio humano."
+      }
+    ]
+  },
+  {
+    "id": "q018",
+    "options": [
+      {
+        "id": "a",
+        "text": "IA generativa",
+        "explanation": "La IA generativa crea contenido, pero eso por sí solo no implica que actúe de forma autónoma hacia objetivos."
+      },
+      {
+        "id": "c",
+        "text": "IA predictiva",
+        "explanation": "La IA predictiva pronostica resultados; no actúa hacia objetivos."
+      },
+      {
+        "id": "d",
+        "text": "Sistemas expertos basados en reglas",
+        "explanation": "Ejecutan el conocimiento experto como reglas y no actúan de forma autónoma."
+      },
+      {
+        "id": "e",
+        "text": "Modelos de lenguaje de gran tamaño (LLM)",
+        "explanation": "Los LLM son modelos que trabajan con lenguaje. El mecanismo que actúa hacia objetivos es la IA agéntica."
+      }
+    ]
+  },
+  {
+    "id": "q019",
+    "options": [
+      {
+        "id": "a",
+        "text": "Concentrar la responsabilidad sobre el sesgo en los científicos de datos que diseñan los métodos de evaluación",
+        "explanation": "La evaluación experta es importante, pero el Product Owner sigue siendo responsable de entender y mitigar el riesgo."
+      },
+      {
+        "id": "c",
+        "text": "Gestionar las diferencias de perjuicio entre usuarios mejorando la precisión global",
+        "explanation": "La precisión global y el sesgo entre grupos deben comprobarse por separado."
+      },
+      {
+        "id": "d",
+        "text": "Establecer como condición de cierre de las medidas contra el sesgo que la tasa de error sea igual para todos los atributos",
+        "explanation": "Igualar una sola cifra no permite evaluar el contexto ni el perjuicio. Se necesita una mitigación adecuada al uso y comprobaciones continuas."
+      },
+      {
+        "id": "e",
+        "text": "Gestionar internamente las medidas contra el sesgo y centrar la explicación a los usuarios en la precisión media",
+        "explanation": "Explicar solo la precisión media no aporta suficiente transparencia sobre el sesgo y las limitaciones."
+      }
+    ]
+  },
+  {
+    "id": "q020",
+    "options": [
+      {
+        "id": "a",
+        "text": "Analizar las tendencias de los comentarios de los usuarios",
+        "explanation": "El análisis de tendencias es una actividad en la que la IA ayuda mucho."
+      },
+      {
+        "id": "c",
+        "text": "Redactar borradores de notas de versión y documentos",
+        "explanation": "Redactar borradores es fácil de delegar en la IA, con revisión humana."
+      },
+      {
+        "id": "d",
+        "text": "Recopilar y organizar información para el análisis de la competencia",
+        "explanation": "Recopilar y organizar información es fácil de apoyar con IA."
+      },
+      {
+        "id": "e",
+        "text": "Crear prototipos para validar hipótesis",
+        "explanation": "Crear prototipos es fácil de acelerar con IA."
+      }
+    ]
+  },
+  {
+    "id": "q021",
+    "options": [
+      {
+        "id": "a",
+        "text": "Para que los Product Owners puedan liderar la selección y la adquisición de modelos de IA",
+        "explanation": "Seleccionar modelos es sobre todo una decisión técnica. El objetivo de la alfabetización en IA es decidir bien informado."
+      },
+      {
+        "id": "c",
+        "text": "Para que los Product Owners definan por sí solos las especificaciones técnicas necesarias para implementar IA",
+        "explanation": "El objetivo no es definir especificaciones técnicas en solitario, sino decidir entendiendo las capacidades y las limitaciones."
+      },
+      {
+        "id": "d",
+        "text": "Para que los Product Owners automaticen su propio trabajo con herramientas de IA",
+        "explanation": "El objetivo no es automatizar, sino mejorar la calidad de las decisiones."
+      },
+      {
+        "id": "e",
+        "text": "Para que los Product Owners puedan evaluar el rendimiento de los modelos en lugar de los expertos",
+        "explanation": "Entender la evaluación es importante, pero no se busca sustituir a los expertos."
+      }
+    ]
+  },
+  {
+    "id": "q022",
+    "options": [
+      {
+        "id": "a",
+        "text": "Generar las descripciones de los elementos del backlog con un formato uniforme",
+        "explanation": "Ayuda a la eficiencia, pero no apoya directamente el enfoque en el valor."
+      },
+      {
+        "id": "c",
+        "text": "Recopilar las peticiones de los interesados y ordenarlas por número",
+        "explanation": "El número de peticiones no equivale al valor."
+      },
+      {
+        "id": "d",
+        "text": "Estimar la carga de trabajo del Sprint y aumentar la velocidad",
+        "explanation": "Más trabajo hecho es una métrica de resultados, no de valor."
+      },
+      {
+        "id": "e",
+        "text": "Fijar pronto el roadmap para aumentar el uso de las funcionalidades",
+        "explanation": "Fijar el roadmap elimina la flexibilidad para perseguir el valor según lo que se aprende."
+      }
+    ]
+  },
+  {
+    "id": "q023",
+    "options": [
+      {
+        "id": "a",
+        "text": "Para ajustar la redacción de los resultados a los usuarios",
+        "explanation": "Ajustar la redacción no tiene relación con el origen de los datos."
+      },
+      {
+        "id": "c",
+        "text": "Para comparar los costes de licencia de las herramientas",
+        "explanation": "Comparar costes no es el motivo principal para conocer el origen."
+      },
+      {
+        "id": "d",
+        "text": "Para estimar los recursos de computación necesarios",
+        "explanation": "Estimar los recursos de computación no es el motivo principal para conocer el origen."
+      },
+      {
+        "id": "e",
+        "text": "Porque la fiabilidad del origen puede servir de criterio para juzgar la exactitud de la información generada",
+        "explanation": "Aunque el origen sea fiable, hay que comprobar por separado la representatividad, el contexto y los errores del resultado."
+      }
+    ]
+  },
+  {
+    "id": "q024",
+    "options": [
+      {
+        "id": "a",
+        "text": "Generar un informe de estudio de mercado cada trimestre",
+        "explanation": "Los informes periódicos son útiles, pero el intervalo es demasiado largo para ser un mecanismo de aprendizaje continuo."
+      },
+      {
+        "id": "c",
+        "text": "Seguir clasificando la importancia de los nuevos comentarios según las personas iniciales",
+        "explanation": "Fijar las personas iniciales puede impedir actualizar los supuestos con nueva evidencia."
+      },
+      {
+        "id": "d",
+        "text": "Identificar de forma exhaustiva en la fase de requisitos todas las funcionalidades que se necesitarán",
+        "explanation": "Cerrar los requisitos al principio es lo contrario del descubrimiento continuo."
+      },
+      {
+        "id": "e",
+        "text": "Predecir las reacciones de los usuarios para reducir el número de experimentos",
+        "explanation": "Las predicciones no sustituyen a los experimentos."
+      }
+    ]
+  },
+  {
+    "id": "q025",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tener tanta información que no se pueda priorizar",
+        "explanation": "Los problemas de volumen se resuelven organizando. El riesgo principal es decidir sin contexto."
+      },
+      {
+        "id": "c",
+        "text": "Que el coste de uso de las herramientas de IA supere el presupuesto",
+        "explanation": "El coste no es el riesgo principal."
+      },
+      {
+        "id": "d",
+        "text": "Que la información sea más difícil de compartir en el equipo",
+        "explanation": "El problema no es tanto compartir como decidir con información que carece de contexto."
+      },
+      {
+        "id": "e",
+        "text": "Que los resultados del análisis se conviertan en el criterio común y se tarde más en conciliar opiniones distintas",
+        "explanation": "El problema central no es que haya un criterio común, sino que las personas dejen de captar el contexto detrás de la información."
+      }
+    ]
+  },
+  {
+    "id": "q026",
+    "options": [
+      {
+        "id": "a",
+        "text": "Elegir finalmente qué opción adoptar entre varias",
+        "explanation": "La elección final la hace la persona responsable."
+      },
+      {
+        "id": "c",
+        "text": "Aprobar cambios en las condiciones contractuales de cada cliente",
+        "explanation": "Aprobar contratos implica responsabilidad e impacto legal, así que deciden las personas."
+      },
+      {
+        "id": "d",
+        "text": "Fijar la prioridad de los Objetivos del Producto",
+        "explanation": "Decidir el Objetivo del Producto es responsabilidad del Product Owner."
+      },
+      {
+        "id": "e",
+        "text": "Decidir si se adopta una funcionalidad con riesgos éticos",
+        "explanation": "Los juicios éticos los hacen personas que asumen la responsabilidad."
+      }
+    ]
+  },
+  {
+    "id": "q027",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hacer la misma pregunta a varias herramientas de IA y comprobar si los resultados coinciden",
+        "explanation": "Que coincidan no significa que sea correcto. Hay que validarlo con el contexto y la evidencia."
+      },
+      {
+        "id": "c",
+        "text": "Comprobar el nivel de confianza que muestra la IA y fijar un umbral para adoptar las recomendaciones",
+        "explanation": "La confianza no coincide necesariamente con la exactitud. Se necesita validar con el contexto real y la evidencia."
+      },
+      {
+        "id": "d",
+        "text": "Compartirla con el equipo y ejecutarla si nadie se opone",
+        "explanation": "Que nadie se oponga no equivale a haberla validado."
+      },
+      {
+        "id": "e",
+        "text": "Comprobar que sigue el uso recomendado por el proveedor de IA",
+        "explanation": "Comprobar el uso es distinto de validar el contenido de la recomendación."
+      }
+    ]
+  },
+  {
+    "id": "q028",
+    "options": [
+      {
+        "id": "a",
+        "text": "Diseñar el sistema para poder explicar a cada usuario por qué recibió una recomendación concreta",
+        "explanation": "Una explicación adecuada aumenta la transparencia. El riesgo va en sentido distinto al del uso de información personal sensible."
+      },
+      {
+        "id": "c",
+        "text": "Operar de forma que las personas revisen y puedan corregir los resultados importantes",
+        "explanation": "Los mecanismos reales de revisión y corrección ayudan a reducir el riesgo."
+      },
+      {
+        "id": "d",
+        "text": "Agregar los resultados de varios segmentos de clientes a un nivel en el que no se pueda identificar a las personas",
+        "explanation": "Una anonimización y agregación adecuadas ayudan a reducir el riesgo para la información personal."
+      },
+      {
+        "id": "e",
+        "text": "Explicar el propósito del uso de los datos y los controles que pueden elegir los usuarios",
+        "explanation": "Explicar el propósito y los controles aumenta la transparencia."
+      }
+    ]
+  },
+  {
+    "id": "q029",
+    "options": [
+      {
+        "id": "a",
+        "text": "Predecir los resultados y descartar de antemano los experimentos que parezcan poco eficaces",
+        "explanation": "Reducir experimentos según predicciones elimina la oportunidad de poner a prueba los propios supuestos."
+      },
+      {
+        "id": "c",
+        "text": "Agrupar en un solo experimento los cambios de varias hipótesis y medir su efecto en conjunto",
+        "explanation": "Agrupar muchos cambios dificulta distinguir qué hipótesis contribuyó al resultado."
+      },
+      {
+        "id": "d",
+        "text": "Decidir el paso al siguiente experimento según la tendencia de mejora observada en un periodo corto",
+        "explanation": "Un periodo de observación o unos criterios insuficientes pueden llevar a conclusiones erróneas. Es distinto de acelerar generando propuestas."
+      },
+      {
+        "id": "e",
+        "text": "Gestionar el análisis de resultados y la elección del siguiente rumbo como un único proceso de IA",
+        "explanation": "La IA puede apoyar el análisis, pero el siguiente rumbo lo deciden personas según los objetivos y el contexto."
+      }
+    ]
+  },
+  {
+    "id": "q030",
+    "options": [
+      {
+        "id": "a",
+        "text": "La gobernanza se diseña después de la adopción, a partir de los problemas observados en la operación",
+        "explanation": "Mejorar a partir de la operación es necesario, pero también hay que definir antes del uso el alcance, los responsables y las condiciones de intervención."
+      },
+      {
+        "id": "b",
+        "text": "La gobernanza se aplica con políticas independientes para cada equipo, según su eficiencia de uso",
+        "explanation": "Hay que adaptarla al uso, pero las políticas deben ser coherentes con las responsabilidades de la organización y el tratamiento de los datos."
+      },
+      {
+        "id": "d",
+        "text": "La gobernanza se logra combinando la garantía de calidad del proveedor y la verificación legal",
+        "explanation": "Eso es solo una parte. También se necesitan la supervisión desde el producto y la responsabilidad por los resultados."
+      },
+      {
+        "id": "e",
+        "text": "La gobernanza es un mecanismo que aumenta el valor del uso añadiendo etapas de aprobación",
+        "explanation": "Añadir trámites no aumenta necesariamente el valor. La gobernanza apoya un uso responsable según el riesgo."
+      }
+    ]
+  },
+  {
+    "id": "q031",
+    "options": [
+      {
+        "id": "a",
+        "text": "El tiempo que se tarda en adoptar el resultado de la IA",
+        "explanation": "El tiempo no es el criterio que distingue asistir de liderar."
+      },
+      {
+        "id": "c",
+        "text": "La precisión del modelo de IA usado para decidir",
+        "explanation": "Aunque la precisión sea alta, si la IA lidera el juicio, es una decisión liderada por IA."
+      },
+      {
+        "id": "d",
+        "text": "La cantidad y la actualidad de los datos usados para decidir",
+        "explanation": "La cantidad o la actualidad de los datos no tiene relación con quién está en el centro del juicio."
+      },
+      {
+        "id": "e",
+        "text": "El porcentaje de sugerencias de la IA que se adoptaron",
+        "explanation": "Se distinguen por si una persona está en el centro del juicio, no por la tasa de adopción."
+      }
+    ]
+  },
+  {
+    "id": "q032",
+    "options": [
+      {
+        "id": "a",
+        "text": "Redactar borradores de material de presentación para la Sprint Review",
+        "explanation": "Redactar borradores de material es fácil de delegar en la IA, con revisión humana."
+      },
+      {
+        "id": "c",
+        "text": "Organizar los puntos clave de las entrevistas con usuarios",
+        "explanation": "Organizar los puntos clave es fácil de apoyar con IA. Las personas los contrastan con los registros originales."
+      },
+      {
+        "id": "d",
+        "text": "Crear propuestas de pantallas para prototipos de validación",
+        "explanation": "Crear propuestas de pantallas es fácil de acelerar con IA."
+      },
+      {
+        "id": "e",
+        "text": "Proponer formas de dividir los elementos del backlog",
+        "explanation": "Proponer divisiones es un apoyo adecuado de la IA. El equipo decide si las adopta."
+      }
+    ]
+  },
+  {
+    "id": "q033",
+    "options": [
+      {
+        "id": "a",
+        "text": "Mostrar la precisión media obtenida en evaluaciones anteriores y convertir esa cifra en el criterio de decisión de los usuarios",
+        "explanation": "Las evaluaciones sirven de referencia, pero también importan entender las limitaciones y contar con mecanismos de control."
+      },
+      {
+        "id": "c",
+        "text": "Avisar a los usuarios después de que la IA aplique una recomendación, para reducir la variación en las decisiones",
+        "explanation": "Un aviso a posteriori no garantiza que los usuarios entiendan el resultado ni que puedan controlarlo cuando haga falta."
+      },
+      {
+        "id": "d",
+        "text": "Mostrar resultados de benchmarks de terceros para que los usuarios esperen un rendimiento equivalente",
+        "explanation": "El rendimiento en un benchmark es distinto del rendimiento en el uso real."
+      },
+      {
+        "id": "e",
+        "text": "Mostrar la garantía del proveedor y explicar el tratamiento de los errores según el alcance de esa garantía",
+        "explanation": "La garantía del proveedor por sí sola no explica la respuesta del producto ni cómo pueden controlarlo los usuarios."
+      }
+    ]
+  },
+  {
+    "id": "q034",
+    "options": [
+      {
+        "id": "a",
+        "text": "Aprobar definitivamente el precio de un nuevo plan de tarifas",
+        "explanation": "La aprobación final de precios es un juicio humano que conlleva responsabilidad."
+      },
+      {
+        "id": "c",
+        "text": "Confirmar si una nueva funcionalidad cumple la ley",
+        "explanation": "Confirmar el cumplimiento legal corresponde a expertos y responsables."
+      },
+      {
+        "id": "d",
+        "text": "Decidir si se lanza una funcionalidad con riesgos éticos",
+        "explanation": "Los juicios éticos los hacen personas que asumen la responsabilidad."
+      },
+      {
+        "id": "e",
+        "text": "Comprobar la verdadera intención de las peticiones de unos pocos clientes",
+        "explanation": "La intención real de unas pocas voces se comprueba mejor en una conversación directa."
+      }
+    ]
+  },
+  {
+    "id": "q035",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tratar el error del modelo como un fallo técnico y centrar la respuesta en encontrar la causa",
+        "explanation": "Encontrar la causa es necesario, pero también hay que responder por el impacto en los usuarios."
+      },
+      {
+        "id": "c",
+        "text": "Dar prioridad a evitar que se repita y detener todas las funcionalidades que usan el mismo modelo",
+        "explanation": "A veces detenerlas es necesario, pero lo importante es elegir una respuesta acorde con el impacto."
+      },
+      {
+        "id": "d",
+        "text": "Revisar el plan de corrección del proveedor y decidir cuándo atender a los usuarios según ese plan",
+        "explanation": "No basta con esperar la corrección del proveedor; hay que decidir desde el producto cómo limitar el impacto."
+      },
+      {
+        "id": "e",
+        "text": "Fijar la prioridad según el número de personas afectadas y tratar los casos poco numerosos en la revisión periódica",
+        "explanation": "Hay que evaluar la gravedad del perjuicio, no solo el número de personas. Incluso pocos casos pueden requerir una respuesta rápida."
+      }
+    ]
+  },
+  {
+    "id": "q036",
+    "options": [
+      {
+        "id": "a",
+        "text": "Puede repetir procedimientos definidos de forma más rápida y precisa",
+        "explanation": "Repetir procedimientos es una característica de la automatización básica."
+      },
+      {
+        "id": "c",
+        "text": "Aumenta las condiciones de bifurcación para cada situación prevista y amplía los procedimientos que puede manejar",
+        "explanation": "Añadir bifurcaciones por adelantado también es posible con la automatización tradicional."
+      },
+      {
+        "id": "d",
+        "text": "Al fijar los procedimientos que ejecuta, deja claro de antemano qué hay que supervisar",
+        "explanation": "El control mediante procedimientos fijos es propio de la automatización tradicional. La ventaja de un agente es actuar de forma autónoma hacia objetivos."
+      },
+      {
+        "id": "e",
+        "text": "Puede cambiar por sí misma la prioridad de los objetivos según cambia la situación",
+        "explanation": "Elegir acciones dentro de los objetivos fijados por personas es distinto de cambiar los propios objetivos."
+      }
+    ]
+  },
+  {
+    "id": "q037",
+    "options": [
+      {
+        "id": "a",
+        "text": "Para que el criterio humano pueda seguir el ritmo de los resultados de la IA",
+        "explanation": "El objetivo no es ajustar la velocidad, sino detectar y corregir errores y asegurar la responsabilidad."
+      },
+      {
+        "id": "c",
+        "text": "Para reducir gradualmente la proporción de automatización",
+        "explanation": "Reducir la automatización no es el objetivo."
+      },
+      {
+        "id": "d",
+        "text": "Para concentrar en la persona que aprueba la responsabilidad por los resultados de la IA",
+        "explanation": "Definir el rol de quien revisa no traslada a esa persona la responsabilidad del producto."
+      },
+      {
+        "id": "e",
+        "text": "Para mejorar la precisión de las predicciones en operación devolviendo al modelo los registros de revisión",
+        "explanation": "Los registros no se usan necesariamente para entrenar de forma automática. El objetivo principal de revisar e intervenir es supervisar y corregir."
+      }
+    ]
+  },
+  {
+    "id": "q038",
+    "options": [
+      {
+        "id": "c",
+        "text": "Menos tiempo dedicado a la validación y a las retrospectivas",
+        "explanation": "Recortar la validación y la reflexión necesarias para aprender no es señal de éxito."
+      },
+      {
+        "id": "d",
+        "text": "Un mayor porcentaje de coincidencia entre el criterio de los expertos y las sugerencias de la IA",
+        "explanation": "La tasa de coincidencia sirve de referencia, pero hay que evaluar aparte si las decisiones coincidentes fueron adecuadas y aportaron valor."
+      },
+      {
+        "id": "f",
+        "text": "Menos tiempo de espera para la aprobación del Product Owner",
+        "explanation": "Reducir la espera es una métrica de eficiencia. No muestra directamente la calidad de las decisiones ni la contribución a los objetivos."
+      }
+    ]
+  },
+  {
+    "id": "q039",
+    "options": [
+      {
+        "id": "a",
+        "text": "Las funcionalidades de IA que ha introducido la competencia",
+        "explanation": "Lo que hace la competencia sirve de referencia, pero no es una base para experimentar."
+      },
+      {
+        "id": "c",
+        "text": "El roadmap publicado por el proveedor de IA",
+        "explanation": "Hay que avanzar según los objetivos y las hipótesis de tu propio producto, no según los planes del proveedor."
+      },
+      {
+        "id": "d",
+        "text": "Los recursos de computación y el presupuesto disponibles para el equipo",
+        "explanation": "Los recursos son una restricción, pero no el criterio para decidir qué experimentar."
+      },
+      {
+        "id": "e",
+        "text": "Las tecnologías de IA que interesan a los interesados",
+        "explanation": "Se experimenta según objetivos e hipótesis, no según el nivel de interés."
+      }
+    ]
+  },
+  {
+    "id": "q040",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hacer al principio un plan de adopción a gran escala y desplegarlo según lo previsto",
+        "explanation": "El uso de la IA conlleva mucha incertidumbre, así que hay que ajustar a medida que se aprende."
+      },
+      {
+        "id": "c",
+        "text": "Avanzar por las etapas en orden según un modelo de madurez estándar del sector",
+        "explanation": "No basta con encajar en un modelo externo; hay que ajustar según lo que aprende el propio equipo."
+      },
+      {
+        "id": "d",
+        "text": "Fijar las herramientas cuyo efecto se ha confirmado y estabilizar la operación",
+        "explanation": "Fijarlas impide adaptarse al cambio. Se necesita aprendizaje y ajuste continuos."
+      },
+      {
+        "id": "e",
+        "text": "Dejar el impulso del uso de la IA a un equipo dedicado y revisar los resultados periódicamente",
+        "explanation": "No hay que delegarlo por completo; se espera que sigas aprendiendo e implicándote."
+      }
+    ]
+  },
+  {
+    "id": "q041",
+    "options": [
+      {
+        "id": "a",
+        "text": "Que el resumen permite completar la información de contexto que se obtiene al hablar con los clientes",
+        "explanation": "Un resumen organiza la información registrada, pero no puede aportar como evidencia un contexto que no se obtuvo en las conversaciones."
+      },
+      {
+        "id": "c",
+        "text": "Que permite determinar la importancia de cada problema según la frecuencia de las opiniones",
+        "explanation": "Frecuencia e importancia son cosas distintas. Incluso una minoría puede señalar un problema grave."
+      },
+      {
+        "id": "d",
+        "text": "Que al agrupar las opiniones comunes elimina el sesgo entre segmentos de clientes",
+        "explanation": "Agrupar no elimina necesariamente el sesgo. Las opiniones minoritarias pueden quedar ocultas."
+      },
+      {
+        "id": "e",
+        "text": "Que al asociar las peticiones con funcionalidades permite decidir qué construir a continuación",
+        "explanation": "La asociación es material para decidir, pero son las personas quienes deciden según los objetivos y el contexto."
+      }
+    ]
+  },
+  {
+    "id": "q042",
+    "options": [
+      {
+        "id": "a",
+        "text": "Decidir en qué Sprint se trata cada elemento según las estimaciones y el historial",
+        "explanation": "La IA puede apoyar las estimaciones, pero los Developers seleccionan los elementos del Sprint."
+      },
+      {
+        "id": "c",
+        "text": "Inferir requisitos a partir de elementos relacionados y fijar esa inferencia como criterio para la implementación",
+        "explanation": "Las inferencias pueden servir de borrador, pero el equipo debe confirmar el comportamiento esperado."
+      },
+      {
+        "id": "d",
+        "text": "Calcular el esfuerzo a partir del historial de elementos similares y registrarlo como la estimación oficial del equipo",
+        "explanation": "El historial sirve de referencia, pero la estimación requiere el criterio de los Developers que harán el trabajo."
+      },
+      {
+        "id": "e",
+        "text": "Adoptar como orden final del backlog la relación entre valor y esfuerzo evaluada por la IA",
+        "explanation": "El resultado calculado es un insumo; la decisión de ordenar corresponde al Product Owner."
+      }
+    ]
+  },
+  {
+    "id": "q043",
+    "options": [
+      {
+        "id": "a",
+        "text": "Porque las métricas que propone la IA usan más estimaciones que valores medidos",
+        "explanation": "Que una métrica se base en estimaciones depende de su diseño. Lo central es comprobar su alineación con los objetivos."
+      },
+      {
+        "id": "c",
+        "text": "Porque demasiadas métricas aumentan la carga de trabajo del equipo",
+        "explanation": "El problema no es la cantidad, sino la alineación con los objetivos."
+      },
+      {
+        "id": "d",
+        "text": "Porque métricas con el mismo nombre pueden calcularse de forma distinta según el proveedor",
+        "explanation": "Hay que revisar las condiciones de cálculo, pero incluso una métrica bien calculada puede no ajustarse a los objetivos."
+      },
+      {
+        "id": "e",
+        "text": "Porque al cuantificar las métricas el juicio cualitativo puede sustituirse por uno cuantitativo",
+        "explanation": "Cuantificar no sustituye el criterio humano. Hay que evaluar qué mide realmente la métrica."
+      }
+    ]
+  },
+  {
+    "id": "q044",
+    "options": [
+      {
+        "id": "a",
+        "text": "Sustituir las reuniones periódicas con los interesados por el envío de resúmenes de IA",
+        "explanation": "Enviar resúmenes no sustituye la conversación directa."
+      },
+      {
+        "id": "c",
+        "text": "Comparar las peticiones de cada interesado y decidir cuáles adoptar",
+        "explanation": "Qué peticiones se adoptan lo decide el Product Owner."
+      },
+      {
+        "id": "d",
+        "text": "Ajustar cuánto se explican los riesgos para que los interesados tengan menos preocupaciones",
+        "explanation": "Se puede ajustar para que sea más claro, pero suavizar riesgos necesarios para decidir con el fin de reducir preocupaciones es inadecuado."
+      },
+      {
+        "id": "e",
+        "text": "Decidir el punto de equilibrio entre peticiones con intereses enfrentados",
+        "explanation": "Conciliar intereses lo hacen personas que asumen la responsabilidad."
+      }
+    ]
+  },
+  {
+    "id": "q045",
+    "options": [
+      {
+        "id": "a",
+        "text": "Que el texto del resultado sea natural y esté bien estructurado lógicamente",
+        "explanation": "Incluso un texto plausible puede ser erróneo."
+      },
+      {
+        "id": "c",
+        "text": "Que la misma pregunta siempre devuelva la misma respuesta",
+        "explanation": "Aunque sea coherente, no es fiable si los datos de origen son erróneos."
+      },
+      {
+        "id": "d",
+        "text": "Que muchas empresas la usen",
+        "explanation": "Que se use mucho no garantiza que cada resultado sea correcto."
+      },
+      {
+        "id": "e",
+        "text": "Que use el modelo grande más reciente",
+        "explanation": "Aunque el modelo sea nuevo, la fiabilidad depende de la calidad de los datos y del contexto."
+      }
+    ]
+  },
+  {
+    "id": "q046",
+    "options": [
+      {
+        "id": "a",
+        "text": "Dar automáticamente un formato fijo a las notas de reuniones",
+        "explanation": "Una conversión fija se resuelve bien con automatización tradicional o IA generativa."
+      },
+      {
+        "id": "c",
+        "text": "Generar cada semana un informe de uso con los mismos apartados",
+        "explanation": "Crear informes rutinarios no requiere juicio autónomo."
+      },
+      {
+        "id": "d",
+        "text": "Crear propuestas de maquetas de pantallas a partir de las peticiones de los usuarios",
+        "explanation": "Crear propuestas de maquetas es un uso de la IA generativa."
+      },
+      {
+        "id": "e",
+        "text": "Predecir la tasa de abandono del próximo mes a partir de datos históricos",
+        "explanation": "Predecir el abandono es un uso de la IA predictiva."
+      }
+    ]
+  },
+  {
+    "id": "q047",
+    "options": [
+      {
+        "id": "a",
+        "text": "Que las respuestas tarden y retrasen el trabajo",
+        "explanation": "La velocidad no tiene relación con las alucinaciones."
+      },
+      {
+        "id": "c",
+        "text": "Que la respuesta cambie cada vez, incluso ante la misma pregunta",
+        "explanation": "La variación de las respuestas no es una alucinación en sí."
+      },
+      {
+        "id": "d",
+        "text": "Que se niegue a responder preguntas que no puede contestar",
+        "explanation": "Negarse a responder es el comportamiento opuesto a alucinar."
+      },
+      {
+        "id": "e",
+        "text": "Que el sesgo de los datos de entrenamiento aparezca en los resultados",
+        "explanation": "Esto describe el sesgo. Alucinar es inventar de forma convincente contenido que no se ajusta a los hechos."
+      }
+    ]
+  },
+  {
+    "id": "q048",
+    "options": [
+      {
+        "id": "a",
+        "text": "Elegir como hipótesis validadas las ideas que tuvieron éxito en casos similares anteriores",
+        "explanation": "El éxito pasado no demuestra que la hipótesis sea correcta en el contexto actual."
+      },
+      {
+        "id": "c",
+        "text": "Elegir finalmente qué idea implementar entre varias hipótesis",
+        "explanation": "Qué hipótesis probar lo deciden las personas."
+      },
+      {
+        "id": "d",
+        "text": "Predecir las reacciones de los usuarios y tratar esas predicciones como el resultado de validar la hipótesis",
+        "explanation": "Las predicciones son material de exploración. Hay que distinguirlas de los resultados de validación basados en mediciones reales."
+      },
+      {
+        "id": "e",
+        "text": "Dar por confirmado como resultado tras el desarrollo el ingreso estimado si la hipótesis se cumple",
+        "explanation": "Las estimaciones de ingresos dependen de supuestos. No confirman resultados futuros."
+      }
+    ]
+  },
+  {
+    "id": "q049",
+    "options": [
+      {
+        "id": "a",
+        "text": "Dar prioridad a la recomendación de la IA, ya que se basa en una gran cantidad de datos",
+        "explanation": "Que haya muchos datos no significa que capte el contexto de los usuarios."
+      },
+      {
+        "id": "b",
+        "text": "Dar prioridad a los comentarios, porque son la voz de usuarios reales, y no adoptar la recomendación de la IA",
+        "explanation": "Algunos comentarios no representan necesariamente al conjunto. Hay que evaluar ambos."
+      },
+      {
+        "id": "d",
+        "text": "Dejar de usar la IA hasta que se resuelva la contradicción",
+        "explanation": "La contradicción es una oportunidad de aprendizaje. No hace falta dejar de usarla."
+      },
+      {
+        "id": "e",
+        "text": "Decidir por mayoría de los interesados cuál adoptar",
+        "explanation": "No se decide por mayoría; el Product Owner evalúa la evidencia y decide."
+      }
+    ]
+  },
+  {
+    "id": "q050",
+    "options": [
+      {
+        "id": "a",
+        "text": "El proveedor del sistema de IA es responsable de los resultados",
+        "explanation": "No se puede trasladar la responsabilidad al proveedor."
+      },
+      {
+        "id": "b",
+        "text": "Los Developers que implementaron la IA asumen la responsabilidad ética",
+        "explanation": "No solo los Developers: son responsables las personas implicadas, incluido el Product Owner."
+      },
+      {
+        "id": "d",
+        "text": "En los resultados que cumplen los estándares éticos, el sistema que implementa los criterios es el responsable",
+        "explanation": "Aunque se implementen criterios, la responsabilidad humana por los resultados se mantiene."
+      },
+      {
+        "id": "e",
+        "text": "Los usuarios que aceptaron las condiciones de uso son responsables de los resultados",
+        "explanation": "No se puede trasladar la responsabilidad a los usuarios por haber aceptado."
+      }
+    ]
+  },
+  {
+    "id": "q051",
+    "options": [
+      {
+        "id": "b",
+        "text": "Evaluar las visiones generadas por la IA según el tamaño estimado del mercado y convertir la más alta en la visión oficial",
+        "explanation": "Seleccionar solo por estimaciones no basta para decidir la visión. Se necesita el criterio del Product Owner."
+      },
+      {
+        "id": "d",
+        "text": "Comparar con IA los puntos del refinamiento y registrar como decisión del equipo la conclusión más coherente",
+        "explanation": "La IA puede ayudar a comparar la coherencia, pero una conclusión que el equipo no ha discutido no es una decisión del equipo."
+      },
+      {
+        "id": "f",
+        "text": "Puntuar con IA el valor y el esfuerzo de los elementos del backlog y usar la puntuación total como orden final",
+        "explanation": "Las puntuaciones son un insumo; ordenar requiere un juicio que tenga en cuenta el contexto."
+      }
+    ]
+  },
+  {
+    "id": "q052",
+    "options": [
+      {
+        "id": "a",
+        "text": "Si su adopción se está extendiendo entre otras empresas del sector",
+        "explanation": "Que se adopte mucho no significa que encaje con tu producto."
+      },
+      {
+        "id": "c",
+        "text": "Las cifras de precisión y rendimiento que presenta el proveedor",
+        "explanation": "Las cifras del proveedor sirven de referencia, pero el eje de la decisión es la alineación con los objetivos del producto."
+      },
+      {
+        "id": "d",
+        "text": "Si se puede probar gratis durante un tiempo",
+        "explanation": "Lo fácil que sea probarla no tiene relación con su alineación con los objetivos."
+      },
+      {
+        "id": "e",
+        "text": "Si los miembros del equipo quieren probarla",
+        "explanation": "El interés importa, pero la decisión de adoptarla se basa en los objetivos del producto."
+      }
+    ]
+  },
+  {
+    "id": "q053",
+    "options": [
+      {
+        "id": "a",
+        "text": "Desplegarla a todos los usuarios a la vez tras hacer pruebas suficientes",
+        "explanation": "Las pruebas son necesarias, pero la monitorización y la retroalimentación siguen siendo imprescindibles tras el despliegue."
+      },
+      {
+        "id": "c",
+        "text": "Preparar medidas de recuperación y confiar en los avisos de los usuarios para detectar fallos",
+        "explanation": "Las medidas de recuperación ayudan, pero se necesita monitorización continua para detectar errores que nadie notifica."
+      },
+      {
+        "id": "d",
+        "text": "Aplicar por defecto las recomendaciones de la IA y desactivarlas cuando el usuario se oponga",
+        "explanation": "Las objeciones a posteriori no bastan para mitigar ni detectar perjuicios antes de que ocurran."
+      },
+      {
+        "id": "e",
+        "text": "Monitorizar la tasa media de uso tras el despliegue e investigar los usos en los que baje",
+        "explanation": "Puede haber errores graves aunque el uso no baje. También hay que monitorizar la calidad y los perjuicios."
+      }
+    ]
+  },
+  {
+    "id": "q054",
+    "options": [
+      {
+        "id": "a",
+        "text": "Para que los usuarios puedan reproducir los cálculos internos del modelo desde la entrada hasta el resultado",
+        "explanation": "El objetivo de la explicabilidad es entender los resultados. No se pide a los usuarios que reproduzcan los cálculos internos."
+      },
+      {
+        "id": "c",
+        "text": "Para mejorar la exactitud de la predicción original generando explicaciones",
+        "explanation": "Generar explicaciones no mejora necesariamente la precisión de la predicción."
+      },
+      {
+        "id": "d",
+        "text": "Para ajustar las diferencias de tasa de error entre usuarios mostrando los motivos",
+        "explanation": "Mostrar los motivos es distinto de mitigar el sesgo."
+      },
+      {
+        "id": "e",
+        "text": "Para que los usuarios que aceptan la explicación asuman la responsabilidad por los resultados",
+        "explanation": "Aunque se explique y se obtenga el consentimiento, la responsabilidad del producto se mantiene."
+      }
+    ]
+  },
+  {
+    "id": "q055",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tomar la sugerencia de la IA como decisión por defecto y exigir motivos cuando una persona la cambie",
+        "explanation": "Si la sugerencia de la IA es el valor por defecto, se tiende a darla por buena en lugar de examinar sus supuestos. Deciden las personas teniendo en cuenta el contexto."
+      },
+      {
+        "id": "c",
+        "text": "Trasladar a la IA tanto trabajo como sea posible, empezando por las tareas automatizables",
+        "explanation": "Convertir la automatización en un fin en sí mismo no es adecuado."
+      },
+      {
+        "id": "d",
+        "text": "En las decisiones con datos suficientes, seguir el resultado de la IA",
+        "explanation": "Aunque haya datos, el juicio y la responsabilidad son de las personas."
+      },
+      {
+        "id": "e",
+        "text": "Fijar de antemano la relación coste-beneficio y definir el alcance del uso según ese resultado",
+        "explanation": "Por la incertidumbre, también hace falta experimentar a pequeña escala y aprender. No hay que depender solo de efectos fijados de antemano."
+      }
+    ]
+  },
+  {
+    "id": "q056",
+    "options": [
+      {
+        "id": "a",
+        "text": "El Scrum Master elige el Objetivo del Producto entre varias propuestas creadas por la IA",
+        "explanation": "El responsable del Objetivo del Producto es el Product Owner."
+      },
+      {
+        "id": "b",
+        "text": "Los interesados votan las propuestas de la IA y la ganadora se convierte en el Objetivo del Producto",
+        "explanation": "Decidir por votación difumina la responsabilidad del Product Owner."
+      },
+      {
+        "id": "c",
+        "text": "Fijar como criterio común el objetivo redactado con IA y reflejar los nuevos aprendizajes en el siguiente objetivo",
+        "explanation": "Una dirección común es importante, pero también debe haber margen para inspeccionar y adaptar el objetivo actual según lo aprendido."
+      }
+    ]
+  },
+  {
+    "id": "q057",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pedir a la IA que extraiga los temas comunes por frecuencia y trasladar ese orden a las prioridades del backlog",
+        "explanation": "Ordenar por frecuencia es útil, pero hay que comprobar la importancia y el contexto para decidir el orden."
+      },
+      {
+        "id": "b",
+        "text": "Pedir a la IA que compare la coherencia de lo dicho en las transcripciones y compartir como hechos las cifras coherentes",
+        "explanation": "Que sean coherentes en las transcripciones no significa que las cifras sean ciertas. Hay que comprobarlas en las fuentes originales."
+      },
+      {
+        "id": "d",
+        "text": "Pedir a la IA que convierta cada tema en trabajo del Sprint y registrar las propuestas como alcance del próximo Sprint",
+        "explanation": "La IA puede generar propuestas de trabajo, pero los Developers seleccionan el trabajo del Sprint."
+      }
+    ]
+  },
+  {
+    "id": "q058",
+    "options": [
+      {
+        "id": "a",
+        "text": "Convierte la pregunta en términos de búsqueda y recupera hechos relevantes de un índice de información entrenado",
+        "explanation": "Algunos sistemas combinan búsqueda, pero el funcionamiento básico del LLM es predecir secuencias de tokens."
+      },
+      {
+        "id": "c",
+        "text": "Convierte lo aprendido en reglas y aplica la que corresponde a la pregunta",
+        "explanation": "Un LLM no aplica reglas; predice secuencias de tokens."
+      },
+      {
+        "id": "d",
+        "text": "Busca en sus documentos de entrenamiento el pasaje más parecido a la pregunta y lo devuelve",
+        "explanation": "Un LLM no recupera documentos tal cual; genera texto nuevo."
+      }
+    ]
+  },
+  {
+    "id": "q059",
+    "options": [
+      {
+        "id": "a",
+        "text": "IA agéntica, porque fija el uso continuado como objetivo y calcula para cada usuario la probabilidad de lograrlo",
+        "explanation": "Calcular cifras relacionadas con un objetivo no lo convierte en un agente que actúa de forma autónoma."
+      },
+      {
+        "id": "b",
+        "text": "IA generativa, porque recibe el historial de comportamiento de los usuarios y devuelve la probabilidad de uso continuado como información nueva",
+        "explanation": "Se clasifica por el propósito de estimar resultados futuros a partir de patrones pasados, no por devolver una cifra nueva."
+      },
+      {
+        "id": "c",
+        "text": "IA basada en reglas, porque decide según las condiciones de uso",
+        "explanation": "Aprende de datos históricos para estimar, así que no se basa en reglas."
+      }
+    ]
+  },
+  {
+    "id": "q060",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pedir al Scrum Master que revise el texto antes de enviarlo, para que el juicio sea neutral",
+        "explanation": "Pedir una revisión no resuelve que el texto no refleje el conflicto sin resolver."
+      },
+      {
+        "id": "c",
+        "text": "Separar el texto para cada grupo y enviarlo describiendo menos las peticiones del otro",
+        "explanation": "Reducir las peticiones del otro grupo no explica adecuadamente los compromisos sin resolver."
+      },
+      {
+        "id": "d",
+        "text": "Añadir un plan para atender por fases las peticiones de ambos grupos y enviarlo como propuesta de acuerdo",
+        "explanation": "Hacerlo por fases es una opción, pero sigue el problema de presentar un acuerdo que en realidad no existe."
+      }
+    ]
+  },
+  {
+    "id": "q061",
+    "options": [
+      {
+        "id": "a",
+        "text": "La pregunta era ambigua, así que respondió sobre otra política",
+        "explanation": "La ambigüedad puede influir, pero la razón típica de que aparezcan normas antiguas es la fecha de los datos de entrenamiento."
+      },
+      {
+        "id": "b",
+        "text": "Como hay más texto sobre la política anterior, la trata como más oficial que la nueva",
+        "explanation": "No juzga necesariamente lo oficial por la cantidad de texto. Lo primero que cabe pensar es que la información nueva no está en sus datos de entrenamiento ni en la entrada."
+      },
+      {
+        "id": "d",
+        "text": "Está diseñado para responder sobre información establecida, como las políticas, mediante una búsqueda externa",
+        "explanation": "No se indica si usa búsqueda externa. El LLM no conoce necesariamente el cambio reciente."
+      }
+    ]
+  },
+  {
+    "id": "q062",
+    "options": [
+      {
+        "id": "b",
+        "text": "Un modelo con formatos de entrada y salida generales que se usa con una evaluación común sin cambiar la configuración para cada tarea",
+        "explanation": "Lo que lo caracteriza es el preentrenamiento amplio y la adaptación a tareas posteriores. Sigue siendo necesario evaluarlo y adaptarlo a cada uso."
+      },
+      {
+        "id": "c",
+        "text": "Un modelo entrenado solo con datos de un sector concreto y especializado en el trabajo de ese sector",
+        "explanation": "Un modelo especializado en un campo concreto es una adaptación de un modelo fundacional."
+      },
+      {
+        "id": "d",
+        "text": "Información que recoge las políticas y normas de la empresa y que la IA usa como premisa de sus respuestas",
+        "explanation": "Eso es configuración del sistema o información de referencia, no un modelo fundacional."
+      }
+    ]
+  },
+  {
+    "id": "q063",
+    "options": [
+      {
+        "id": "b",
+        "text": "Muestra que la IA corrigió bien las prioridades del conjunto de clientes al valorar la gravedad del contenido más que la frecuencia",
+        "explanation": "Que lo destaque no permite concluir que la corrección sea acertada. Hay que revisar si el resultado está sesgado."
+      },
+      {
+        "id": "c",
+        "text": "Muestra que agrupar comentarios con el mismo significado redujo el sesgo de los registros originales",
+        "explanation": "Agrupar no garantiza reducir el sesgo. Un resultado que destaca mucho a un segmento puede indicar un sesgo amplificado."
+      },
+      {
+        "id": "d",
+        "text": "Es consecuencia de que el límite de longitud del resumen recortó la información de forma uniforme",
+        "explanation": "Si la información se hubiera recortado de forma uniforme, no se destacaría solo a un segmento concreto."
+      }
+    ]
+  },
+  {
+    "id": "q064",
+    "options": [
+      {
+        "id": "a",
+        "text": "Usar la IA para estimar el efecto de cada experimento y adoptar el orden de efecto esperado como orden de ejecución",
+        "explanation": "La estimación del efecto es un insumo, pero las personas deben revisar las hipótesis, los riesgos y las condiciones antes de elegir."
+      },
+      {
+        "id": "b",
+        "text": "Ejecutar juntos y a la vez todos los experimentos propuestos para ahorrar tiempo",
+        "explanation": "Hacerlos a la vez sin decidir qué comprobar impide saber qué cambio funcionó."
+      },
+      {
+        "id": "c",
+        "text": "Pedir a la IA que priorice las propuestas y empezar por los experimentos mejor situados",
+        "explanation": "No dejes el orden a la IA; las personas estudian las hipótesis y los métodos de validación y eligen."
+      }
+    ]
+  },
+  {
+    "id": "q065",
+    "options": [
+      {
+        "id": "a",
+        "text": "Porque puede resolver las contradicciones de la información y fijar una única explicación de la situación",
+        "explanation": "Puede ayudar a organizar las contradicciones, pero no fija la explicación de una situación incierta."
+      },
+      {
+        "id": "c",
+        "text": "Porque puede extraer relaciones entre elementos y completar la verificación de la causalidad",
+        "explanation": "Extraer relaciones es distinto de verificar la causalidad. Las personas deben captar el contexto y evaluarlo."
+      },
+      {
+        "id": "d",
+        "text": "Porque puede completar, a partir de las tendencias de los datos, las intenciones no registradas de los implicados",
+        "explanation": "Puede formular hipótesis sobre intenciones, pero no completar como hechos intenciones que no se registraron."
+      },
+      {
+        "id": "e",
+        "text": "Porque puede decidir la estrategia a ejecutar eligiendo la opción más coherente de la información organizada",
+        "explanation": "Comparar la coherencia es un insumo, pero las decisiones estratégicas que incluyen valor y riesgo las toman personas."
+      }
+    ]
+  },
+  {
+    "id": "q066",
+    "options": [
+      {
+        "id": "a",
+        "text": "Desplegarla de una vez en toda la empresa, empezando por los departamentos donde se ha confirmado el efecto",
+        "explanation": "No se despliega de una vez, sino de forma gradual y con retroalimentación."
+      },
+      {
+        "id": "c",
+        "text": "Simplificar la revisión de los resultados cuando el uso se haya asentado",
+        "explanation": "Cuanto más se extiende el uso, más importantes son la revisión y la retroalimentación."
+      },
+      {
+        "id": "d",
+        "text": "Usar los casos de éxito como criterio común de despliegue y tratar los fracasos como mejoras operativas de cada uso",
+        "explanation": "Lo aprendido de los fracasos también debe influir en las decisiones de despliegue. Los casos de éxito por sí solos no permiten juzgar si ampliar es seguro."
+      },
+      {
+        "id": "e",
+        "text": "Dejar la ampliación del uso de la IA a un equipo dedicado y que cada equipo se centre en usarla",
+        "explanation": "No hay que delegarlo todo al equipo dedicado; cada equipo que usa IA también es responsable."
+      }
+    ]
+  },
+  {
+    "id": "q067",
+    "options": [
+      {
+        "id": "a",
+        "text": "Fijar como visión la idea con más probabilidades de éxito según las estimaciones de mercado y competencia",
+        "explanation": "Las estimaciones son material para decidir; fijar la visión requiere criterio humano."
+      },
+      {
+        "id": "c",
+        "text": "Pulir la redacción de la visión para que mantenga el mismo sentido aunque cambien los supuestos",
+        "explanation": "Se puede mejorar la redacción, pero eso es distinto de ayudar a examinar los propios supuestos."
+      },
+      {
+        "id": "d",
+        "text": "Reunir lo que han dicho los líderes y resumir los elementos comunes como un acuerdo formal",
+        "explanation": "Lo que tienen en común las declaraciones no es lo mismo que un acuerdo real. Llegar a un acuerdo requiere diálogo."
+      },
+      {
+        "id": "e",
+        "text": "Estimar la probabilidad de lograrla y usar esa cifra como prueba de que la visión es válida",
+        "explanation": "Las estimaciones dependen de supuestos. Una probabilidad por sí sola no valida la visión."
+      }
+    ]
+  },
+  {
+    "id": "q068",
+    "options": [
+      {
+        "id": "a",
+        "text": "Flujos de trabajo basados en reglas (clasifican por palabras fijas)",
+        "explanation": "Con palabras fijas es difícil captar los matices y el contexto del texto."
+      },
+      {
+        "id": "c",
+        "text": "Orquestación de agentes (reparte el trabajo entre varias IA)",
+        "explanation": "Es un mecanismo para repartir trabajo, no una capacidad para entender sentimientos."
+      },
+      {
+        "id": "d",
+        "text": "Visualización de datos (convierte las puntuaciones en gráficos)",
+        "explanation": "La visualización ayuda a mostrar resultados, pero no lee el sentimiento del texto."
+      },
+      {
+        "id": "e",
+        "text": "Análisis predictivo (predice la próxima valoración a partir de las anteriores)",
+        "explanation": "Predecir valoraciones es distinto de entender el sentimiento de un texto."
+      }
+    ]
+  },
+  {
+    "id": "q069",
+    "options": [
+      {
+        "id": "a",
+        "text": "Que el procesamiento de la IA se vuelva complejo y las respuestas sean más lentas",
+        "explanation": "La velocidad no es la razón principal."
+      },
+      {
+        "id": "c",
+        "text": "Que aumenten los recursos de computación necesarios para el juicio autónomo",
+        "explanation": "El coste no es la razón principal."
+      },
+      {
+        "id": "d",
+        "text": "Que cuanta más autonomía, más datos de entrenamiento se necesiten",
+        "explanation": "La cantidad de datos no es la razón principal."
+      },
+      {
+        "id": "e",
+        "text": "Que sea más difícil explicar a los usuarios cómo decide la IA",
+        "explanation": "La dificultad de explicar también es un problema, pero la razón principal es la pérdida de la responsabilidad."
+      }
+    ]
+  },
+  {
+    "id": "q070",
+    "options": [
+      {
+        "id": "a",
+        "text": "Escribir tú mismo las descripciones de los elementos del backlog",
+        "explanation": "Los borradores de descripciones se pueden dejar a la IA. Lo que no cambia es la responsabilidad sobre el valor."
+      },
+      {
+        "id": "c",
+        "text": "Recopilar y resumir tú mismo los comentarios de los usuarios",
+        "explanation": "La IA puede apoyar el resumen."
+      },
+      {
+        "id": "d",
+        "text": "Crear tú mismo las maquetas de pantallas",
+        "explanation": "La IA puede apoyar la creación de maquetas."
+      },
+      {
+        "id": "e",
+        "text": "Analizar tú mismo las tendencias del mercado",
+        "explanation": "La IA puede apoyar el análisis. Lo que no cambia es la responsabilidad de entregar valor."
+      }
+    ]
+  },
+  {
+    "id": "q071",
+    "options": [
+      {
+        "id": "a",
+        "text": "Resumir lo dicho por el equipo en temas comunes y adoptar ese resumen como plan de mejora",
+        "explanation": "El resumen es material para la conversación. Decidir las mejoras requiere que el equipo lo valore."
+      },
+      {
+        "id": "c",
+        "text": "Decidir la siguiente mejora según la tasa de éxito de las mejoras anteriores",
+        "explanation": "La tasa de éxito es un insumo, pero el equipo debe decidir según la situación actual."
+      },
+      {
+        "id": "d",
+        "text": "Ordenar los turnos de palabra y el tiempo, sustituyendo el criterio de la facilitación",
+        "explanation": "Puede apoyar la dinámica, pero no sustituye el diálogo ni el juicio humano según la situación."
+      },
+      {
+        "id": "e",
+        "text": "Extraer lo que tienen en común las intervenciones y tratarlo como el acuerdo del equipo",
+        "explanation": "Extraer los puntos comunes es distinto de llegar a un acuerdo."
+      }
+    ]
+  },
+  {
+    "id": "q072",
+    "options": [
+      {
+        "id": "a",
+        "text": "Usar datos que incluyen a los segmentos de clientes objetivo y en los que se ha revisado el rendimiento por segmento",
+        "explanation": "Incluir al público objetivo y revisar el rendimiento ayuda a reducir el sesgo. Es distinto de datos históricos que reflejan desigualdades."
+      },
+      {
+        "id": "c",
+        "text": "Añadir revisión humana a las decisiones importantes para comprobar los perjuicios a cada grupo",
+        "explanation": "Una revisión que comprueba los perjuicios ayuda a reducir el riesgo."
+      },
+      {
+        "id": "d",
+        "text": "Explicar el fundamento de los resultados para poder revisar las decisiones sesgadas",
+        "explanation": "Las explicaciones que permiten revisar son una mitigación. La explicación por sí sola no elimina el sesgo."
+      },
+      {
+        "id": "e",
+        "text": "Documentar el origen y las condiciones de recogida de los datos de entrenamiento de forma útil para la evaluación",
+        "explanation": "Documentar el origen y las condiciones ayuda a detectar sesgos."
+      }
+    ]
+  },
+  {
+    "id": "q073",
+    "options": [
+      {
+        "id": "a",
+        "text": "Calcular la probabilidad de éxito de cada oportunidad y decidir si se sigue adelante",
+        "explanation": "La decisión de seguir adelante la toman personas."
+      },
+      {
+        "id": "c",
+        "text": "Fijar la justificación del plan de negocio a partir de estimaciones del tamaño de mercado",
+        "explanation": "Las estimaciones iniciales son inciertas y no permiten fijar la justificación."
+      },
+      {
+        "id": "d",
+        "text": "Cuantificar los factores inciertos y usar las estimaciones como base de un plan cerrado",
+        "explanation": "La incertidumbre persiste aunque se cuantifique. Hay que distinguirlo de la etapa de comparar señales y aprender."
+      },
+      {
+        "id": "e",
+        "text": "Fijar la clasificación de las oportunidades según la evaluación y repartir la inversión según ese orden",
+        "explanation": "La evaluación de oportunidades es un insumo. Se necesita un juicio humano que tenga en cuenta los objetivos y restricciones actuales."
+      }
+    ]
+  },
+  {
+    "id": "q074",
+    "options": [
+      {
+        "id": "a",
+        "text": "Usar solo herramientas de IA con un buen historial de precisión",
+        "explanation": "Aunque la precisión sea alta, confiar en los resultados tal cual no evita la dependencia excesiva."
+      },
+      {
+        "id": "c",
+        "text": "Tomar la sugerencia de la IA como decisión por defecto y que las personas registren por qué la cambian",
+        "explanation": "Si la sugerencia de la IA es el valor por defecto, se puede dejar de examinar sus supuestos."
+      },
+      {
+        "id": "d",
+        "text": "Concentrar la revisión en los resultados con errores notificados y evaluar los demás por su historial",
+        "explanation": "Se pasan por alto errores no notificados y cambios de supuestos. Los resultados habituales también necesitan una evaluación adecuada."
+      },
+      {
+        "id": "e",
+        "text": "Dejar la mayor parte del trabajo a la IA y que las personas se centren en las excepciones",
+        "explanation": "Cuanto más se delega, mayor es el riesgo de dependencia."
+      }
+    ]
+  },
+  {
+    "id": "q075",
+    "options": [
+      {
+        "id": "a",
+        "text": "Validar a fondo antes del lanzamiento y después pasar a la operación normal",
+        "explanation": "La validación es necesaria, pero también hay que monitorizar de forma continua durante el experimento."
+      },
+      {
+        "id": "c",
+        "text": "Ampliar la participación para reunir casos diversos y ajustar las condiciones de uso tras agregar los datos",
+        "explanation": "La diversidad importa, pero las restricciones de seguridad y la monitorización deben estar antes de cualquier ajuste posterior."
+      },
+      {
+        "id": "d",
+        "text": "Probar solo los casos previstos y tratar los casos excepcionales más adelante",
+        "explanation": "Los casos excepcionales son precisamente donde suelen esconderse los riesgos graves."
+      },
+      {
+        "id": "e",
+        "text": "Restringir la corrección o la detención de los resultados durante el experimento para mantener constantes las condiciones de comparación",
+        "explanation": "El diseño debe permitir que la intervención ante perjuicios graves tenga prioridad sobre las condiciones de comparación."
+      }
+    ]
+  },
+  {
+    "id": "q076",
+    "options": [
+      {
+        "id": "a",
+        "text": "Menos reuniones, porque basta con los resúmenes de la IA",
+        "explanation": "Tener menos reuniones no demuestra que la colaboración sea más profunda."
+      },
+      {
+        "id": "c",
+        "text": "Decisiones más rápidas gracias a las propuestas de la IA",
+        "explanation": "La medida de la colaboración es la comprensión compartida, no la velocidad."
+      },
+      {
+        "id": "d",
+        "text": "Que cada persona pueda avanzar su trabajo por separado con IA",
+        "explanation": "Que avance el trabajo individual no demuestra colaboración."
+      },
+      {
+        "id": "e",
+        "text": "Menos objeciones a los resúmenes de la IA y ninguna opinión enfrentada en las reuniones",
+        "explanation": "Que haya menos objeciones no demuestra que la comprensión sea compartida. Puede que las opiniones distintas simplemente hayan dejado de verse."
+      }
+    ]
+  },
+  {
+    "id": "q077",
+    "options": [
+      {
+        "id": "a",
+        "text": "Para poder tomar la misma decisión más rápido la próxima vez",
+        "explanation": "No es por la velocidad, sino para entender cómo se produjeron los resultados."
+      },
+      {
+        "id": "c",
+        "text": "Para estimar el coste de almacenar los datos usados en las decisiones",
+        "explanation": "Estimar costes no es el objetivo."
+      },
+      {
+        "id": "d",
+        "text": "Porque acumular registros de decisiones reduce el sesgo de los resultados",
+        "explanation": "Los registros no reducen el sesgo por sí mismos. Sirven para rastrear el origen de los resultados e investigar y corregir."
+      },
+      {
+        "id": "e",
+        "text": "Porque la coincidencia con registros anteriores puede sustituir el juicio de una auditoría humana",
+        "explanation": "Coincidir con el pasado no significa que sea adecuado. Los registros son material para auditar, no un sustituto."
+      }
+    ]
+  },
+  {
+    "id": "q078",
+    "options": [
+      {
+        "id": "a",
+        "text": "Decidir la dirección que buscará el producto dentro de varios años",
+        "explanation": "La dirección la deciden personas según el valor."
+      },
+      {
+        "id": "c",
+        "text": "Juzgar el impacto ético de una nueva funcionalidad en la sociedad",
+        "explanation": "Los juicios éticos los hacen personas."
+      },
+      {
+        "id": "d",
+        "text": "Juzgar si se cumple una nueva normativa",
+        "explanation": "El cumplimiento legal lo juzgan expertos y responsables."
+      },
+      {
+        "id": "e",
+        "text": "Calibrar la reacción de los clientes en un mercado nuevo sin precedentes",
+        "explanation": "Sin datos históricos, las predicciones no son fiables."
+      }
+    ]
+  },
+  {
+    "id": "q079",
+    "options": [
+      {
+        "id": "a",
+        "text": "Repetir el análisis varias veces en las mismas condiciones y adoptar el resultado más frecuente como información oficial",
+        "explanation": "Que muchos resultados coincidan no demuestra su validez. Hay que investigar los cambios en los datos y supuestos."
+      },
+      {
+        "id": "c",
+        "text": "Cambiar a un modelo que dé resultados coherentes y usar la información posterior al cambio",
+        "explanation": "La coherencia de los resultados no basta para conocer la causa del cambio ni confirmar la validez."
+      },
+      {
+        "id": "d",
+        "text": "Suavizar la variación de los resultados y compartir la tendencia con los interesados",
+        "explanation": "Suavizar puede ocultar cambios importantes. Primero hay que investigar los cambios de supuestos y contexto."
+      },
+      {
+        "id": "e",
+        "text": "Confiar en el resultado más reciente, ya que refleja los datos más nuevos",
+        "explanation": "Un resultado nuevo no es necesariamente correcto."
+      }
+    ]
+  },
+  {
+    "id": "q080",
+    "options": [
+      {
+        "id": "a",
+        "text": "El número de parámetros del modelo",
+        "explanation": "Aunque el modelo sea grande, no es fiable si los datos no son adecuados."
+      },
+      {
+        "id": "c",
+        "text": "El historial y la reputación del proveedor",
+        "explanation": "La reputación no garantiza la fiabilidad en un producto concreto."
+      },
+      {
+        "id": "d",
+        "text": "El número de empresas que usan el mismo modelo",
+        "explanation": "Que lo usen muchas empresas no demuestra su fiabilidad."
+      },
+      {
+        "id": "e",
+        "text": "La velocidad y la estabilidad de las respuestas",
+        "explanation": "La velocidad y la estabilidad son independientes de si el resultado es correcto."
+      }
+    ]
+  },
+  {
+    "id": "q081",
+    "options": [
+      {
+        "id": "a",
+        "text": "Para responder al interés de los interesados por cómo funciona la IA",
+        "explanation": "Más que responder al interés, lo importante es hacer posible la decisión."
+      },
+      {
+        "id": "c",
+        "text": "Porque al incluir las explicaciones en la evaluación se puede verificar la exactitud de las recomendaciones",
+        "explanation": "Una explicación bien redactada no significa que la recomendación sea correcta. Las explicaciones importan para entender los elementos de juicio."
+      },
+      {
+        "id": "d",
+        "text": "Porque compartir el fundamento reduce el sesgo de las recomendaciones",
+        "explanation": "Compartirlo ayuda a revisar el sesgo, pero compartir no lo reduce por sí solo."
+      },
+      {
+        "id": "e",
+        "text": "Porque al obtener la conformidad con la explicación se traslada a los implicados la responsabilidad por los resultados adoptados",
+        "explanation": "Aunque haya conformidad, la responsabilidad del Product Owner no se traslada."
+      }
+    ]
+  },
+  {
+    "id": "q082",
+    "options": [
+      {
+        "id": "c",
+        "text": "Trasladar la responsabilidad de las decisiones al departamento que gestiona la IA según su historial",
+        "explanation": "Aunque se delegue la operación en un departamento de gestión, la responsabilidad del producto se mantiene."
+      },
+      {
+        "id": "e",
+        "text": "Tomar los errores de predicción anteriores como rango aceptable y juzgar los nuevos usos con el mismo criterio",
+        "explanation": "Si cambia el uso, también cambia el impacto de los errores. Los criterios anteriores no bastan para juzgar nuevos usos."
+      }
+    ]
+  },
+  {
+    "id": "q083",
+    "options": [
+      {
+        "id": "a",
+        "text": "Que hayan aparecido nuevas tecnologías de IA y la funcionalidad parezca inferior",
+        "explanation": "Se juzga por el valor y el riesgo, no por si parece inferior."
+      },
+      {
+        "id": "c",
+        "text": "Que el proveedor haya cambiado su plan de actualización del modelo",
+        "explanation": "Un cambio en los planes del proveedor no es, por sí solo, un criterio para retirarla."
+      },
+      {
+        "id": "d",
+        "text": "Que haya pasado cierto tiempo desde su adopción",
+        "explanation": "Se juzga por el valor y el riesgo, no por el tiempo transcurrido."
+      },
+      {
+        "id": "e",
+        "text": "Que el número de usuarios de la funcionalidad no haya alcanzado el objetivo inicial",
+        "explanation": "El número de usuarios es una pista, pero el criterio es la disminución del valor o el aumento del riesgo."
+      }
+    ]
+  },
+  {
+    "id": "q084",
+    "options": [
+      {
+        "id": "a",
+        "text": "Que el porcentaje de trabajo que se puede automatizar con IA aumente continuamente",
+        "explanation": "El porcentaje de automatización no es un indicador de madurez."
+      },
+      {
+        "id": "c",
+        "text": "Elegir la mejor herramienta para cada uso y adaptar el trabajo a las herramientas",
+        "explanation": "Pensar primero en las herramientas no es lo que caracteriza a la madurez."
+      },
+      {
+        "id": "d",
+        "text": "Que se haya completado la implantación de una plataforma de IA para toda la empresa",
+        "explanation": "Completar una implantación no demuestra madurez."
+      },
+      {
+        "id": "e",
+        "text": "Concentrar las decisiones sobre el uso de la IA en un departamento especializado",
+        "explanation": "Dejar las decisiones por completo a un departamento especializado no es lo que caracteriza a la madurez."
+      }
+    ]
+  },
+  {
+    "id": "q085",
+    "options": [
+      {
+        "id": "a",
+        "text": "Porque tratarlo como experimento permite simplificar los procedimientos de gobernanza",
+        "explanation": "Incluso en los experimentos se necesita gobernanza."
+      },
+      {
+        "id": "c",
+        "text": "Porque al repetir experimentos se maximiza la velocidad de entrega",
+        "explanation": "El objetivo es aprender, no la velocidad."
+      },
+      {
+        "id": "d",
+        "text": "Para usar los resultados de los experimentos como base común que sustituya a la construcción de acuerdos con los interesados",
+        "explanation": "Los resultados son material para el diálogo, pero no sustituyen un acuerdo que implica compromisos."
+      },
+      {
+        "id": "e",
+        "text": "Para tratar los fallos como resultados del experimento y gestionarlos aparte del impacto tras la entrega",
+        "explanation": "Incluso durante los experimentos se responde por el impacto en los usuarios y por los resultados."
+      }
+    ]
+  },
+  {
+    "id": "q086",
+    "options": [
+      {
+        "id": "a",
+        "text": "Respaldar con los resultados de la IA la intuición de los miembros con más experiencia",
+        "explanation": "Usar la IA solo para respaldar la intuición conduce al sesgo de confirmación."
+      },
+      {
+        "id": "c",
+        "text": "Sustituir el trabajo de los analistas por el análisis de la IA",
+        "explanation": "Sustituir a los analistas no es la esencia de decidir con evidencias."
+      },
+      {
+        "id": "d",
+        "text": "Decidir si se adoptan los resultados del análisis según un umbral de la confianza que muestra el modelo",
+        "explanation": "La confianza por sí sola no confirma la evidencia real ni la validez en el contexto."
+      },
+      {
+        "id": "e",
+        "text": "Organizar todo en torno a resultados medibles cuantitativamente y excluir de la decisión la información de contexto difícil de medir",
+        "explanation": "El contexto cualitativo también puede ser una evidencia importante. Excluirlo solo por ser difícil de medir hace perder contexto."
+      }
+    ]
+  },
+  {
+    "id": "q087",
+    "options": [
+      {
+        "id": "a",
+        "text": "La exactitud de las predicciones puede estimarse a partir del tamaño del modelo entrenado",
+        "explanation": "El tamaño por sí solo no revela el rendimiento de las predicciones en el uso real."
+      },
+      {
+        "id": "c",
+        "text": "Las predicciones se limitan a resultados expresables en números, como ingresos o probabilidades",
+        "explanation": "También puede predecir categorías o si ocurrirán ciertos sucesos."
+      },
+      {
+        "id": "d",
+        "text": "La reproducibilidad de los resultados ante la misma entrada puede considerarse exactitud de los resultados futuros",
+        "explanation": "La reproducibilidad y la exactitud futura son cosas distintas."
+      },
+      {
+        "id": "e",
+        "text": "Al reducir el error de predicción también se reducen las diferencias de perjuicio entre usuarios",
+        "explanation": "El error global y el sesgo entre grupos deben evaluarse por separado."
+      }
+    ]
+  },
+  {
+    "id": "q088",
+    "options": [
+      {
+        "id": "a",
+        "text": "Compartir los casos cuya causa se ha identificado y apartar del aprendizaje los casos no resueltos",
+        "explanation": "Los casos no resueltos también contienen señales importantes. Compártelos e inspecciónalos separando hechos de hipótesis."
+      },
+      {
+        "id": "c",
+        "text": "Tratarlo como un problema del modelo de IA y pedir al proveedor que lo mejore",
+        "explanation": "Dejarlo en manos del proveedor hace perder la oportunidad de revisar cómo lo usáis."
+      },
+      {
+        "id": "d",
+        "text": "Dejar de usar la IA en ese uso para evitar el mismo fallo",
+        "explanation": "Solo dejar de usarla no enseña nada. Hay que investigar la causa y ajustar."
+      },
+      {
+        "id": "e",
+        "text": "Clasificar los fallos por su impacto y analizar solo los casos graves para mejorar",
+        "explanation": "Se puede priorizar, pero incluso los fallos pequeños pueden contener causas o señales comunes."
+      }
+    ]
+  },
+  {
+    "id": "q089",
+    "options": [
+      {
+        "id": "a",
+        "text": "Porque un diseño que permite cambios ahorra recursos de computación",
+        "explanation": "No tiene relación con los recursos de computación."
+      },
+      {
+        "id": "c",
+        "text": "Porque un diseño que permite cambios facilita aumentar la automatización",
+        "explanation": "No es para aumentar la automatización, sino para responder a los cambios de situación."
+      },
+      {
+        "id": "d",
+        "text": "Porque en las decisiones que se pueden cambiar después se puede priorizar la corrección posterior frente a la comprobación previa",
+        "explanation": "Aunque se pueda revertir, el perjuicio causado puede no ser recuperable. La comprobación previa sigue siendo necesaria."
+      },
+      {
+        "id": "e",
+        "text": "Porque un diseño que permite cambiar las decisiones sustituye la definición del alcance de uso y de los responsables",
+        "explanation": "Poder cambiar decisiones y aclarar el alcance y la responsabilidad son requisitos distintos."
+      }
+    ]
+  },
+  {
+    "id": "q090",
+    "options": [
+      {
+        "id": "a",
+        "text": "Que aumente el número de tareas automatizadas con IA",
+        "explanation": "La cantidad de automatización no es un indicador de valor."
+      },
+      {
+        "id": "c",
+        "text": "Que se puedan lograr los mismos resultados con menos personas",
+        "explanation": "La eficiencia es un efecto, pero el indicador de valor son los resultados para los usuarios."
+      },
+      {
+        "id": "d",
+        "text": "Que se reduzca el tiempo de trabajo del equipo",
+        "explanation": "Reducir el tiempo de trabajo no es lo mismo que aportar valor a los usuarios."
+      },
+      {
+        "id": "e",
+        "text": "Que aumenten los tipos de datos y análisis disponibles",
+        "explanation": "Más análisis no aumenta el valor si no mejoran los resultados de los usuarios."
+      }
+    ]
+  },
+  {
+    "id": "q091",
+    "options": [
+      {
+        "id": "a",
+        "text": "Como una conclusión objetiva basada en datos que tiene prioridad sobre otras opiniones",
+        "explanation": "La información de la IA también contiene supuestos y sesgos. No debe dominar la decisión."
+      },
+      {
+        "id": "c",
+        "text": "Excluyendo de los criterios la información con poca confianza",
+        "explanation": "Incluso la información con poca confianza puede ser útil según el contexto."
+      },
+      {
+        "id": "d",
+        "text": "Como el criterio para decidir si hay que revisar la estrategia",
+        "explanation": "Las decisiones estratégicas las toma el Product Owner."
+      },
+      {
+        "id": "e",
+        "text": "Usando el análisis de la IA como base común que cierra el acuerdo sobre las prioridades",
+        "explanation": "Los resultados del análisis son material para el acuerdo, pero llegar a él requiere juicio humano y diálogo."
+      }
+    ]
+  },
+  {
+    "id": "q092",
+    "options": [
+      {
+        "id": "a",
+        "text": "Terminar el experimento en cuanto se observa una pequeña mejora y pasar al siguiente intento",
+        "explanation": "Decidir cuándo parar según los resultados puede llevar a conclusiones erróneas. Hay que definir de antemano los criterios de éxito y fracaso."
+      },
+      {
+        "id": "c",
+        "text": "Permitir que la IA ajuste de forma autónoma el contenido de los experimentos",
+        "explanation": "Aumentar la autonomía dificulta gestionar los experimentos con responsabilidad."
+      },
+      {
+        "id": "d",
+        "text": "Reducir a unos pocos los elementos observados y aumentar el número de intentos",
+        "explanation": "El número de intentos por sí solo no aclara qué se considera éxito o motivo para parar."
+      },
+      {
+        "id": "e",
+        "text": "Seguir la forma de experimentar recomendada por el proveedor",
+        "explanation": "No basta con seguir recomendaciones; hay que dejar claros los propios criterios."
+      }
+    ]
+  },
+  {
+    "id": "q093",
+    "options": [
+      {
+        "id": "a",
+        "text": "Porque procesar los mismos datos con el mismo procedimiento elimina el sesgo de la interpretación humana",
+        "explanation": "Unificar el procedimiento no basta para eliminar el sesgo de los datos o del modelo."
+      },
+      {
+        "id": "c",
+        "text": "Porque analizar según la cantidad de información permite fijar la importancia de las tendencias detectadas",
+        "explanation": "Detectar tendencias es distinto de juzgar su importancia en el contexto."
+      },
+      {
+        "id": "d",
+        "text": "Porque un único modelo puede completar todo, desde el análisis hasta la elección de qué hacer",
+        "explanation": "La IA puede apoyar el análisis, pero no completa el juicio sobre qué hacer."
+      },
+      {
+        "id": "e",
+        "text": "Porque puede identificar causas a partir de las correlaciones detectadas aunque no haya hipótesis",
+        "explanation": "Detectar correlaciones es distinto de identificar causalidad."
+      }
+    ]
+  },
+  {
+    "id": "q094",
+    "options": [
+      {
+        "id": "a",
+        "text": "Elaborar informes para los interesados",
+        "explanation": "La IA puede apoyar la elaboración de informes, con revisión humana."
+      },
+      {
+        "id": "c",
+        "text": "Identificar candidatos a elementos del Product Backlog",
+        "explanation": "La IA puede ayudar a identificar candidatos. El Product Owner decide si se adoptan."
+      },
+      {
+        "id": "d",
+        "text": "Detectar anomalías en los datos de uso",
+        "explanation": "Detectar anomalías es algo que la IA hace bien."
+      },
+      {
+        "id": "e",
+        "text": "Dar la primera respuesta a las consultas de los usuarios",
+        "explanation": "A veces la primera respuesta puede dejarse a la IA. La responsabilidad por los resultados es de las personas."
+      }
+    ]
+  },
+  {
+    "id": "q095",
+    "options": [
+      {
+        "id": "a",
+        "text": "Que el texto de la respuesta sea natural y esté bien estructurado lógicamente",
+        "explanation": "Incluso un texto plausible puede ser erróneo."
+      },
+      {
+        "id": "c",
+        "text": "Que use el modelo de alto rendimiento más reciente",
+        "explanation": "Incluso con un modelo de alto rendimiento, no se puede tener confianza sin validar."
+      },
+      {
+        "id": "d",
+        "text": "Que la IA muestre un alto nivel de confianza en su respuesta",
+        "explanation": "La confianza que muestra la IA no garantiza que sea correcta."
+      },
+      {
+        "id": "e",
+        "text": "Que muchas empresas usen la misma herramienta",
+        "explanation": "Que se use mucho no garantiza que cada resultado sea correcto."
+      }
+    ]
+  },
+  {
+    "id": "q096",
+    "options": [
+      {
+        "id": "a",
+        "text": "Para mantener el coste de uso de la IA dentro del objetivo",
+        "explanation": "Controlar costes no es el propósito."
+      },
+      {
+        "id": "c",
+        "text": "Para ajustar las condiciones del contrato con el proveedor de IA a los objetivos",
+        "explanation": "El contrato con el proveedor no es el motivo principal por el que importa la alineación."
+      },
+      {
+        "id": "d",
+        "text": "Porque compartir los objetivos como criterio de decisión puede sustituir la construcción de acuerdos con los implicados",
+        "explanation": "Los objetivos comunes apoyan el diálogo, pero no sustituyen la construcción del acuerdo en sí."
+      },
+      {
+        "id": "e",
+        "text": "Porque cuantificar la contribución a los objetivos permite cerrar las decisiones sobre compromisos",
+        "explanation": "Siguen existiendo diferencias en los supuestos de las estimaciones y en los riesgos, así que se necesita juicio humano."
+      }
+    ]
+  },
+  {
+    "id": "q097",
+    "options": [
+      {
+        "id": "a",
+        "text": "Que el estilo de las respuestas del agente no coincida con las pautas de la marca",
+        "explanation": "El estilo de redacción no es una preocupación principal de gobernanza."
+      },
+      {
+        "id": "c",
+        "text": "Que aumente el coste de almacenar y buscar el historial de procesos al crecer el número de ejecuciones",
+        "explanation": "Gestionar el coste del historial es un reto, pero la preocupación principal de gobernanza es la acción autónoma más allá de lo aceptable."
+      },
+      {
+        "id": "d",
+        "text": "Que el agente proponga soluciones creativas inesperadas",
+        "explanation": "Las propuestas las pueden evaluar personas. La preocupación es que actúe sin control."
+      },
+      {
+        "id": "e",
+        "text": "Que haya menos documentación de los procedimientos de trabajo del agente",
+        "explanation": "La documentación importa, pero la preocupación principal es la acción sin control."
+      }
+    ]
+  },
+  {
+    "id": "q098",
+    "options": [
+      {
+        "id": "a",
+        "text": "Decidir la siguiente mejora según la tasa de éxito de las mejoras anteriores",
+        "explanation": "La tasa de éxito es un insumo, pero las personas eligen las mejoras según la situación actual."
+      },
+      {
+        "id": "c",
+        "text": "Compartir el informe de análisis de la IA como la conclusión del equipo en la retrospectiva",
+        "explanation": "Un informe de análisis es material para la conversación. Es distinto de una conclusión alcanzada por el equipo."
+      },
+      {
+        "id": "d",
+        "text": "Acotar las propuestas de mejora según la eficacia evaluada por la IA y decidir su ejecución en ese orden",
+        "explanation": "Además de la eficacia evaluada, se necesita el criterio del equipo, que incluya las restricciones y los problemas actuales."
+      },
+      {
+        "id": "e",
+        "text": "Estandarizar las mejoras que funcionaron y abordar las nuevas situaciones con el mismo procedimiento",
+        "explanation": "Estandarizar es útil, pero si la situación cambia hay que inspeccionar los supuestos y ajustar."
+      }
+    ]
+  },
+  {
+    "id": "q099",
+    "options": [
+      {
+        "id": "a",
+        "text": "Porque la validación lleva tiempo y retrasa la entrega",
+        "explanation": "El exceso de confianza hace, al contrario, que se omita la validación. El problema es que los errores se ven menos."
+      },
+      {
+        "id": "c",
+        "text": "Porque aumentan las intervenciones humanas y no avanza la automatización",
+        "explanation": "Con exceso de confianza, las intervenciones humanas disminuyen."
+      },
+      {
+        "id": "d",
+        "text": "Porque aumentan los procedimientos de gobernanza",
+        "explanation": "Más gobernanza no es el peligro del exceso de confianza."
+      },
+      {
+        "id": "e",
+        "text": "Porque justificar las cosas con las recomendaciones dificulta llegar a acuerdos entre los implicados",
+        "explanation": "Más que el efecto en los acuerdos, el riesgo central es dejar de cuestionar los supuestos de las recomendaciones, con lo que los errores se ven menos."
+      }
+    ]
+  },
+  {
+    "id": "q100",
+    "options": [
+      {
+        "id": "a",
+        "text": "Menos estudios con clientes y menor coste de investigación",
+        "explanation": "Es una métrica de eficiencia, pero no implica necesariamente que haya mejorado la información que respalda las hipótesis."
+      },
+      {
+        "id": "c",
+        "text": "Un periodo de descubrimiento más corto",
+        "explanation": "La calidad de las hipótesis y el aprendizaje importan más que acortar el periodo."
+      },
+      {
+        "id": "d",
+        "text": "Que los resultados predichos de la hipótesis coincidan con la evaluación de la IA",
+        "explanation": "La coincidencia entre resultados basados en los mismos supuestos es distinta de la evidencia obtenida de usuarios reales."
+      },
+      {
+        "id": "e",
+        "text": "Convertir las hipótesis en elementos de implementación y reducir el tiempo hasta empezar",
+        "explanation": "Empezar antes no significa por sí solo que haya mejorado la calidad o el respaldo de las hipótesis."
+      }
+    ]
+  },
+  {
+    "id": "q101",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ajustar las reglas de uso a los estándares del sector y revisarlas cuando se actualicen",
+        "explanation": "Los estándares sirven de referencia, pero hay que seguir aprendiendo de los propios resultados y cambios."
+      },
+      {
+        "id": "c",
+        "text": "Seguir usando una herramienta concreta con un historial probado",
+        "explanation": "Aferrarse a una herramienta concreta impide adaptarse al cambio."
+      },
+      {
+        "id": "d",
+        "text": "Impulsar la adopción de nuevas funcionalidades y actualizar más a menudo las herramientas",
+        "explanation": "La frecuencia de actualización es distinta de la calidad de la adaptación. Hay que reflexionar sobre el valor y el riesgo."
+      },
+      {
+        "id": "e",
+        "text": "Dejar a un departamento especializado el seguimiento de las tendencias de la IA",
+        "explanation": "No hay que delegarlo por completo; hay que seguir aprendiendo uno mismo."
+      }
+    ]
+  },
+  {
+    "id": "q102",
+    "options": [
+      {
+        "id": "c",
+        "text": "Concentrar la responsabilidad por los resultados de la IA en el departamento especializado que implementó los estándares éticos",
+        "explanation": "Aunque haya apoyo de un departamento especializado, la responsabilidad de quienes usan la IA se mantiene."
+      },
+      {
+        "id": "e",
+        "text": "Usar los criterios de éxito de la prueba como criterios de despliegue y extender el mismo uso a toda la empresa",
+        "explanation": "El riesgo cambia con la escala y los usuarios. Hay que reevaluar si sirven los mismos criterios que en la prueba."
+      }
+    ]
+  },
+  {
+    "id": "q103",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cuando aumentan los casos de adopción en otras empresas y cambia el estándar tecnológico del sector",
+        "explanation": "Las tendencias tecnológicas sirven de referencia, pero la reevaluación en el producto se basa en cambios del impacto y del riesgo reales."
+      },
+      {
+        "id": "c",
+        "text": "Cuando cambia la posición del modelo en los benchmarks públicos del proveedor",
+        "explanation": "La posición en un benchmark no muestra directamente el impacto ni el riesgo en tu uso."
+      },
+      {
+        "id": "d",
+        "text": "Cuando termina el periodo de uso fijado en el plan de adopción inicial",
+        "explanation": "Las revisiones periódicas son útiles, pero hay que detectar los cambios de impacto y riesgo sin esperar a un plazo."
+      },
+      {
+        "id": "e",
+        "text": "Cuando el equipo valora mejor la facilidad de uso de otra herramienta",
+        "explanation": "La facilidad de uso es un elemento de comparación, pero la reevaluación se centra en el impacto y el riesgo en el producto."
+      }
+    ]
+  },
+  {
+    "id": "q104",
+    "options": [
+      {
+        "id": "a",
+        "text": "La IA asume las decisiones rutinarias y el Product Owner se centra en la estrategia",
+        "explanation": "Se considera que refuerza el criterio humano, no que traslade parte de las decisiones a la IA."
+      },
+      {
+        "id": "c",
+        "text": "La IA identifica la mejor opción a partir del análisis y las personas apoyan su ejecución",
+        "explanation": "La IA ayuda a comparar opciones, pero qué es lo mejor lo juzgan personas teniendo en cuenta objetivos, valor y riesgo."
+      },
+      {
+        "id": "d",
+        "text": "Diseñar la IA según estándares éticos garantiza la validez ética de sus resultados",
+        "explanation": "Aunque se implementen estándares, se necesita evaluación y responsabilidad humanas en cada contexto concreto."
+      },
+      {
+        "id": "e",
+        "text": "La IA decide las prioridades estratégicas a partir de los datos y las personas ajustan las condiciones de ejecución",
+        "explanation": "El análisis de la IA es un insumo. La responsabilidad de fijar las prioridades estratégicas es de las personas."
+      }
+    ]
+  },
+  {
+    "id": "q105",
+    "options": [
+      {
+        "id": "a",
+        "text": "Si se da el mismo plazo de devolución cuando se reformula y repite la pregunta",
+        "explanation": "Se puede evaluar la estabilidad ante reformulaciones, pero puede devolver sistemáticamente un plazo erróneo. Es distinto de contrastarlo con la política vigente."
+      },
+      {
+        "id": "b",
+        "text": "Si la explicación tiene sentido cuando la respuesta incluye la fuente de la política y una explicación del apartado correspondiente",
+        "explanation": "Una explicación coherente no es un respaldo factual. La fuente o la explicación pueden ser erróneas, así que hay que contrastar realmente con la política vigente."
+      },
+      {
+        "id": "d",
+        "text": "Si, en las conversaciones con indicaciones erróneas, los usuarios aceptaron la respuesta y cerraron la consulta",
+        "explanation": "La aceptación y el cierre son métricas de experiencia. Los usuarios pueden aceptar respuestas erróneas bien redactadas, así que no miden la exactitud."
+      }
+    ]
+  },
+  {
+    "id": "q106",
+    "options": [
+      {
+        "id": "b",
+        "text": "Comparar la distribución de los datos de entrada antes y después del cambio de precios y juzgar el impacto en la precisión según la magnitud del cambio",
+        "explanation": "Comparar distribuciones ayuda a investigar las causas, pero hay que evaluar directamente el rendimiento real de las predicciones."
+      },
+      {
+        "id": "c",
+        "text": "Añadir el plan de precios a la entrada, reentrenar y cambiar al modelo con menor error en los datos de entrenamiento",
+        "explanation": "Reentrenar es una opción, pero el error en los datos de entrenamiento no basta para juzgar el rendimiento con los usuarios actuales."
+      },
+      {
+        "id": "d",
+        "text": "Evaluar a los usuarios existentes comunes a ambos periodos y usar ese rendimiento para decidir sobre los nuevos usuarios",
+        "explanation": "Comparar solo a los usuarios existentes no permite evaluar el rendimiento con nuevos usuarios cuyo comportamiento ha cambiado."
+      }
+    ]
+  },
+  {
+    "id": "q107",
+    "options": [
+      {
+        "id": "a",
+        "text": "Incluir las normas en el prompt actualiza los parámetros entrenados del modelo en cada respuesta",
+        "explanation": "Aportar contexto mediante la entrada es distinto de actualizar los parámetros entrenados."
+      },
+      {
+        "id": "b",
+        "text": "El entrenamiento adicional es un mecanismo que busca y consulta el texto original de las normas revisadas al responder",
+        "explanation": "El entrenamiento adicional es una forma de ajustar los parámetros del modelo. Es distinto de un mecanismo que busca y consulta el texto original."
+      },
+      {
+        "id": "c",
+        "text": "Ambos son formas de guardar las normas como conocimiento interno del modelo, y la diferencia es cuánto tiempo se guardan",
+        "explanation": "El prompt aporta contexto al responder; el entrenamiento adicional ajusta parámetros. La diferencia no es solo la duración."
+      }
+    ]
+  },
+  {
+    "id": "q108",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ponderar los ejemplos de evaluación del desarrollo según la frecuencia de las consultas y juzgar el rendimiento en producción por esa precisión",
+        "explanation": "Aunque se ponderen, persiste el problema de medir el ajuste a ejemplos usados para ajustar. Hay que evaluar con ejemplos independientes."
+      },
+      {
+        "id": "c",
+        "text": "Reunir el mismo número de ejemplos por categoría y decidir si se aprueba según la media simple de la precisión por categoría",
+        "explanation": "Evaluar con ejemplos equilibrados sirve de referencia, pero también se necesita una evaluación que refleje la distribución real y el impacto de los errores por categoría."
+      },
+      {
+        "id": "e",
+        "text": "Que personas evalúen si el motivo de la clasificación es coherente con la consulta original y juzguen así su validez",
+        "explanation": "Que la explicación sea coherente con la consulta no significa que la clasificación sea correcta. Hay que compararla con las etiquetas correctas."
+      }
+    ]
+  },
+  {
+    "id": "q109",
+    "options": [
+      {
+        "id": "a",
+        "text": "Medir el porcentaje de usuarios que entendieron su riesgo de baja y evaluar con eso la calidad de la predicción y la explicación",
+        "explanation": "La comprensión es una métrica de experiencia. El rendimiento de la predicción y la fidelidad de la explicación a los motivos reales se evalúan por separado."
+      },
+      {
+        "id": "c",
+        "text": "Comprobar si los factores citados en la explicación son frecuentes entre los clientes que se dieron de baja y juzgar con eso la validez del fundamento de la predicción",
+        "explanation": "La relación con bajas anteriores no basta para saber si una predicción concreta se basó en esos factores."
+      },
+      {
+        "id": "d",
+        "text": "Usar los mismos datos de entrada para la predicción y la explicación y tomar la precisión de la predicción como medida de la fiabilidad de la explicación",
+        "explanation": "Aunque la entrada sea la misma, la explicación no es necesariamente fiel a los motivos reales de la predicción. La explicación también debe validarse aparte."
+      }
+    ]
+  },
+  {
+    "id": "q110",
+    "options": [
+      {
+        "id": "a",
+        "text": "Sustituir los nombres de los clientes por números de identificación, que el personal gestione internamente la tabla de correspondencias y hacer la prueba",
+        "explanation": "Sustituir los nombres por identificadores puede dejar información sensible, por ejemplo en las descripciones libres. Hay que revisar lo que se envía y las condiciones de tratamiento."
+      },
+      {
+        "id": "b",
+        "text": "Elegir la configuración que desactiva el uso de los datos para entrenamiento y usarla como criterio para decidir si se envían",
+        "explanation": "La configuración de uso para entrenamiento no cubre condiciones como el plazo de conservación, el acceso o la aprobación de la organización."
+      },
+      {
+        "id": "c",
+        "text": "Comprobar las certificaciones de seguridad del proveedor y tratarlas como aprobación para usar datos sensibles",
+        "explanation": "Una certificación es distinta de la aprobación para enviar datos en el uso de tu organización. Hay que revisar las condiciones concretas."
+      }
+    ]
+  },
+  {
+    "id": "q111",
+    "options": [
+      {
+        "id": "b",
+        "text": "Ponderar la precisión por el número de usuarios de cada idioma y desplegar donde el beneficio global sea mayor",
+        "explanation": "Ponderar por número de usuarios oculta el perjuicio a los idiomas minoritarios. Hay que evaluar y mitigar el impacto en grupos concretos por separado."
+      },
+      {
+        "id": "c",
+        "text": "Preguntar por su satisfacción a los usuarios de ese idioma y seguir con el despliegue si se mantiene",
+        "explanation": "Aunque la satisfacción sea alta, el perjuicio de las indicaciones erróneas puede persistir. Hay que evaluar la exactitud y el impacto."
+      },
+      {
+        "id": "d",
+        "text": "Fijar criterios de aprobación distintos por idioma y seguir la mejora tomando como referencia la precisión actual",
+        "explanation": "Ajustar los criterios a la situación actual no demuestra que el perjuicio actual sea aceptable. Se necesita una mitigación acorde con el impacto."
+      }
+    ]
+  },
+  {
+    "id": "q112",
+    "options": [
+      {
+        "id": "a",
+        "text": "Preguntar al cliente si la instrucción del documento era intencionada y ejecutar la acción si lo confirma",
+        "explanation": "El consentimiento del cliente no basta para justificar el permiso de actuar. Se necesitan límites para no tratar los documentos como instrucciones y control de permisos."
+      },
+      {
+        "id": "b",
+        "text": "Comprobar si el destino es un socio habitual y ejecutar automáticamente los envíos que coincidan",
+        "explanation": "Aunque sea un socio habitual, el contenido y los permisos no son necesariamente adecuados. Hay que restringir las acciones provocadas por instrucciones de documentos."
+      },
+      {
+        "id": "d",
+        "text": "Detectar y eliminar las expresiones imperativas del documento y usar el documento procesado para decidir las acciones",
+        "explanation": "Detectar expresiones por sí solo se puede eludir. Hay que separar los documentos no fiables de las instrucciones de acción y restringir los permisos."
+      }
+    ]
+  },
+  {
+    "id": "q113",
+    "options": [
+      {
+        "id": "b",
+        "text": "Ordenar las observaciones según la confianza de la IA y aplicar primero las de alta confianza a la revisión del contrato",
+        "explanation": "La confianza de la IA no garantiza la exactitud. Las observaciones de impacto grave deben revisarlas expertos."
+      },
+      {
+        "id": "e",
+        "text": "Contrastar las observaciones con contratos anteriores y proponer a los usuarios correcciones que coincidan con la redacción existente",
+        "explanation": "Coincidir con contratos anteriores no basta para saber si es adecuado para el contrato actual. Los expertos lo revisan en su contexto concreto."
+      }
+    ]
+  },
+  {
+    "id": "q114",
+    "options": [
+      {
+        "id": "a",
+        "text": "Calcular la tasa de revisión de los responsables a partir de los registros de aprobación y considerar eficaz la supervisión si la tasa es alta",
+        "explanation": "La tasa de revisión muestra que se siguió el procedimiento, pero si se detectaron y corrigieron errores es otra cuestión."
+      },
+      {
+        "id": "c",
+        "text": "Medir la proporción de revisiones posteriores a la aprobación y considerar alta la calidad de la revisión inicial si son pocas",
+        "explanation": "Que haya pocas revisiones posteriores puede deberse a errores pasados por alto. Hay que evaluar la detección real de errores."
+      },
+      {
+        "id": "d",
+        "text": "Fijar un límite de elementos por persona y considerar que la supervisión funciona si se procesa dentro de ese límite",
+        "explanation": "Un límite es una posible mejora, pero hay que evaluar la información, el tiempo, la autoridad, la tasa de detección de errores, etc."
+      }
+    ]
+  },
+  {
+    "id": "q115",
+    "options": [
+      {
+        "id": "a",
+        "text": "Comparar la tasa de permanencia de los usuarios registrados y seguir con el despliegue si ha subido",
+        "explanation": "La permanencia solo de los registrados pasa por alto el impacto del abandono antes del registro en el uso continuado global."
+      },
+      {
+        "id": "b",
+        "text": "Comparar el coste de atención de consultas y el coste de adquisición por registro, y seguir si bajan los costes",
+        "explanation": "Evaluar solo los costes no muestra la contribución al uso continuado, que es el Objetivo del Producto."
+      },
+      {
+        "id": "c",
+        "text": "Mejorar las partes con muchas respuestas erróneas y decidir el despliegue según la tasa de reducción de consultas de la versión mejorada",
+        "explanation": "La tasa de reducción de consultas por sí sola no muestra el impacto en el abandono ni en el uso continuado. Hay que examinar resultados y perjuicios juntos."
+      }
+    ]
+  },
+  {
+    "id": "q116",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ponderar por igual los comentarios de cada cliente y dar máxima prioridad a X si sigue entre los primeros",
+        "explanation": "Corregir el número de comentarios no basta para confirmar los problemas de los clientes pequeños ni la alineación con el objetivo actual."
+      },
+      {
+        "id": "c",
+        "text": "Volver a analizar solo con datos de clientes pequeños y dar máxima prioridad a la funcionalidad más pedida",
+        "explanation": "Acotar el público es útil, pero la frecuencia por sí sola no muestra el efecto en la retención."
+      },
+      {
+        "id": "d",
+        "text": "Comparar X con las funcionalidades que más usan los clientes pequeños y priorizar X si se parecen",
+        "explanation": "El parecido con funcionalidades existentes no muestra su contribución a la retención. Hay que validar los problemas y la evidencia."
+      }
+    ]
+  },
+  {
+    "id": "q117",
+    "options": [
+      {
+        "id": "b",
+        "text": "Comprobar si coinciden con personas anteriores y adoptar como base de las especificaciones las peticiones que coincidan",
+        "explanation": "Coincidir con personas anteriores no respalda las necesidades de los clientes reales actuales."
+      },
+      {
+        "id": "c",
+        "text": "Extraer las peticiones que varias IA mencionan en común y cerrar con ellas las especificaciones",
+        "explanation": "La coincidencia entre IA no es necesariamente evidencia independiente de clientes. Puede contener sesgos comunes."
+      },
+      {
+        "id": "d",
+        "text": "Pedir a la IA que simule las reacciones de los clientes y reflejar en las especificaciones las peticiones con más apoyo",
+        "explanation": "La simulación es material de exploración, pero no sustituye la validación con clientes reales."
+      }
+    ]
+  },
+  {
+    "id": "q118",
+    "options": [
+      {
+        "id": "a",
+        "text": "Comparar la satisfacción de los participantes con la satisfacción histórica de todos los usuarios y tratar la diferencia como efecto de la guía con IA",
+        "explanation": "No permite distinguir diferencias como la autoselección, así que atribuir la diferencia a la IA es precipitado."
+      },
+      {
+        "id": "b",
+        "text": "Como no hay grupo de comparación, descartar los resultados de satisfacción y usar solo la tasa de uso como métrica la próxima vez",
+        "explanation": "La satisfacción también enseña cosas. Cambiar la métrica no resuelve los problemas de comparación ni de autoselección."
+      },
+      {
+        "id": "d",
+        "text": "Aumentar los participantes con el mismo método de captación y aceptar el efecto cuando el error de estimación de la satisfacción sea pequeño",
+        "explanation": "Aunque el error de estimación sea pequeño, el sesgo de autoselección y otros factores persisten."
+      }
+    ]
+  },
+  {
+    "id": "q119",
+    "options": [
+      {
+        "id": "a",
+        "text": "Comprobar con los interesados si falta alguna petición y compartir lo acordado como compromiso de entrega",
+        "explanation": "Comprobar las peticiones es distinto de comprobar la viabilidad. Hay que analizar las restricciones con el equipo."
+      },
+      {
+        "id": "b",
+        "text": "Añadir a la IA la velocidad histórica y compartir el calendario calculado como un plan viable",
+        "explanation": "El historial por sí solo no permite validar las dependencias ni las nuevas restricciones. Hay que analizarlo con el equipo."
+      },
+      {
+        "id": "c",
+        "text": "Priorizar las peticiones, mover las de baja prioridad al final y compartir ese plan como definitivo",
+        "explanation": "Ajustar prioridades no basta para confirmar que se cumplen plazo, calidad y coste."
+      }
+    ]
+  },
+  {
+    "id": "q120",
+    "options": [
+      {
+        "id": "a",
+        "text": "Añadir los casos de error de entrada como tareas de implementación y decidir el comportamiento esperado al implementar",
+        "explanation": "Además de añadir tareas, hay que aclarar en el refinamiento el comportamiento esperado en los casos de error."
+      },
+      {
+        "id": "c",
+        "text": "Pedir a la IA que añada criterios para los errores de entrada típicos y dar por terminado el borrador según el número de elementos cubiertos",
+        "explanation": "El número de elementos no muestra si se han captado los usos reales y el comportamiento necesario."
+      },
+      {
+        "id": "d",
+        "text": "Acordar primero los criterios de los flujos sin errores y tratar la gestión de los errores de entrada como una mejora tras el experimento",
+        "explanation": "Como se sabe que los errores de entrada son frecuentes, hay que analizar lo esperado en los casos de error antes de implementar."
+      }
+    ]
+  },
+  {
+    "id": "q121",
+    "options": [
+      {
+        "id": "b",
+        "text": "La tasa de uso de otras empresas del sector y lo que tienen en común las funcionalidades cuyo uso se ha extendido",
+        "explanation": "Los casos externos son material de exploración, pero no son condiciones para juzgar el valor o la seguridad en tu propio experimento."
+      },
+      {
+        "id": "d",
+        "text": "El número de funcionalidades necesarias para el despliegue completo y las métricas que indican que su implementación ha terminado",
+        "explanation": "Terminar la implementación es una métrica de resultados de producción. En un experimento hay que fijar el valor, los perjuicios y un mecanismo que alimente la siguiente decisión."
+      }
+    ]
+  },
+  {
+    "id": "q122",
+    "options": [
+      {
+        "id": "a",
+        "text": "Comparar el tiempo medio de gestión y la precisión antes y después de la actualización, y seguir operando si mejoran en conjunto",
+        "explanation": "Una mejora de las medias no compensa necesariamente las consultas urgentes pasadas por alto. Hay que investigar los impactos graves uno por uno."
+      },
+      {
+        "id": "b",
+        "text": "Comprobar si las consultas urgentes pasadas por alto son estadísticamente significativas y revisar la operación cuando lo sean",
+        "explanation": "Mientras se espera la significación pueden producirse perjuicios graves. Hay que avanzar con medidas para limitar el impacto y con la investigación."
+      },
+      {
+        "id": "d",
+        "text": "Volver a probar con los ejemplos de evaluación usados antes de la actualización y volver a la operación normal si se supera",
+        "explanation": "Se necesita una evaluación que represente los fallos actuales y una respuesta al impacto en los usuarios."
+      }
+    ]
+  },
+  {
+    "id": "q123",
+    "options": [
+      {
+        "id": "b",
+        "text": "Fijar un límite por reembolso y validar la rentabilidad aumentando el número de operaciones",
+        "explanation": "Un límite por reembolso no controla el impacto acumulado ni los reembolsos fuera de alcance. También se necesitan condiciones como destinatarios, aprobaciones y parada."
+      },
+      {
+        "id": "c",
+        "text": "Limitar los clientes y el presupuesto y decidir si seguir con la prueba según el porcentaje de presupuesto consumido",
+        "explanation": "El control del presupuesto por sí solo no garantiza el rastreo de cada error ni una intervención rápida."
+      },
+      {
+        "id": "d",
+        "text": "Comprobar la precisión de decisión en reembolsos anteriores y procesar automáticamente los casos en que se espere la misma precisión",
+        "explanation": "La precisión pasada no basta para controlar los permisos ni la intervención durante la ejecución. Se necesitan registros, aprobaciones, condiciones de parada, etc."
+      }
+    ]
+  },
+  {
+    "id": "q124",
+    "options": [
+      {
+        "id": "a",
+        "text": "Fijar un objetivo de tasa de uso para cada funcionalidad y considerar un éxito que las cinco lo superen",
+        "explanation": "La tasa de uso sirve de referencia, pero primero hay que tener claros los problemas que se resuelven y la contribución a los resultados de los usuarios."
+      },
+      {
+        "id": "b",
+        "text": "Limitarse a funcionalidades con poco esfuerzo de desarrollo y fácil control de calidad, y ajustar el plan en torno a la seguridad de implementación",
+        "explanation": "No solo la seguridad de implementación: hay que centrar la conversación en qué problemas resolver y qué resultados lograr."
+      },
+      {
+        "id": "c",
+        "text": "Enumerar los usos que permiten las herramientas de IA existentes y elegir los cinco que parezcan más frecuentes",
+        "explanation": "Elegir solo por viabilidad o frecuencia no permite juzgar el valor. Hay que validar las oportunidades a partir de problemas y resultados."
+      }
+    ]
+  }
+]
