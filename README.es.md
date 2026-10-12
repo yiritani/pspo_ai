@@ -1,6 +1,6 @@
 # PSPO AI Sala de estudio
 
-[日本語](README.md) · [English](README.en.md) · [简体中文](README.zh.md) · [Español](README.es.md)
+[日本語](README.ja.md) · [English](README.en.md) · [简体中文](README.zh.md) · [Español](README.es.md)
 
 Una aplicación gratuita para preparar PSPO-AI Essentials, con 124 preguntas de práctica y explicaciones de cada opción. Es un recurso no oficial, sin afiliación con Scrum.org. No contiene preguntas reales ni de exámenes anteriores.
 

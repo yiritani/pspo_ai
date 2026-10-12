@@ -1,6 +1,6 @@
 # PSPO AI 学习室
 
-[日本語](README.md) · [English](README.en.md) · [简体中文](README.zh.md) · [Español](README.es.md)
+[日本語](README.ja.md) · [English](README.en.md) · [简体中文](README.zh.md) · [Español](README.es.md)
 
 面向 PSPO-AI Essentials 的免费学习应用，收录 124 道练习题及各选项的解析。本项目为非官方学习资料，与 Scrum.org 无关，不包含真实考题或历年试题。
 
