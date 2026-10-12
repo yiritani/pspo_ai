@@ -103,6 +103,8 @@ export const messages = {
     yourAnswer: '× あなたの回答',
     optionExplanations: '選択肢ごとの解説',
     references: '参考資料：',
+    repositoryTitle: 'ソースコード・改善の提案',
+    repositoryNote: 'PR・Issueは、事前確認なしで自由に作成していただいて構いません。',
     footer: 'PSPO AI 学習ルーム · 非公式の学習教材',
     footerNote: '回答結果はこのブラウザ（localStorage）に保存されます',
     validation: {
@@ -208,6 +210,8 @@ export const messages = {
     yourAnswer: '× Your answer',
     optionExplanations: 'Explanation for each choice',
     references: 'References: ',
+    repositoryTitle: 'Source code and contributions',
+    repositoryNote: 'Feel free to open pull requests and issues without asking first.',
     footer: 'PSPO AI Study Room · Unofficial study resource',
     footerNote: 'Your answers are saved in this browser (localStorage)',
     validation: {
@@ -313,6 +317,8 @@ export const messages = {
     yourAnswer: '× 你的答案',
     optionExplanations: '各选项解析',
     references: '参考资料：',
+    repositoryTitle: '源代码与改进建议',
+    repositoryNote: '欢迎直接提交 PR 或 Issue，无需事先询问。',
     footer: 'PSPO AI 学习室 · 非官方学习资料',
     footerNote: '答题结果保存在此浏览器（localStorage）中',
     validation: {
@@ -418,6 +424,8 @@ export const messages = {
     yourAnswer: '× Tu respuesta',
     optionExplanations: 'Explicación de cada opción',
     references: 'Referencias: ',
+    repositoryTitle: 'Código fuente y propuestas de mejora',
+    repositoryNote: 'Puedes abrir PR e issues libremente, sin pedir permiso antes.',
     footer: 'PSPO AI Sala de estudio · Material de estudio no oficial',
     footerNote: 'Tus respuestas se guardan en este navegador (localStorage)',
     validation: {

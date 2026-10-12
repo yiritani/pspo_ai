@@ -48,3 +48,5 @@ details.import-card{margin-top:26px;padding:20px 30px}details.import-card>summar
 .hero .text-link{display:inline-block;margin-top:6px;font-size:14px;color:var(--caption,#526e4c)}
 
 .languages button{border:0;background:transparent;font:inherit;cursor:pointer}
+
+.repository{margin-top:36px;padding:24px;border:1px solid var(--border,#dce2d8);border-radius:12px}.repository h2{margin:0 0 10px}.repository a{overflow-wrap:anywhere}.repository p{margin:10px 0 0;font-size:14px;color:var(--caption,#52675e)}
