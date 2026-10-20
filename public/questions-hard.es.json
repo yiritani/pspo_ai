@@ -1714,23 +1714,23 @@
     "options": [
       {
         "id": "a",
-        "text": "Usar datos que incluyen a los segmentos de clientes objetivo y en los que se ha revisado el rendimiento por segmento",
-        "explanation": "Incluir al público objetivo y revisar el rendimiento ayuda a reducir el sesgo. Es distinto de datos históricos que reflejan desigualdades."
+        "text": "Datos de entrenamiento que incluyen a todos los segmentos de clientes objetivo y cuyo rendimiento se ha revisado por segmento",
+        "explanation": "Unos datos que incluyen al público objetivo y se revisan por segmento son una condición que reduce el sesgo. Es distinto de datos históricos que reflejan desigualdades."
       },
       {
         "id": "c",
-        "text": "Añadir revisión humana a las decisiones importantes para comprobar los perjuicios a cada grupo",
-        "explanation": "Una revisión que comprueba los perjuicios ayuda a reducir el riesgo."
+        "text": "Una operación en la que las personas revisan las decisiones importantes para comprobar los perjuicios a cada grupo",
+        "explanation": "Una revisión humana que comprueba los perjuicios es una condición que reduce el riesgo."
       },
       {
         "id": "d",
-        "text": "Explicar el fundamento de los resultados para poder revisar las decisiones sesgadas",
+        "text": "Un modelo que muestra el fundamento de sus resultados para poder revisar las decisiones sesgadas",
         "explanation": "Las explicaciones que permiten revisar son una mitigación. La explicación por sí sola no elimina el sesgo."
       },
       {
         "id": "e",
-        "text": "Documentar el origen y las condiciones de recogida de los datos de entrenamiento de forma útil para la evaluación",
-        "explanation": "Documentar el origen y las condiciones ayuda a detectar sesgos."
+        "text": "Datos de entrenamiento cuyo origen y condiciones de recogida están documentados de forma útil para la evaluación",
+        "explanation": "Documentar el origen y las condiciones es una condición que ayuda a detectar sesgos."
       }
     ]
   },

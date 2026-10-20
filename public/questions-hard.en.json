@@ -1714,23 +1714,23 @@
     "options": [
       {
         "id": "a",
-        "text": "Using data that includes the target customer segments and has been checked for performance per segment",
-        "explanation": "Including the target and checking performance helps reduce bias. This is different from historical data that reflects inequality."
+        "text": "Training data that covers all target customer segments and has been checked for performance per segment",
+        "explanation": "Data that includes the target and is checked per segment is a condition that reduces bias. This is different from historical data that reflects inequality."
       },
       {
         "id": "c",
-        "text": "Adding human review to important decisions to check for harm to each group",
-        "explanation": "Review that checks for harm helps reduce risk."
+        "text": "An operation in which people check important decisions for harm to each group",
+        "explanation": "Human review that checks for harm is a condition that reduces risk."
       },
       {
         "id": "d",
-        "text": "Explaining the basis of outputs so that biased judgments can be checked",
+        "text": "A model whose output rationale is shown so that biased judgments can be checked",
         "explanation": "Explanations that allow checking are a mitigation. Explanation alone does not remove bias."
       },
       {
         "id": "e",
-        "text": "Documenting the source and collection conditions of training data in a form usable for evaluation",
-        "explanation": "Documenting sources and conditions helps identify bias."
+        "text": "Training data whose source and collection conditions are documented in a form usable for evaluation",
+        "explanation": "Documenting sources and conditions is a condition that helps identify bias."
       }
     ]
   },
